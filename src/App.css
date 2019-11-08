@@ -40,12 +40,14 @@
 div.introduction {
   grid-row: 1 / 2;
   grid-column: 1 / -1;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, auto);
   grid-template-rows: repeat(3, auto);
   grid-row-gap: 20px;
   color: #282828;
+  max-width: 1150px;
   margin: auto;
   height: 100vh;
+  width: 100%;
 }
 
 div.introduction > h4 {
@@ -58,13 +60,14 @@ div.introduction > h4 {
 }
 
 div.introduction > h1 {
-  font-size: 113px;
+  font-size: 100px;
   font-style: italic;
-  grid-column: 4 / 10;
+  grid-column: 1 / -1;
   grid-row: 2;
 }
 
 div.introduction > h3 {
+  font-size: 25px;
   grid-column: 4 / 10;
   grid-row: 3;
   justify-self: right;

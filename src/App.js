@@ -27,7 +27,7 @@ class App extends Component {
               className="justify-content-end"
             >
               <Nav className="flex-column justify-content-end">
-                <Nav.Link href="#">
+                <Nav.Link href="https://www.linkedin.com/in/adamalexali/">
                   <i class="fab fa-linkedin"></i>
                 </Nav.Link>
                 <Nav.Link href="#">Work</Nav.Link>
