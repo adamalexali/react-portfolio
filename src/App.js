@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import ProjectCard from './ProjectCard';
+import ScrollAnimation from "react-animate-on-scroll";
 
 class App extends Component {
   render() {
@@ -28,7 +29,7 @@ class App extends Component {
             >
               <Nav className="flex-column justify-content-end">
                 <Nav.Link href="https://www.linkedin.com/in/adamalexali/">
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </Nav.Link>
                 <Nav.Link href="#">Work</Nav.Link>
                 <Nav.Link href="#">Contact</Nav.Link>
@@ -45,8 +46,18 @@ class App extends Component {
         </div>
         <div className="project section">
           <div>
-            <ProjectCard title="ModPod" img="/public/img/modpod.png" />
+            <ScrollAnimation animateIn="fadeIn">
+              <ProjectCard
+                title="ModPod"
+                img="https://images.unsplash.com/photo-1573236779094-0d5303cdf94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1832&q=80"
+              />
+            </ScrollAnimation>
           </div>
+        </div>
+        <div className="third section">
+          <h4>Hey! My name is</h4>
+          <h1>Adam Ali</h1>
+          <h3>I'm a developer.</h3>
         </div>
       </div>
     );
