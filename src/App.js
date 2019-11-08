@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "animate.css/animate.min.css";
 
 import Intro from './Intro.js'
 // import Jumbotron from "react-bootstrap/Jumbotron";
