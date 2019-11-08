@@ -23,10 +23,18 @@
 
 .appContainer {
   display: grid;
-  grid-template-rows: repeat(6, auto);
-  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
   text-align: center;
   color: #282828;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: auto;
+}
+
+.appContainer>div{
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
 }
 
 div.introduction {
@@ -37,8 +45,6 @@ div.introduction {
   grid-row-gap: 20px;
   color: #282828;
   margin: auto;
-  max-width: 1150px;
-  width: auto;
   height: 100vh;
 }
 
@@ -51,7 +57,7 @@ div.introduction > h4 {
   justify-self: left;
 }
 
-div.introduction > h1  {
+div.introduction > h1 {
   font-size: 113px;
   font-style: italic;
   grid-column: 4 / 10;
@@ -73,7 +79,26 @@ div.introduction > h3 {
 .fixedContainer > ul {
   display: grid;
   justify-content: right;
-    align-content: center;
+  align-content: center;
   z-index: 100;
   grid-template-rows: repeat(3, auto);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+a.nav-link {
+  text-align: end;
+}
+
+.navbar {
+  padding: 2rem 2rem;
+}
+
+
+div.project {
+  grid-row: 3 / 4;
+  grid-template-columns: repeat(4, 1fr);
 }

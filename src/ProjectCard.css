@@ -1,0 +1,21 @@
+img {
+  width: 250px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.cardContainer div {
+  grid-column: 1;
+  grid-row: 1;
+  place-self: center;
+}
+
+.cardContainer div h1 {
+  font-family: interstate, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
