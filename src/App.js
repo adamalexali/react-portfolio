@@ -1,34 +1,31 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 import "animate.css/animate.min.css";
 
-import Intro from './Intro.js'
-// import Jumbotron from "react-bootstrap/Jumbotron";
-// import Toast from "react-bootstrap/Toast";
-// import Container from 'react-bootstrap/Container';
-
-import './App.css';
-
-// const ExampleToast = ({ children }) => {
-//   const [show, toggleShow] = useState(true);
-
-//   return (
-//     <Toast show={show} onClose={() => toggleShow(!show)}>
-//       <Toast.Header>
-//         <strong className="mr-auto">React-Bootstrap</strong>
-//       </Toast.Header>
-//       <Toast.Body>{children}</Toast.Body>
-//     </Toast>
-//   );
-// };
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Intro />
+      <div className="appContainer">
+        <div className="introduction section">
+          <h4 className="serif animated fadeIn">Hey! My name is</h4>
+          <h1 className="bold animated fadeInRight delay-1s">Adam Ali</h1>
+          <h3 className="important serif subtitle animated fadeIn delay-2s">
+            I'm a developer.
+          </h3>
+        </div>
+        <div className="fixedContainer">
+          <div>
+            <ul>
+              <li>About</li>
+              <li>Work</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    )
-  };
-};
+    );
+  }
+}
 
 export default App;
