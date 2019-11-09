@@ -5,7 +5,7 @@ import "./App.css";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import ProjectCard from './ProjectCard';
+import ProjectCard from "./ProjectCard";
 import ScrollAnimation from "react-animate-on-scroll";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
             sticky="top"
             collapseOnSelect
             expand="sm"
-            className="justify-content-end animated fadeInRight delay-3s"
+            className="justify-content-end"
           >
             <Navbar.Toggle
               aria-controls="responsive-navbar-nav"
@@ -28,11 +28,18 @@ class App extends Component {
               className="justify-content-end"
             >
               <Nav className="flex-column justify-content-end">
-                <Nav.Link href="https://www.linkedin.com/in/adamalexali/">
+                <Nav.Link
+                  href="https://www.linkedin.com/in/adamalexali/"
+                  className="animated fadeInRight delay-3s"
+                >
                   <i className="fab fa-linkedin"></i>
                 </Nav.Link>
-                <Nav.Link href="#">Work</Nav.Link>
-                <Nav.Link href="#">Contact</Nav.Link>
+                <Nav.Link href="#" className="animated fadeInRight delay-4s">
+                  Work
+                </Nav.Link>
+                <Nav.Link href="#" className="animated fadeInRight delay-5s">
+                  Contact
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
