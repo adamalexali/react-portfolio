@@ -7,9 +7,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import ProjectCard from "./ProjectCard";
 import ScrollAnimation from "react-animate-on-scroll";
+import Bounce from './StyledAnimations'
 
 class App extends Component {
   render() {
+    
     return (
       <div className="appContainer">
         <div>
@@ -28,16 +30,15 @@ class App extends Component {
               className="justify-content-end"
             >
               <Nav className="flex-column justify-content-end">
-                <Nav.Link
-                  href="https://www.linkedin.com/in/adamalexali/"
-                  className="animated fadeInRight delay-3s"
-                >
+                <Bounce>
+                <Nav.Link href="https://www.linkedin.com/in/adamalexali/" className='navLink'>
                   <i className="fab fa-linkedin"></i>
                 </Nav.Link>
-                <Nav.Link href="#" className="animated fadeInRight delay-4s">
+                </Bounce>
+                <Nav.Link href="#" className="navLink animated fadeInRight">
                   Work
                 </Nav.Link>
-                <Nav.Link href="#" className="animated fadeInRight delay-5s">
+                <Nav.Link href="#" className="navLink animated fadeInRight">
                   Contact
                 </Nav.Link>
               </Nav>
@@ -46,8 +47,8 @@ class App extends Component {
         </div>
         <div className="introduction section">
           <h4 className="serif animated fadeIn">Hey! My name is</h4>
-          <h1 className="bold animated fadeInRight delay-1s">Adam Ali</h1>
-          <h3 className="important serif subtitle animated fadeIn delay-2s">
+          <h1 className="bold animated fadeInRight">Adam Ali</h1>
+          <h3 className="important serif subtitle animated fadeIn">
             I'm a developer.
           </h3>
         </div>
