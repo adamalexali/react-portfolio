@@ -9,6 +9,10 @@ import ProjectCard from "./ProjectCard";
 import ScrollAnimation from "react-animate-on-scroll";
 import Bounce from './StyledAnimations'
 
+import modpod from "./images/modpod.png";
+
+
+
 class App extends Component {
   render() {
     
@@ -31,9 +35,12 @@ class App extends Component {
             >
               <Nav className="flex-column justify-content-end">
                 <Bounce>
-                <Nav.Link href="https://www.linkedin.com/in/adamalexali/" className='navLink'>
-                  <i className="fab fa-linkedin"></i>
-                </Nav.Link>
+                  <Nav.Link
+                    href="https://www.linkedin.com/in/adamalexali/"
+                    className="navLink"
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </Nav.Link>
                 </Bounce>
                 <Nav.Link href="#" className="navLink animated fadeInRight">
                   Work
@@ -57,7 +64,7 @@ class App extends Component {
             <ScrollAnimation animateIn="fadeIn">
               <ProjectCard
                 title="ModPod"
-                img="https://images.unsplash.com/photo-1573236779094-0d5303cdf94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1832&q=80"
+                img={modpod}
               />
             </ScrollAnimation>
           </div>
