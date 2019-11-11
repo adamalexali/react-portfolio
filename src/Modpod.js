@@ -47,7 +47,7 @@ const Modpod = () => {
           </h2>
           <div className="tools">
             <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>
+              <span className="bold">Tools: </span>Unreal, Maya
             </h2>
           </div>
         </div>

@@ -35,7 +35,7 @@ const Branding = () => {
           </h2>
           <div className="tools">
             <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>
+              <span className="bold">Tools: </span>HTML, CSS, JS, Bootstrap, React
             </h2>
           </div>
         </div>
