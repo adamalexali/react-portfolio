@@ -22,6 +22,25 @@ code {
     monospace;
 }
 
+a {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+h4 {
+  color: #d4d4d4;
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 700;
+}
+
 .section {
   display: grid;
   margin: 50px auto;
@@ -29,8 +48,9 @@ code {
 }
 
 .bold {
-  font-family: interstate, sans-serif;
+  /* font-family: interstate, sans-serif; */
   font-weight: 700;
+  font-style: normal;
 }
 
 .serif {

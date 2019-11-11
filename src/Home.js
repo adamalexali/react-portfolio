@@ -9,12 +9,15 @@ import ProjectCard from "./ProjectCard";
 import ScrollAnimation from "react-animate-on-scroll";
 import Bounce from "./StyledAnimations";
 
-import modpodImg from "./images/modpodImg.png";
+import modpodImg from "./images/projectCards/modpodImg.png";
+import bladeImg from "./images/projectCards/bladeImg.png";
+import brandingImg from "./images/projectCards/brandingImg.png";
+import portfolioImg from "./images/projectCards/portfolioImg.png";
 
 const Home = () => {
   return (
     <div className="appContainer">
-      <div>
+      {/* <div>
         <Navbar
           sticky="top"
           collapseOnSelect
@@ -47,26 +50,90 @@ const Home = () => {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </div>
+      </div> */}
       <div className="introduction section">
         <h4 className="serif animated fadeIn">Hey! My name is</h4>
         <h1 className="bold animated fadeInRight">Adam Ali</h1>
         <h3 className="important serif subtitle animated fadeIn">
-          I'm a developer.
+          Interaction designer
         </h3>
       </div>
       <div className="project section">
         <div>
-          <ScrollAnimation animateIn="fadeIn">
-            <ProjectCard title="ModPod" img={modpodImg} />
+          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ProjectCard title="ModPod" img={modpodImg} alt='ModPod' />
+          </ScrollAnimation>
+        </div>
+        <div>
+          <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ProjectCard title="Blade" img={bladeImg} alt='Blade' />
+          </ScrollAnimation>
+        </div>
+        <div>
+          <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
+            <ProjectCard title="ARC" img={brandingImg} alt ='ARC' />
+          </ScrollAnimation>
+        </div>
+        <div>
+          <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
+            <ProjectCard title="Portfolio" img={portfolioImg} alt='Portfolio' />
           </ScrollAnimation>
         </div>
       </div>
-      <div className="third section">
-        <h4>Hey! My name is</h4>
-        <h1>Adam Ali</h1>
-        <h3>I'm a developer.</h3>
-      </div>
+      <footer>
+        <div class="section contact">
+          <h4>@adamalexali</h4>
+          <div>
+            <ul>
+              <li>
+                <a
+                  class="sm-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/adamalexali/"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sm-link"
+                  target="_blank"
+                  href="https://github.com/adamalexali"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sm-link"
+                  target="_blank"
+                  href="mailto:adamalexali@gmail.com"
+                >
+                  <i class="fab fa-google"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sm-link"
+                  target="_blank"
+                  href="https://www.behance.net/adamalexali"
+                >
+                  <i class="fab fa-behance"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sm-link"
+                  target="_blank"
+                  href="https://www.instagram.com/adamalexali/"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
