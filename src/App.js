@@ -12,7 +12,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
         <div>
           <Switch>
             <Route exact={true} path="/" render={() => <Home />} />
