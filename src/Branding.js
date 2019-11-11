@@ -31,7 +31,7 @@ const Branding = () => {
         </Navbar>
       </div>
       <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeIn">
+        <h1 className="bold important animated fadeInDown">
           ARC Travel - Branding
         </h1>
         <div className="subtitle">
@@ -49,7 +49,7 @@ const Branding = () => {
       <div className="caseStudyBody">
         <div className="sectionText">
           <ScrollAnimation
-            delay="1000"
+            // delay="1000"
             animateIn="fadeInLeft"
             animateOnce="true"
           >
@@ -63,10 +63,7 @@ const Branding = () => {
           </ScrollAnimation>
         </div>
         <div className="sectionText">
-          <ScrollAnimation
-            animateIn="fadeInRight"
-            animateOnce="true"
-          >
+          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
             <h4>The Project</h4>
             <p>
               I was tasked with branding a product of my choosing, and what I

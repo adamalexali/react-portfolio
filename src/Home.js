@@ -75,7 +75,7 @@ const Home = () => {
           </ScrollAnimation>
         </div>
         <div>
-          <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
+          <ScrollAnimation delay="1500" animateIn="fadeIn" animateOnce="true">
             <ProjectCard title="Portfolio" img={portfolioImg} alt='Portfolio' />
           </ScrollAnimation>
         </div>

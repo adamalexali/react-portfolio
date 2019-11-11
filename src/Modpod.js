@@ -38,7 +38,7 @@ const Modpod = () => {
         </Navbar>
       </div>
       <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeIn">
+        <h1 className="bold important animated fadeInDown">
           Modpod Immersive Environment
         </h1>
         <div className="subtitle">
@@ -56,7 +56,7 @@ const Modpod = () => {
       <div className="caseStudyBody">
         <div className="sectionText">
           <ScrollAnimation
-            delay="1000"
+            // delay="1000"
             animateIn="fadeInLeft"
             animateOnce="true"
           >

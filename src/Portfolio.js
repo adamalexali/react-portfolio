@@ -28,7 +28,7 @@ const Branding = () => {
         </Navbar>
       </div>
       <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeIn">Portfolio Site</h1>
+        <h1 className="bold important animated fadeInDown">Portfolio Site</h1>
         <div className="subtitle">
           <h2 className="serif animated fadeInUp">
             <span className="bold">Role: </span>UX / UI designer; developer
@@ -44,7 +44,7 @@ const Branding = () => {
       <div className="caseStudyBody">
         <div className="sectionText">
           <ScrollAnimation
-            delay="1000"
+            // delay="1000"
             animateIn="fadeInLeft"
             animateOnce="true"
           >
