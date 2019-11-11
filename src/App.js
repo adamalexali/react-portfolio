@@ -12,7 +12,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <HashRouter basename='/'>
         <div>
           <Switch>
             <Route exact={true} path="/" render={() => <Home />} />
