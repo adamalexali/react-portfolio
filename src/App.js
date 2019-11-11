@@ -4,7 +4,7 @@ import Blade from "./Blade";
 import Branding from "./Branding";
 import Portfolio from "./Portfolio";
 import Home from "./Home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as HashRouter, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "./App.css";
@@ -12,7 +12,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div>
           <Switch>
             <Route exact={true} path="/" render={() => <Home />} />
@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact={true} path="/portfolio" render={() => <Portfolio />} />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
