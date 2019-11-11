@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({ title, img }) => {
   return (
-    <a href={`./${title}`}>
+    <a target="_top" href={`/#/${title}`}>
       <div className="cardContainer">
         <div>
           <img src={img} alt={title}></img>

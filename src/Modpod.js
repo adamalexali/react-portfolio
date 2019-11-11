@@ -73,7 +73,7 @@ const Modpod = () => {
 
         <div className="sectionText">
           <ScrollAnimation
-            delay="1500"
+            // delay="1000"
             animateIn="fadeInRight"
             animateOnce="true"
           >
@@ -118,7 +118,7 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <p>
                 We knew we wanted to do something related to nomadic living, but
                 what we need to know was what problem with autonomous living
@@ -227,16 +227,16 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
               <img src={modpod7} alt='modpod'></img>
             </ScrollAnimation>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
               <img src={modpod8} alt='modpod'></img>
             </ScrollAnimation>
-            <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation delay="1500" animateIn="fadeIn" animateOnce="true">
               <img src={modpod9} alt='modpod'></img>
             </ScrollAnimation>
-            <ScrollAnimation delay="1500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation delay="2000" animateIn="fadeIn" animateOnce="true">
               <img src={modpod10} alt='modpod'></img>
             </ScrollAnimation>
           </div>
@@ -284,13 +284,13 @@ const Modpod = () => {
 
       <div className="bottomNav">
         <div>
-          <a href="./portfolio">
+          <a href="./#/portfolio">
             <h6>Previous</h6>
             <p>Portfolio Site</p>
           </a>
         </div>
         <div>
-          <a href="./blade">
+          <a href="./#/blade">
             <h6>Next</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>

@@ -64,7 +64,6 @@ const Branding = () => {
         </div>
         <div className="sectionText">
           <ScrollAnimation
-            delay="1500"
             animateIn="fadeInRight"
             animateOnce="true"
           >
@@ -230,13 +229,13 @@ const Branding = () => {
       </div>
       <div className="bottomNav">
         <div>
-          <a href="./blade">
+          <a href="./#/blade">
             <h6>Previous</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>
         </div>
         <div>
-          <a href="./portfolio">
+          <a href="./#/portfolio">
             <h6>Next</h6>
             <p>Portfolio Site</p>
           </a>

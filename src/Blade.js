@@ -65,7 +65,6 @@ const Blade = () => {
         </div>
         <div className="sectionText">
           <ScrollAnimation
-            delay="1500"
             animateIn="fadeInRight"
             animateOnce="true"
           >
@@ -267,13 +266,13 @@ const Blade = () => {
       </div>
       <div className="bottomNav">
         <div>
-          <a href="./modpod">
+          <a href="./#/modpod">
             <h6>Previous</h6>
             <p>ModPod Immersive Environment</p>
           </a>
         </div>
         <div>
-          <a href="./arc">
+          <a href="./#/arc">
             <h6>Next</h6>
             <p>ARC Travel - Branding</p>
           </a>
