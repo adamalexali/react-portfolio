@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "./Blade.css";
@@ -116,20 +116,20 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={blade1}></img>
+              <img alt='bladeImg' src={blade1}></img>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={blade2}></img>
+              <img alt='bladeImg' src={blade2}></img>
             </ScrollAnimation>
           </div>
         </div>
         <div className="mainText bladeCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={blade3}></img>
+              <img alt='bladeImg' src={blade3}></img>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={blade4}></img>
+              <img alt='bladeImg' src={blade4}></img>
             </ScrollAnimation>
           </div>
           <div>
@@ -191,7 +191,7 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={blade5}></img>
+              <img alt='bladeImg' src={blade5}></img>
             </ScrollAnimation>
           </div>
         </div>
@@ -215,7 +215,7 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={blade6}></img>
+              <img alt='bladeImg' src={blade6}></img>
             </ScrollAnimation>
           </div>
         </div>

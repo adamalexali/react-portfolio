@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "./Branding.css";
@@ -89,7 +89,7 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={arc1}></img>
+              <img alt='brandingImg' src={arc1}></img>
             </ScrollAnimation>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Branding = () => {
         <div className="mainText brandingCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={arc2}></img>
+              <img alt='brandingImg' src={arc2}></img>
             </ScrollAnimation>
           </div>
           <div>
@@ -145,13 +145,13 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={arc3}></img>
+              <img alt='brandingImg' src={arc3}></img>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={arc4}></img>
+              <img alt='brandingImg' src={arc4}></img>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={arc5}></img>
+              <img alt='brandingImg' src={arc5}></img>
             </ScrollAnimation>
           </div>
         </div>
@@ -186,10 +186,10 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={arc6}></img>
+              <img alt='brandingImg' src={arc6}></img>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={arc7}></img>
+              <img alt='brandingImg' src={arc7}></img>
             </ScrollAnimation>
           </div>
         </div>

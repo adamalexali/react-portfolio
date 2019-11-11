@@ -3,11 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "./Home.css";
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+// import Navbar from "react-bootstrap/Navbar";
+// import Nav from "react-bootstrap/Nav";
 import ProjectCard from "./ProjectCard";
 import ScrollAnimation from "react-animate-on-scroll";
-import Bounce from "./StyledAnimations";
+// import Bounce from "./StyledAnimations";
 
 import modpodImg from "./images/projectCards/modpodImg.png";
 import bladeImg from "./images/projectCards/bladeImg.png";

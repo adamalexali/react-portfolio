@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css/animate.min.css";
 import "./Portfolio.css";
@@ -104,7 +104,7 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={portfolio1}></img>
+              <img alt='portfolioImg' src={portfolio1}></img>
             </ScrollAnimation>
           </div>
         </div>
@@ -112,7 +112,7 @@ const Branding = () => {
         <div className="mainText portfolioCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={portfolio2}></img>
+              <img alt='portfolioImg' src={portfolio2}></img>
             </ScrollAnimation>
           </div>
           <div>
@@ -149,7 +149,7 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={portfolio3}></img>
+              <img alt='portfolioImg' src={portfolio3}></img>
             </ScrollAnimation>
           </div>
         </div>
@@ -178,7 +178,7 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={portfolio4}></img>
+              <img alt='portfolioImg' src={portfolio4}></img>
             </ScrollAnimation>
           </div>
         </div>
