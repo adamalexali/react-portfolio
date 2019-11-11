@@ -12,10 +12,10 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename="#">
         <div>
           <Route exact path="/" component={Home} />
-          <Route exact path="/modpod" component={Modpod} />
+          <Route path="/modpod" component={Modpod} />
           <Route exact path="/blade" component={Blade} />
           <Route exact path="/arc" component={Branding} />
           <Route exact path="/portfolio" component={Portfolio} />
