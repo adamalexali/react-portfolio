@@ -55,7 +55,7 @@ const Home = () => {
         <h4 className="serif animated fadeIn">Hey! My name is</h4>
         <h1 className="bold animated fadeInRight">Adam Ali</h1>
         <h3 className="important serif subtitle animated fadeIn">
-          Interaction designer
+          Designer & developer
         </h3>
       </div>
       <div className="project section">
