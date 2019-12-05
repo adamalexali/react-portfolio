@@ -40,7 +40,8 @@ const Branding = () => {
           </h2>
           <div className="tools">
             <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>Photoshop, Illustrator, InDesign
+              <span className="bold">Tools: </span>Photoshop, Illustrator,
+              InDesign
             </h2>
           </div>
         </div>
@@ -58,7 +59,13 @@ const Branding = () => {
               Over the course of my fourth semester, I designed an augmented
               reality way-finding app. The project focused on the branding of
               the app; taking into account the target user group, the company
-              values, user experience, and product design.
+              values, user experience, and product design.{" "}
+              <a
+                href="https://www.behance.net/gallery/74365159/ARC-Brand-Book"
+                target="_blank"
+              >
+                See the full brank book on my Behance page.
+              </a>
             </p>
           </ScrollAnimation>
         </div>
@@ -89,7 +96,9 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc1}></img>
+              <a href={arc1} target="_blank">
+                <img alt="brandingImg" src={arc1}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -97,7 +106,9 @@ const Branding = () => {
         <div className="mainText brandingCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc2}></img>
+              <a href={arc2} target="_blank">
+                <img alt="brandingImg" src={arc2}></img>
+              </a>
             </ScrollAnimation>
           </div>
           <div>
@@ -145,13 +156,19 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc3}></img>
+              <a href={arc3} target="_blank">
+                <img alt="brandingImg" src={arc3}></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc4}></img>
+              <a href={arc4} target="_blank">
+                <img alt="brandingImg" src={arc4}></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc5}></img>
+              <a href={arc5} target="_blank">
+                <img alt="brandingImg" src={arc5}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -186,10 +203,14 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc6}></img>
+              <a href={arc6} target="_blank">
+                <img alt="brandingImg" src={arc6}></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='brandingImg' src={arc7}></img>
+              <a href={arc7} target="_blank">
+                <img alt="brandingImg" src={arc7}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>

@@ -11,7 +11,7 @@ import portfolio2 from "./images/portfolio/portfolio2.png";
 import portfolio3 from "./images/portfolio/portfolio3.png";
 import portfolio4 from "./images/portfolio/portfolio4.png";
 
-const Branding = () => {
+const Portfolio = () => {
   return (
     <div className="caseStudyContainer section">
       <div>
@@ -35,7 +35,8 @@ const Branding = () => {
           </h2>
           <div className="tools">
             <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>HTML, CSS, JS, Bootstrap, React
+              <span className="bold">Tools: </span>HTML, CSS, JS, Bootstrap,
+              React
             </h2>
           </div>
         </div>
@@ -59,10 +60,7 @@ const Branding = () => {
         </div>
 
         <div className="sectionText">
-          <ScrollAnimation
-            animateIn="fadeInRight"
-            animateOnce="true"
-          >
+          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
             <h4>The Project</h4>
             <p>
               This started as a personal project intended to teach myself web
@@ -104,7 +102,9 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='portfolioImg' src={portfolio1}></img>
+              <a href={portfolio1} target="_blank">
+                <img alt="portfolioImg" src={portfolio1}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -112,7 +112,9 @@ const Branding = () => {
         <div className="mainText portfolioCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='portfolioImg' src={portfolio2}></img>
+              <a href={portfolio2} target="_blank">
+                <img alt="portfolioImg" src={portfolio2}></img>
+              </a>
             </ScrollAnimation>
           </div>
           <div>
@@ -149,7 +151,9 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='portfolioImg' src={portfolio3}></img>
+              <a href={portfolio3} target="_blank">
+                <img alt="portfolioImg" src={portfolio3}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -178,7 +182,9 @@ const Branding = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='portfolioImg' src={portfolio4}></img>
+              <a href={portfolio4} target="_blank">
+                <img alt="portfolioImg" src={portfolio4}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -231,4 +237,4 @@ const Branding = () => {
   );
 };
 
-export default Branding;
+export default Portfolio;

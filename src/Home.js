@@ -61,78 +61,78 @@ const Home = () => {
       <div className="project section">
         <div>
           <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="ModPod" img={modpodImg} alt='ModPod' />
+            <ProjectCard title="ModPod" img={modpodImg} alt="ModPod" />
           </ScrollAnimation>
         </div>
         <div>
           <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="Blade" img={bladeImg} alt='Blade' />
+            <ProjectCard title="Blade" img={bladeImg} alt="Blade" />
           </ScrollAnimation>
         </div>
         <div>
           <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="ARC" img={brandingImg} alt ='ARC' />
+            <ProjectCard title="ARC" img={brandingImg} alt="ARC" />
           </ScrollAnimation>
         </div>
         <div>
           <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="Portfolio" img={portfolioImg} alt='Portfolio' />
+            <ProjectCard title="Portfolio" img={portfolioImg} alt="Portfolio" />
           </ScrollAnimation>
         </div>
       </div>
       <footer>
         <div class="section contact">
-          <ScrollAnimation delay='500' animateIn='fadeInUp' animateOnce='true'>
-          <h4>@adamalexali</h4>
-          <div>
-            <ul>
-              <li>
-                <a
-                  className="sm-link"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/adamalexali/"
-                >
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="sm-link"
-                  target="_blank"
-                  href="https://github.com/adamalexali"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="sm-link"
-                  target="_blank"
-                  href="mailto:adamalexali@gmail.com"
-                >
-                  <i className="fab fa-google"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="sm-link"
-                  target="_blank"
-                  href="https://www.behance.net/adamalexali"
-                >
-                  <i className="fab fa-behance"></i>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="sm-link"
-                  target="_blank"
-                  href="https://www.instagram.com/adamalexali/"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ScrollAnimation delay="500" animateIn="fadeInUp" animateOnce="true">
+            <h4>@adamalexali</h4>
+            <div>
+              <ul>
+                <li>
+                  <a
+                    className="sm-link"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/adamalexali/"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="sm-link"
+                    target="_blank"
+                    href="https://github.com/adamalexali"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="sm-link"
+                    target="_blank"
+                    href="mailto:adamalexali@gmail.com"
+                  >
+                    <i className="fab fa-google"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="sm-link"
+                    target="_blank"
+                    href="https://www.behance.net/adamalexali"
+                  >
+                    <i className="fab fa-behance"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="sm-link"
+                    target="_blank"
+                    href="https://www.instagram.com/adamalexali/"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </ScrollAnimation>
         </div>
       </footer>

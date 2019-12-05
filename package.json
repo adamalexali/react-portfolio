@@ -6,6 +6,7 @@
     "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
+    "lightbox2": "^2.11.1",
     "react": "^16.10.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-animations": "^1.0.0",

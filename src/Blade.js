@@ -59,7 +59,10 @@ const Blade = () => {
               have me take a render of the building and allow users to select
               floors by clicking on the image. When a floor is selected, the
               floor is highlighted on the render and the user can see the
-              corresponding floor plan.
+              corresponding floor plan.{" "}
+              <a href="https://illuminacondos.ca/suites/" target="_blank">
+                Check out the final product on the Illumina Condos webpage.
+              </a>
             </p>
           </ScrollAnimation>
         </div>
@@ -116,20 +119,28 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade1}></img>
+              <a href={blade1} target="_blank">
+                <img alt="bladeImg" src={blade1}></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade2}></img>
+              <a href={blade2} target="_blank">
+                <img alt="bladeImg" src={blade2}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
         <div className="mainText bladeCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade3}></img>
+              <a href={blade3} target="_blank">
+                <img alt="bladeImg" src={blade3}></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade4}></img>
+              <a href={blade4} target="_blank">
+                <img alt="bladeImg" src={blade4}></img>
+              </a>
             </ScrollAnimation>
           </div>
           <div>
@@ -191,7 +202,9 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade5}></img>
+              <a href={blade5} target="_blank">
+                <img alt="bladeImg" src={blade5}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -215,7 +228,9 @@ const Blade = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img alt='bladeImg' src={blade6}></img>
+              <a href={blade6} target="_blank">
+                <img alt="bladeImg" src={blade6}></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>

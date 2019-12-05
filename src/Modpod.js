@@ -28,10 +28,7 @@ const Modpod = () => {
             className="justify-content-end"
           />
           <Nav className="flex-column justify-content-end">
-            <Nav.Link
-              href="./"
-              className="navLink"
-            >
+            <Nav.Link href="./" className="navLink">
               <i class="fas fa-arrow-left"></i>
             </Nav.Link>
           </Nav>
@@ -106,7 +103,9 @@ const Modpod = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={modpod1} alt='modpod'></img>
+              <a href={modpod1} target="_blank">
+                <img src={modpod1} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -114,7 +113,9 @@ const Modpod = () => {
         <div className="mainText modpodCase">
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={modpod2} alt='modpod'></img>
+              <a href={modpod2} target="_blank">
+                <img src={modpod2} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
           </div>
           <div>
@@ -196,16 +197,24 @@ const Modpod = () => {
           </div>
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={modpod3} alt='modpod'></img>
+              <a href={modpod3} target="_blank">
+                <img src={modpod3} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={modpod4} alt='modpod'></img>
+              <a href={modpod4} target="_blank">
+                <img src={modpod4} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={modpod5} alt='modpod'></img>
+              <a href={modpod5} target="_blank">
+                <img src={modpod5} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <img src={modpod6} alt='modpod'></img>
+              <a href={modpod6} target="_blank">
+                <img src={modpod6} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
@@ -228,16 +237,24 @@ const Modpod = () => {
           </div>
           <div>
             <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <img src={modpod7} alt='modpod'></img>
+              <a href={modpod7} target="_blank">
+                <img src={modpod7} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
-              <img src={modpod8} alt='modpod'></img>
+              <a href={modpod8} target="_blank">
+                <img src={modpod8} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="1500" animateIn="fadeIn" animateOnce="true">
-              <img src={modpod9} alt='modpod'></img>
+              <a href={modpod9} target="_blank">
+                <img src={modpod9} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
             <ScrollAnimation delay="2000" animateIn="fadeIn" animateOnce="true">
-              <img src={modpod10} alt='modpod'></img>
+              <a href={modpod10} target="_blank">
+                <img src={modpod10} alt="modpod"></img>
+              </a>
             </ScrollAnimation>
           </div>
         </div>
