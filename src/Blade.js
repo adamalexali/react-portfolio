@@ -89,8 +89,8 @@ const Blade = () => {
                 another condominium that used Blade Branding to build their
                 website.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 Their solution was simple, but different to what I was asked to
                 develop. Instead of a render, the building was a simple 2D
@@ -105,8 +105,8 @@ const Blade = () => {
                 this is exactly what I needed to use to be able to create
                 specific selectable areas.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 The process of how this app would work was pretty
                 straightforward to me; create image maps for each floor of the
@@ -118,12 +118,10 @@ const Blade = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={blade1} target="_blank">
                 <img alt="bladeImg" src={blade1}></img>
               </a>
-            </ScrollAnimation>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
               <a href={blade2} target="_blank">
                 <img alt="bladeImg" src={blade2}></img>
               </a>
@@ -136,15 +134,15 @@ const Blade = () => {
               <a href={blade3} target="_blank">
                 <img alt="bladeImg" src={blade3}></img>
               </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <a href={blade4} target="_blank">
                 <img alt="bladeImg" src={blade4}></img>
               </a>
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <h5>Development</h5>
               <p>
                 I started the development process by setting up an environment
@@ -152,8 +150,8 @@ const Blade = () => {
                 application into the basic function and start adding more
                 functionality to it as I go.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 For the project, I began by just putting the building render
                 into an html file. I started creating the image maps using an
@@ -188,8 +186,8 @@ const Blade = () => {
                 the render, change the floorplan to the corresponding floor, and
                 update the text to show the suite type and floor number.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 From here the only thing was to style the document, which I did
                 using primarily CSS Grid. I love Grid because of how

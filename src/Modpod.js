@@ -102,7 +102,7 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={modpod1} target="_blank">
                 <img src={modpod1} alt="modpod"></img>
               </a>
@@ -125,8 +125,6 @@ const Modpod = () => {
                 what we need to know was what problem with autonomous living
                 were we trying to solve?
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <p>
                 We did a workshop in which we asked ourselves 100 questions
                 related to the topic. That led us to some insights about living
@@ -135,8 +133,6 @@ const Modpod = () => {
                 the means to live autonomously in a shifting environment when a
                 permanent residence is not economically viable?
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <p>
                 From this question we began development on the concept of{" "}
                 <span className="bold">ModPod</span> — a modular, affordable and
@@ -147,77 +143,73 @@ const Modpod = () => {
         </div>
 
         <div className="mainText modpodCase">
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <h5>Development</h5>
-              <p>
-                The design of the home went through a number of iterations, from
-                a geodesic dome to more traditional yurt, to an angular abstract
-                design. Eventually, due to time constraints and practicality of
-                the project, we decided on a more basic, cube like structure.
-                The house would be constructed using a number of square-shaped
-                panels that connect together. Each panel would have specialized
-                function, such as screen, heating, battery, etc.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <p>
-                We had intended to actually build the structure as an
-                installation to be shown at the year-end show. However, looking
-                at the skills of the group members and the practicality of how
-                it would work in the real world, we were advised to create the
-                IE using virtual reality. The user journey would be the same,
-                however it would be represented virtually.
-              </p>
-              <p>
-                Having never worked in virtual reality, the task seemed
-                challenging, but also a great opportunity. We talked to some of
-                the game design professors and learned we would use Unreal
-                Engine to build the environment.
-              </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <p>
-                We began first with what we knew; modelling ModPod and other
-                assets using Maya. This included the frame of the home,
-                different panels, as well as other objects that would exist in
-                the virtual environment, such as chairs, tables, etc. We also
-                started working on what the system interface would look like and
-                how we could guide users during the experience.
-              </p>
-              <p>
-                Creating the environment in Unreal was definitely the most
-                challenging part of this project; it seemed like we had a learn
-                this whole, complex program in only a matter of a few weeks.
-                Luckily the game developments profs were helpful, and there is a
-                lot of information available in the form of tutorials and
-                documentation online.
-              </p>
-            </ScrollAnimation>
-          </div>
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod3} target="_blank">
-                <img src={modpod3} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod4} target="_blank">
-                <img src={modpod4} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod5} target="_blank">
-                <img src={modpod5} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod6} target="_blank">
-                <img src={modpod6} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-          </div>
+          {/* <div> */}
+          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <h5>Development</h5>
+            <p>
+              The design of the home went through a number of iterations, from a
+              geodesic dome to more traditional yurt, to an angular abstract
+              design. Eventually, due to time constraints and practicality of
+              the project, we decided on a more basic, cube like structure. The
+              house would be constructed using a number of square-shaped panels
+              that connect together. Each panel would have specialized function,
+              such as screen, heating, battery, etc.
+            </p>
+            <p>
+              We had intended to actually build the structure as an installation
+              to be shown at the year-end show. However, looking at the skills
+              of the group members and the practicality of how it would work in
+              the real world, we were advised to create the IE using virtual
+              reality. The user journey would be the same, however it would be
+              represented virtually.
+            </p>
+            <p>
+              Having never worked in virtual reality, the task seemed
+              challenging, but also a great opportunity. We talked to some of
+              the game design professors and learned we would use Unreal Engine
+              to build the environment.
+            </p>
+            <p>
+              We began first with what we knew; modelling ModPod and other
+              assets using Maya. This included the frame of the home, different
+              panels, as well as other objects that would exist in the virtual
+              environment, such as chairs, tables, etc. We also started working
+              on what the system interface would look like and how we could
+              guide users during the experience.
+            </p>
+            <p>
+              Creating the environment in Unreal was definitely the most
+              challenging part of this project; it seemed like we had a learn
+              this whole, complex program in only a matter of a few weeks.
+              Luckily the game developments profs were helpful, and there is a
+              lot of information available in the form of tutorials and
+              documentation online.
+            </p>
+          </ScrollAnimation>
+          {/* </div>
+          <div> */}
+          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <a href={modpod3} target="_blank">
+              <img src={modpod3} alt="modpod"></img>
+            </a>
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
+            <a href={modpod4} target="_blank">
+              <img src={modpod4} alt="modpod"></img>
+            </a>
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
+            <a href={modpod5} target="_blank">
+              <img src={modpod5} alt="modpod"></img>
+            </a>
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
+            <a href={modpod6} target="_blank">
+              <img src={modpod6} alt="modpod"></img>
+            </a>
+          </ScrollAnimation>
         </div>
+        {/* </div> */}
 
         <div className="mainText modpodCase">
           <div>
@@ -236,22 +228,22 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={modpod7} target="_blank">
                 <img src={modpod7} alt="modpod"></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation delay="1000" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={modpod8} target="_blank">
                 <img src={modpod8} alt="modpod"></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation delay="1500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={modpod9} target="_blank">
                 <img src={modpod9} alt="modpod"></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation delay="2000" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={modpod10} target="_blank">
                 <img src={modpod10} alt="modpod"></img>
               </a>

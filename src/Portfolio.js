@@ -91,8 +91,8 @@ const Portfolio = () => {
                 I’ve learned as a designer and developer, as well as drawing
                 inspiration from others online.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 I also have a lot of ideas of what I’d like to include once I
                 learn more -- such as dynamic animations, blog posts, and

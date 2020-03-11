@@ -95,7 +95,7 @@ const Branding = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={arc1} target="_blank">
                 <img alt="brandingImg" src={arc1}></img>
               </a>
@@ -112,7 +112,7 @@ const Branding = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <h5>Development</h5>
               <p>
                 I created three moodboards that would influence the direction I
@@ -125,8 +125,8 @@ const Branding = () => {
                 map system. Bold text, minimalistic style and vibrant accents
                 was the direction I was heading in.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 With the aesthetic direction, I started researching the target
                 audience and the types of apps they use, as well as competition
@@ -160,12 +160,12 @@ const Branding = () => {
                 <img alt="brandingImg" src={arc3}></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={arc4} target="_blank">
                 <img alt="brandingImg" src={arc4}></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
               <a href={arc5} target="_blank">
                 <img alt="brandingImg" src={arc5}></img>
               </a>
@@ -186,8 +186,8 @@ const Branding = () => {
                 I also created a number of UI elements, such as forms, buttons
                 and icons; all done in Illustrator.
               </p>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 Taking the UI elements, I mocked up the interface and the
                 augmented reality using Photoshop. I mocked up wireframes of
@@ -206,8 +206,8 @@ const Branding = () => {
               <a href={arc6} target="_blank">
                 <img alt="brandingImg" src={arc6}></img>
               </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            {/* </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <a href={arc7} target="_blank">
                 <img alt="brandingImg" src={arc7}></img>
               </a>
