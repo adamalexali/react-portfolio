@@ -293,9 +293,9 @@ const Modpod = () => {
 
       <div className="bottomNav">
         <div>
-          <a href="./#/portfolio">
+          <a href="./#/blade">
             <h6>Previous</h6>
-            <p>Portfolio Site</p>
+            <p>Blade Branding; Interactive Map</p>
           </a>
         </div>
         <div>

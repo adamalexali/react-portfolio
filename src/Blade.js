@@ -89,7 +89,7 @@ const Blade = () => {
                 another condominium that used Blade Branding to build their
                 website.
               </p>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 Their solution was simple, but different to what I was asked to
@@ -105,7 +105,7 @@ const Blade = () => {
                 this is exactly what I needed to use to be able to create
                 specific selectable areas.
               </p>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 The process of how this app would work was pretty
@@ -134,7 +134,7 @@ const Blade = () => {
               <a href={blade3} target="_blank">
                 <img alt="bladeImg" src={blade3}></img>
               </a>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <a href={blade4} target="_blank">
                 <img alt="bladeImg" src={blade4}></img>
@@ -150,7 +150,7 @@ const Blade = () => {
                 application into the basic function and start adding more
                 functionality to it as I go.
               </p>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 For the project, I began by just putting the building render
@@ -186,7 +186,7 @@ const Blade = () => {
                 the render, change the floorplan to the corresponding floor, and
                 update the text to show the suite type and floor number.
               </p>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 From here the only thing was to style the document, which I did
@@ -282,9 +282,9 @@ const Blade = () => {
           </a>
         </div>
         <div>
-          <a href="./#/arc">
+          <a href="./#/modpod">
             <h6>Next</h6>
-            <p>ARC Travel - Branding</p>
+            <p>ModPod Immersive Environment</p>
           </a>
         </div>
       </div>
