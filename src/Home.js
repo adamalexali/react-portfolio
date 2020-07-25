@@ -11,8 +11,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import modpodImg from './images/projectCards/modpodImg.png';
 import bladeImg from './images/projectCards/bladeImg.png';
-import brandingImg from './images/projectCards/brandingImg.png';
-import portfolioImg from './images/projectCards/portfolioImg.png';
 
 const Home = () => {
   return (
@@ -67,16 +65,6 @@ const Home = () => {
             <ProjectCard title='Blade' img={bladeImg} alt='Blade' />
           </ScrollAnimation>
         </div>
-        {/* <div>
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="ARC" img={brandingImg} alt="ARC" />
-          </ScrollAnimation>
-        </div> */}
-        {/* <div>
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <ProjectCard title="Portfolio" img={portfolioImg} alt="Portfolio" />
-          </ScrollAnimation>
-        </div> */}
       </div>
       <footer>
         <div class='section contact'>

@@ -1,151 +1,126 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "animate.css/animate.min.css";
-import "./Modpod.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Modpod.css';
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import ScrollAnimation from "react-animate-on-scroll";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-import modpod1 from "./images/modpod/modpod1.png";
-import modpod2 from "./images/modpod/modpod2.jpg";
-import modpod3 from "./images/modpod/modpod3.png";
-import modpod4 from "./images/modpod/modpod4.png";
-import modpod5 from "./images/modpod/modpod5.png";
-import modpod6 from "./images/modpod/modpod6.png";
-import modpod7 from "./images/modpod/modpod7.png";
-import modpod8 from "./images/modpod/modpod8.png";
-import modpod9 from "./images/modpod/modpod9.png";
-import modpod10 from "./images/modpod/modpod10.png";
+import modpod1 from './images/modpod/modpod1.png';
+import modpod2 from './images/modpod/modpod2.jpg';
+import modpod3 from './images/modpod/modpod3.png';
+import modpod4 from './images/modpod/modpod4.png';
+import modpod5 from './images/modpod/modpod5.png';
+import modpod6 from './images/modpod/modpod6.png';
+import modpod7 from './images/modpod/modpod7.png';
+import modpod8 from './images/modpod/modpod8.png';
+import modpod9 from './images/modpod/modpod9.png';
+import modpod10 from './images/modpod/modpod10.png';
 
 const Modpod = () => {
   return (
-    <div className="caseStudyContainer section">
+    <div className='caseStudyContainer section'>
       <div>
-        <Navbar sticky="top">
+        <Navbar sticky='top'>
           <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="justify-content-end"
+            aria-controls='responsive-navbar-nav'
+            className='justify-content-end'
           />
-          <Nav className="flex-column justify-content-end">
-            <Nav.Link href="./" className="navLink">
-              <i class="fas fa-arrow-left"></i>
+          <Nav className='flex-column justify-content-end'>
+            <Nav.Link href='./' className='navLink'>
+              <i class='fas fa-arrow-left'></i>
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-      <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeInDown">
-          Modpod Immersive Environment
-        </h1>
-        <div className="subtitle">
-          <h2 className="serif animated fadeInUp">
-            <span className="bold">Role: </span>UX designer; developer
+      <div className='caseStudyTitle'>
+        <h1 className='bold important'>Modpod Immersive Environment</h1>
+        <div className='subtitle'>
+          <h2 className='serif'>
+            <span className='bold'>Role: </span>UX designer; developer
           </h2>
-          <div className="tools">
-            <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>Unreal, Maya
+          <div className='tools'>
+            <h2 className='serif'>
+              <span className='bold'>Tools: </span>Unreal, Maya
             </h2>
           </div>
         </div>
       </div>
 
-      <div className="caseStudyBody">
-        <div className="sectionText">
-          <ScrollAnimation
-            // delay="1000"
-            animateIn="fadeInLeft"
-            animateOnce="true"
-          >
-            <h4>Overview</h4>
+      <div className='caseStudyBody'>
+        <div className='sectionText'>
+          <h4>Overview</h4>
+          <p>
+            For this project, a team of five students and I were tasked with
+            answering a design problem: what does it mean to live autonomously?
+            Our solution was a modular home constructed entirely by users, which
+            we visualized using virtual reality and showcased at the year-end
+            show at George Brown College.
+          </p>
+        </div>
+
+        <div className='sectionText'>
+          <h4>The Project</h4>
+          <p>
+            ModPod was the final project one of the classes in my second year at
+            George Brown. The class revolved around immersive environments (IE);
+            either digital environments (virtual, augmented, or mixed reality),
+            or physical (installations). We had a general theme — autonomous
+            living. What we had to do was create an immersive environment
+            related to this theme that could be shown at the year-end show.
+          </p>
+        </div>
+
+        <div className='mainText modpodCase'>
+          <div>
+            <h5>Research</h5>
             <p>
-              For this project, a team of five students and I were tasked with
-              answering a design problem: what does it mean to live
-              autonomously? Our solution was a modular home constructed entirely
-              by users, which we visualized using virtual reality and showcased
-              at the year-end show at George Brown College.
+              The early stages of the project focused on learning more about the
+              subject, and trying to narrow down what we could focus our IE on.
+              We landed on nomadic living as an interesting precedent that we
+              could learn more about. The group split up and researched
+              different nomadic groups throughout time to learn more about their
+              lifestyle.
             </p>
-          </ScrollAnimation>
+          </div>
+          <div>
+            <a href={modpod1} target='_blank'>
+              <img src={modpod1} alt='modpod'></img>
+            </a>
+          </div>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation
-            // delay="1000"
-            animateIn="fadeInRight"
-            animateOnce="true"
-          >
-            <h4>The Project</h4>
+        <div className='mainText modpodCase'>
+          <div>
+            <a href={modpod2} target='_blank'>
+              <img src={modpod2} alt='modpod'></img>
+            </a>
+          </div>
+          <div>
             <p>
-              ModPod was the final project one of the classes in my second year
-              at George Brown. The class revolved around immersive environments
-              (IE); either digital environments (virtual, augmented, or mixed
-              reality), or physical (installations). We had a general theme —
-              autonomous living. What we had to do was create an immersive
-              environment related to this theme that could be shown at the
-              year-end show.
+              We knew we wanted to do something related to nomadic living, but
+              what we need to know was what problem with autonomous living were
+              we trying to solve?
             </p>
-          </ScrollAnimation>
-        </div>
-
-        <div className="mainText modpodCase">
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <h5>Research</h5>
-              <p>
-                The early stages of the project focused on learning more about
-                the subject, and trying to narrow down what we could focus our
-                IE on. We landed on nomadic living as an interesting precedent
-                that we could learn more about. The group split up and
-                researched different nomadic groups throughout time to learn
-                more about their lifestyle.
-              </p>
-            </ScrollAnimation>
-          </div>
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod1} target="_blank">
-                <img src={modpod1} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
+            <p>
+              We did a workshop in which we asked ourselves 100 questions
+              related to the topic. That led us to some insights about living in
+              the digital age: young people cannot afford housing. This is what
+              we wanted to address, how might we give young professionals the
+              means to live autonomously in a shifting environment when a
+              permanent residence is not economically viable?
+            </p>
+            <p>
+              From this question we began development on the concept of{' '}
+              <span className='bold'>ModPod</span> — a modular, affordable and
+              portable home system for digital nomads.
+            </p>
           </div>
         </div>
 
-        <div className="mainText modpodCase">
+        <div className='mainText modpodCase'>
+          {/* this section is FUCKED */}
+          <h5>Development</h5>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod2} target="_blank">
-                <img src={modpod2} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-          </div>
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <p>
-                We knew we wanted to do something related to nomadic living, but
-                what we need to know was what problem with autonomous living
-                were we trying to solve?
-              </p>
-              <p>
-                We did a workshop in which we asked ourselves 100 questions
-                related to the topic. That led us to some insights about living
-                in the digital age: young people cannot afford housing. This is
-                what we wanted to address, how might we give young professionals
-                the means to live autonomously in a shifting environment when a
-                permanent residence is not economically viable?
-              </p>
-              <p>
-                From this question we began development on the concept of{" "}
-                <span className="bold">ModPod</span> — a modular, affordable and
-                portable home system for digital nomads.
-              </p>
-            </ScrollAnimation>
-          </div>
-        </div>
-
-        <div className="mainText modpodCase">
-          {/* <div> */}
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <h5>Development</h5>
             <p>
               The design of the home went through a number of iterations, from a
               geodesic dome to more traditional yurt, to an angular abstract
@@ -185,121 +160,96 @@ const Modpod = () => {
               lot of information available in the form of tutorials and
               documentation online.
             </p>
-          </ScrollAnimation>
-          {/* </div>
-          <div> */}
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <a href={modpod3} target="_blank">
-              <img src={modpod3} alt="modpod"></img>
-            </a>
-            {/* </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod4} target="_blank">
-              <img src={modpod4} alt="modpod"></img>
-            </a>
-            {/* </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod5} target="_blank">
-              <img src={modpod5} alt="modpod"></img>
-            </a>
-            {/* </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod6} target="_blank">
-              <img src={modpod6} alt="modpod"></img>
-            </a>
-          </ScrollAnimation>
-        </div>
-        {/* </div> */}
-
-        <div className="mainText modpodCase">
-          <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <h5>Presentation</h5>
-              <p>
-                The VR experience consisted of guiding the user through the
-                purchase and construction of their modular home. The panels
-                would spawn after the user interacted with the virtual
-                interface, which could be manipulated using the VR controls.
-                Users could grab panels and place them on the frame of the
-                ModPod, which would snap them into place. Essentially, the user
-                was building their own home with preferred panels in the virtual
-                environment.
-              </p>
-            </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod7} target="_blank">
-                <img src={modpod7} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod8} target="_blank">
-                <img src={modpod8} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod9} target="_blank">
-                <img src={modpod9} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod10} target="_blank">
-                <img src={modpod10} alt="modpod"></img>
-              </a>
-            </ScrollAnimation>
+            <a href={modpod3} target='_blank'>
+              <img src={modpod3} alt='modpod'></img>
+            </a>
+            <a href={modpod4} target='_blank'>
+              <img src={modpod4} alt='modpod'></img>
+            </a>
+            <a href={modpod5} target='_blank'>
+              <img src={modpod5} alt='modpod'></img>
+            </a>
+            <a href={modpod6} target='_blank'>
+              <img src={modpod6} alt='modpod'></img>
+            </a>
+          </div>
+        </div>
+        <div className='mainText modpodCase'>
+          <div>
+            <h5>Presentation</h5>
+            <p>
+              The VR experience consisted of guiding the user through the
+              purchase and construction of their modular home. The panels would
+              spawn after the user interacted with the virtual interface, which
+              could be manipulated using the VR controls. Users could grab
+              panels and place them on the frame of the ModPod, which would snap
+              them into place. Essentially, the user was building their own home
+              with preferred panels in the virtual environment.
+            </p>
+          </div>
+          <div>
+            <a href={modpod7} target='_blank'>
+              <img src={modpod7} alt='modpod'></img>
+            </a>
+            <a href={modpod8} target='_blank'>
+              <img src={modpod8} alt='modpod'></img>
+            </a>
+            <a href={modpod9} target='_blank'>
+              <img src={modpod9} alt='modpod'></img>
+            </a>
+            <a href={modpod10} target='_blank'>
+              <img src={modpod10} alt='modpod'></img>
+            </a>
           </div>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
-            <h4>Challenges</h4>
-            <p>
-              One of the main problems we had when creating this environment was
-              working with a brand new program, Unreal Engine, on a tight
-              deadline. All members of the group were designers first, and had
-              limited knowledge of building VR games. There was a lot of stress
-              figuring out how to make it work, but luckily putting our heads
-              together and working together with other resources allowed us to
-              create something close to the original concept we had. It was not
-              perfect, of course, there were some glitches and the functionality
-              could have been better fleshed out, and I found that many people
-              were more interested in just moving around and grabbing things in
-              virtual reality than the actual ‘narrative’ of our immersive
-              environment.
-            </p>
-          </ScrollAnimation>
+        <div className='sectionText'>
+          <h4>Challenges</h4>
+          <p>
+            One of the main problems we had when creating this environment was
+            working with a brand new program, Unreal Engine, on a tight
+            deadline. All members of the group were designers first, and had
+            limited knowledge of building VR games. There was a lot of stress
+            figuring out how to make it work, but luckily putting our heads
+            together and working together with other resources allowed us to
+            create something close to the original concept we had. It was not
+            perfect, of course, there were some glitches and the functionality
+            could have been better fleshed out, and I found that many people
+            were more interested in just moving around and grabbing things in
+            virtual reality than the actual ‘narrative’ of our immersive
+            environment.
+          </p>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
-            <h4>Outcomes</h4>
-            <p>
-              The project was well-received at the year-end show. We set up the
-              installation in the morning and many people came by to try out the
-              virtual environment. I was proud and amazed at what we were able
-              to put out in such a short period, on top of our other projects of
-              the school year. I learned a lot about Unreal in particular, which
-              was interesting to me because as interaction designers I believe
-              having knowledge of this technology like this is incredibly
-              important to stay relevant in the future. I also managed to work
-              on my time-management and teamwork skills; having a limited time
-              and a large team, you learn quickly to split up the workload and
-              play to people’s strengths.
-            </p>
-          </ScrollAnimation>
+        <div className='sectionText'>
+          <h4>Outcomes</h4>
+          <p>
+            The project was well-received at the year-end show. We set up the
+            installation in the morning and many people came by to try out the
+            virtual environment. I was proud and amazed at what we were able to
+            put out in such a short period, on top of our other projects of the
+            school year. I learned a lot about Unreal in particular, which was
+            interesting to me because as interaction designers I believe having
+            knowledge of this technology like this is incredibly important to
+            stay relevant in the future. I also managed to work on my
+            time-management and teamwork skills; having a limited time and a
+            large team, you learn quickly to split up the workload and play to
+            people’s strengths.
+          </p>
         </div>
       </div>
 
-      <div className="bottomNav">
+      <div className='bottomNav'>
         <div>
-          <a href="./#/blade">
+          <a href='./blade'>
             <h6>Previous</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>
         </div>
         <div>
-          <a href="./#/blade">
+          <a href='./blade'>
             <h6>Next</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>
