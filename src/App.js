@@ -30,6 +30,7 @@ class App extends Component {
             <Route
               exact={true}
               // for the path, in order for this to work, you have to include "process.env.PUBLIC_URL" before the path name.
+
               //Do this for all paths and make sure to change it in the ProjectCard.js component & each {project}.js component
               path={process.env.PUBLIC_URL + '/'}
               render={() => <Home />}
