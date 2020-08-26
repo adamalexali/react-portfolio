@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Modpod from './Modpod';
 import Blade from './Blade';
 import Home from './Home';
+import Projects from './Projects';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
@@ -37,12 +38,20 @@ class App extends Component {
             />
             <Route
               exact={true}
-              path={process.env.PUBLIC_URL + '/modpod'}
+              // for the path, in order for this to work, you have to include "process.env.PUBLIC_URL" before the path name.
+
+              //Do this for all paths and make sure to change it in the ProjectCard.js component & each {project}.js component
+              path={process.env.PUBLIC_URL + '/projects'}
+              render={() => <Projects />}
+            />
+            <Route
+              exact={true}
+              path={process.env.PUBLIC_URL + '/projects/modpod'}
               render={() => <Modpod />}
             />
             <Route
               exact={true}
-              path={process.env.PUBLIC_URL + '/blade'}
+              path={process.env.PUBLIC_URL + '/projects/blade'}
               render={() => <Blade />}
             />
           </Switch>
