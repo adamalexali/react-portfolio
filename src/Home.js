@@ -20,12 +20,7 @@ const Home = () => {
       <div className='project section'>
         <div>
           <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
-            <ProjectCard title='ModPod' img={modpodImg} alt='ModPod' />
-          </ScrollAnimation>
-        </div>
-        <div>
-          <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
-            <ProjectCard title='Blade' img={bladeImg} alt='Blade' />
+            <ProjectCard title='Projects' img={modpodImg} alt='Projects' />
           </ScrollAnimation>
         </div>
       </div>
