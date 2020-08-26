@@ -3,7 +3,7 @@ import Modpod from './Modpod';
 import Blade from './Blade';
 import Home from './Home';
 import Projects from './Projects';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import './App.css';
@@ -24,7 +24,9 @@ class App extends Component {
   render() {
     return (
       // Changed HashRouter to BrowserRouter ... if it doesn't work when deployed to GitHub Pages, just change it back. Worst case, your route paths will have a /#/ before it.
-      <BrowserRouter
+
+      // edit: it didn't work. Later I'll see about deploying to Heroku or something.
+      <HashRouter
         onUpdate={() => window.scrollTo(0, 0)}
         basename={process.env.PUBLIC_URL}
       >
@@ -59,7 +61,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

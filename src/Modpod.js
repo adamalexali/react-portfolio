@@ -17,7 +17,7 @@ const Modpod = () => {
             className='justify-content-end'
           />
           <Nav className='flex-column justify-content-end'>
-            <Nav.Link href='./' className='navLink'>
+            <Nav.Link href='./#/projects' className='navLink'>
               <i class='fas fa-arrow-left'></i>
             </Nav.Link>
           </Nav>

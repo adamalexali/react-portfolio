@@ -24,10 +24,10 @@ const Projects = () => {
         </Navbar>
       </div>
       <div>
-        <a href='/projects/blade'>
+        <a href='/#/projects/blade'>
           <li>Blade</li>
         </a>
-        <a href='/projects/modpod'>
+        <a href='/#/projects/modpod'>
           <li>Modpod</li>
         </a>
       </div>
