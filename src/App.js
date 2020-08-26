@@ -24,7 +24,10 @@ class App extends Component {
   render() {
     return (
       // Changed HashRouter to BrowserRouter ... if it doesn't work when deployed to GitHub Pages, just change it back. Worst case, your route paths will have a /#/ before it.
-      <BrowserRouter onUpdate={() => window.scrollTo(0, 0)} basename='/'>
+      <BrowserRouter
+        onUpdate={() => window.scrollTo(0, 0)}
+        basename={process.env.PUBLIC_URL}
+      >
         <ScrollToTop />
         <div>
           <Switch>
@@ -33,7 +36,7 @@ class App extends Component {
               // for the path, in order for this to work, you have to include "process.env.PUBLIC_URL" before the path name.
 
               //Do this for all paths and make sure to change it in the ProjectCard.js component & each {project}.js component
-              path={process.env.PUBLIC_URL + '/'}
+              path={'/'}
               render={() => <Home />}
             />
             <Route
@@ -41,17 +44,17 @@ class App extends Component {
               // for the path, in order for this to work, you have to include "process.env.PUBLIC_URL" before the path name.
 
               //Do this for all paths and make sure to change it in the ProjectCard.js component & each {project}.js component
-              path={process.env.PUBLIC_URL + '/projects'}
+              path={'/projects'}
               render={() => <Projects />}
             />
             <Route
               exact={true}
-              path={process.env.PUBLIC_URL + '/projects/modpod'}
+              path={'/projects/modpod'}
               render={() => <Modpod />}
             />
             <Route
               exact={true}
-              path={process.env.PUBLIC_URL + '/projects/blade'}
+              path={'/projects/blade'}
               render={() => <Blade />}
             />
           </Switch>
