@@ -5,11 +5,6 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.5.2",
-<<<<<<< HEAD
-=======
-    "gh-pages": "^2.2.0",
-    "lightbox2": "^2.11.3",
->>>>>>> 083f6d6be219e04341c74fa46916cb356f3c001f
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-animations": "^1.0.0",
