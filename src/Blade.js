@@ -5,6 +5,7 @@ import './Blade.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom';
 
 import blade1 from './images/blade/blade1.png';
 import blade2 from './images/blade/blade2.png';
@@ -276,16 +277,16 @@ const Blade = () => {
       </div>
       <div className='bottomNav'>
         <div>
-          <a href='./modpod'>
+          <Link to='./modpod'>
             <h6>Previous</h6>
             <p>ModPod Immersive Environment</p>
-          </a>
+          </Link>
         </div>
         <div>
-          <a href='./modpod'>
+          <Link to='./modpod'>
             <h6>Next</h6>
             <p>ModPod Immersive Environment</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

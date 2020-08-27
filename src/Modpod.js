@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import './Modpod.css';
-
+import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -293,16 +293,16 @@ const Modpod = () => {
 
       <div className='bottomNav'>
         <div>
-          <a href='./blade'>
+          <Link to='./blade'>
             <h6>Previous</h6>
             <p>Blade Branding; Interactive Map</p>
-          </a>
+          </Link>
         </div>
         <div>
-          <a href='./blade'>
+          <Link to='./blade'>
             <h6>Next</h6>
             <p>Blade Branding; Interactive Map</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
