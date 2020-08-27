@@ -1,53 +1,53 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "animate.css/animate.min.css";
-import "./Portfolio.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
+import './Portfolio.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import portfolio1 from "./images/portfolio/portfolio1.png";
-import portfolio2 from "./images/portfolio/portfolio2.png";
-import portfolio3 from "./images/portfolio/portfolio3.png";
-import portfolio4 from "./images/portfolio/portfolio4.png";
+import portfolio1 from './images/portfolio/portfolio1.png';
+import portfolio2 from './images/portfolio/portfolio2.png';
+import portfolio3 from './images/portfolio/portfolio3.png';
+import portfolio4 from './images/portfolio/portfolio4.png';
 
 const Portfolio = () => {
   return (
-    <div className="caseStudyContainer section">
+    <div className='caseStudyContainer section'>
       <div>
-        <Navbar sticky="top">
+        <Navbar sticky='top'>
           <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="justify-content-end"
+            aria-controls='responsive-navbar-nav'
+            className='justify-content-end'
           />
-          <Nav className="flex-column justify-content-end">
-            <Nav.Link href="./" className="navLink">
-              <i class="fas fa-arrow-left"></i>
+          <Nav className='flex-column justify-content-end'>
+            <Nav.Link href='./' className='navLink'>
+              <i class='fas fa-arrow-left'></i>
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-      <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeInDown">Portfolio Site</h1>
-        <div className="subtitle">
-          <h2 className="serif animated fadeInUp">
-            <span className="bold">Role: </span>UX / UI designer; developer
+      <div className='caseStudyTitle'>
+        <h1 className='bold important animated fadeInDown'>Portfolio Site</h1>
+        <div className='subtitle'>
+          <h2 className='serif animated fadeInUp'>
+            <span className='bold'>Role: </span>UX / UI designer; developer
           </h2>
-          <div className="tools">
-            <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>HTML, CSS, JS, Bootstrap,
+          <div className='tools'>
+            <h2 className='serif animated fadeInUp'>
+              <span className='bold'>Tools: </span>HTML, CSS, JS, Bootstrap,
               React
             </h2>
           </div>
         </div>
       </div>
 
-      <div className="caseStudyBody">
-        <div className="sectionText">
+      <div className='caseStudyBody'>
+        <div className='sectionText'>
           <ScrollAnimation
             // delay="1000"
-            animateIn="fadeInLeft"
-            animateOnce="true"
+            animateIn='fadeInLeft'
+            animateOnce='true'
           >
             <h4>Overview</h4>
             <p>
@@ -59,8 +59,8 @@ const Portfolio = () => {
           </ScrollAnimation>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInRight' animateOnce='true'>
             <h4>The Project</h4>
             <p>
               This started as a personal project intended to teach myself web
@@ -72,9 +72,9 @@ const Portfolio = () => {
           </ScrollAnimation>
         </div>
 
-        <div className="mainText portfolioCase">
+        <div className='mainText portfolioCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Ideation</h5>
               <p>
                 I always knew I wanted to create a personal website from
@@ -91,7 +91,7 @@ const Portfolio = () => {
                 I’ve learned as a designer and developer, as well as drawing
                 inspiration from others online.
               </p>
-            {/* </ScrollAnimation>
+              {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
               <p>
                 I also have a lot of ideas of what I’d like to include once I
@@ -101,24 +101,24 @@ const Portfolio = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
-              <a href={portfolio1} target="_blank">
-                <img alt="portfolioImg" src={portfolio1}></img>
+            <ScrollAnimation delay='500' animateIn='fadeIn' animateOnce='true'>
+              <a href={portfolio1} target='_blank'>
+                <img alt='portfolioImg' src={portfolio1}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="mainText portfolioCase">
+        <div className='mainText portfolioCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={portfolio2} target="_blank">
-                <img alt="portfolioImg" src={portfolio2}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={portfolio2} target='_blank'>
+                <img alt='portfolioImg' src={portfolio2}></img>
               </a>
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation delay="500" animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation delay='500' animateIn='fadeIn' animateOnce='true'>
               <h5>Development</h5>
               <p>
                 I started developing during the summer of 2019, as a project I
@@ -132,9 +132,9 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="mainText portfolioCase">
+        <div className='mainText portfolioCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <p>
                 I used the same color scheme that I used from my resume I
                 designed earlier that year. I wanted to keep the layout
@@ -150,17 +150,17 @@ const Portfolio = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={portfolio3} target="_blank">
-                <img alt="portfolioImg" src={portfolio3}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={portfolio3} target='_blank'>
+                <img alt='portfolioImg' src={portfolio3}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="mainText portfolioCase">
+        <div className='mainText portfolioCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <p>
                 During this time, I had also been experimenting with React, and
                 saw its potential in my web development process. I had followed
@@ -181,16 +181,16 @@ const Portfolio = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={portfolio4} target="_blank">
-                <img alt="portfolioImg" src={portfolio4}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={portfolio4} target='_blank'>
+                <img alt='portfolioImg' src={portfolio4}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInLeft' animateOnce='true'>
             <h4>Challenges</h4>
             <p>
               The biggest challenge I’ve faced was getting over the learning
@@ -207,8 +207,8 @@ const Portfolio = () => {
             </p>
           </ScrollAnimation>
         </div>
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInRight' animateOnce='true'>
             <h4>Outcomes</h4>
             <p>
               This website was really a crash course in React development for
@@ -219,15 +219,15 @@ const Portfolio = () => {
           </ScrollAnimation>
         </div>
       </div>
-      <div className="bottomNav">
+      <div className='bottomNav'>
         <div>
-          <a href="./#/arc">
+          <a href='./arc'>
             <h6>Previous</h6>
             <p>ARC Travel - Branding</p>
           </a>
         </div>
         <div>
-          <a href="./#/modpod">
+          <a href='./modpod'>
             <h6>Next</h6>
             <p>ModPod Immersive Environment</p>
           </a>

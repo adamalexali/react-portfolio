@@ -1,56 +1,56 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "animate.css/animate.min.css";
-import "./Blade.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
+import './Blade.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import blade1 from "./images/blade/blade1.png";
-import blade2 from "./images/blade/blade2.png";
-import blade3 from "./images/blade/blade3.png";
-import blade4 from "./images/blade/blade4.png";
-import blade5 from "./images/blade/blade5.png";
-import blade6 from "./images/blade/blade6.png";
+import blade1 from './images/blade/blade1.png';
+import blade2 from './images/blade/blade2.png';
+import blade3 from './images/blade/blade3.png';
+import blade4 from './images/blade/blade4.png';
+import blade5 from './images/blade/blade5.png';
+import blade6 from './images/blade/blade6.png';
 
 const Blade = () => {
   return (
-    <div className="caseStudyContainer section">
+    <div className='caseStudyContainer section'>
       <div>
-        <Navbar sticky="top">
+        <Navbar sticky='top'>
           <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="justify-content-end"
+            aria-controls='responsive-navbar-nav'
+            className='justify-content-end'
           />
-          <Nav className="flex-column justify-content-end">
-            <Nav.Link href="./" className="navLink">
-              <i class="fas fa-arrow-left"></i>
+          <Nav className='flex-column justify-content-end'>
+            <Nav.Link href='./' className='navLink'>
+              <i class='fas fa-arrow-left'></i>
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-      <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeInDown">
+      <div className='caseStudyTitle'>
+        <h1 className='bold important animated fadeInDown'>
           Blade Branding; Interactive Map
         </h1>
-        <div className="subtitle">
-          <h2 className="serif animated fadeInUp">
-            <span className="bold">Role: </span>Developer
+        <div className='subtitle'>
+          <h2 className='serif animated fadeInUp'>
+            <span className='bold'>Role: </span>Developer
           </h2>
-          <div className="tools">
-            <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>HTML, CSS, JS, jQuery
+          <div className='tools'>
+            <h2 className='serif animated fadeInUp'>
+              <span className='bold'>Tools: </span>HTML, CSS, JS, jQuery
             </h2>
           </div>
         </div>
       </div>
 
-      <div className="caseStudyBody">
-        <div className="sectionText">
+      <div className='caseStudyBody'>
+        <div className='sectionText'>
           <ScrollAnimation
             // delay="1000"
-            animateIn="fadeInLeft"
-            animateOnce="true"
+            animateIn='fadeInLeft'
+            animateOnce='true'
           >
             <h4>Overview</h4>
             <p>
@@ -59,15 +59,15 @@ const Blade = () => {
               have me take a render of the building and allow users to select
               floors by clicking on the image. When a floor is selected, the
               floor is highlighted on the render and the user can see the
-              corresponding floor plan.{" "}
-              <a href="https://illuminacondos.ca/suites/" target="_blank">
+              corresponding floor plan.{' '}
+              <a href='https://illuminacondos.ca/suites/' target='_blank'>
                 Check out the final product on the Illumina Condos webpage.
               </a>
             </p>
           </ScrollAnimation>
         </div>
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInRight' animateOnce='true'>
             <h4>The Project</h4>
             <p>
               I broke down the project into 3 main areas: Research, Development,
@@ -78,9 +78,9 @@ const Blade = () => {
             </p>
           </ScrollAnimation>
         </div>
-        <div className="mainText bladeCase">
+        <div className='mainText bladeCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Research</h5>
               <p>
                 At the start of the project, before I began coding, I decided to
@@ -97,7 +97,7 @@ const Blade = () => {
                 illustration, and was not interactable. Instead, the user would
                 use arrow keys to move up and down the floors and see the
                 corresponding floor maps. I inspected their code to get an idea
-                of what their process was, and found the building was actually a{" "}
+                of what their process was, and found the building was actually a{' '}
                 <code>&lt;ul&gt;</code> made up of images of each floor.
                 Pressing the arrow keys would color the floor and show the floor
                 map. The floor map itself used image maps, a term I hadn’t come
@@ -118,31 +118,31 @@ const Blade = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={blade1} target="_blank">
-                <img alt="bladeImg" src={blade1}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={blade1} target='_blank'>
+                <img alt='bladeImg' src={blade1}></img>
               </a>
-              <a href={blade2} target="_blank">
-                <img alt="bladeImg" src={blade2}></img>
+              <a href={blade2} target='_blank'>
+                <img alt='bladeImg' src={blade2}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
-        <div className="mainText bladeCase">
+        <div className='mainText bladeCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={blade3} target="_blank">
-                <img alt="bladeImg" src={blade3}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={blade3} target='_blank'>
+                <img alt='bladeImg' src={blade3}></img>
               </a>
               {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-              <a href={blade4} target="_blank">
-                <img alt="bladeImg" src={blade4}></img>
+              <a href={blade4} target='_blank'>
+                <img alt='bladeImg' src={blade4}></img>
               </a>
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Development</h5>
               <p>
                 I started the development process by setting up an environment
@@ -173,9 +173,9 @@ const Blade = () => {
             </ScrollAnimation>
           </div>
         </div>
-        <div className="mainText bladeCase">
+        <div className='mainText bladeCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <p>
                 The next step was to write the JavaScript to update the
                 floorplan when the corresponding floor was highlighted. I knew
@@ -199,17 +199,17 @@ const Blade = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={blade5} target="_blank">
-                <img alt="bladeImg" src={blade5}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={blade5} target='_blank'>
+                <img alt='bladeImg' src={blade5}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="mainText bladeCase">
+        <div className='mainText bladeCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Deployment</h5>
               <p>
                 The final step was to put the code into WordPress, which ended
@@ -225,16 +225,16 @@ const Blade = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={blade6} target="_blank">
-                <img alt="bladeImg" src={blade6}></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={blade6} target='_blank'>
+                <img alt='bladeImg' src={blade6}></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInLeft' animateOnce='true'>
             <h4>Challenges</h4>
             <p>
               The challenges I faced were almost all solved by researching more
@@ -259,8 +259,8 @@ const Blade = () => {
             </p>
           </ScrollAnimation>
         </div>
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInRight' animateOnce='true'>
             <h4>Outcomes</h4>
             <p>
               I learned a lot about the development process; how it differs from
@@ -274,15 +274,15 @@ const Blade = () => {
           </ScrollAnimation>
         </div>
       </div>
-      <div className="bottomNav">
+      <div className='bottomNav'>
         <div>
-          <a href="./#/modpod">
+          <a href='./modpod'>
             <h6>Previous</h6>
             <p>ModPod Immersive Environment</p>
           </a>
         </div>
         <div>
-          <a href="./#/modpod">
+          <a href='./modpod'>
             <h6>Next</h6>
             <p>ModPod Immersive Environment</p>
           </a>

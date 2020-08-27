@@ -1,61 +1,61 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "animate.css/animate.min.css";
-import "./Modpod.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css/animate.min.css';
+import './Modpod.css';
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import ScrollAnimation from "react-animate-on-scroll";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import modpod1 from "./images/modpod/modpod1.png";
-import modpod2 from "./images/modpod/modpod2.jpg";
-import modpod3 from "./images/modpod/modpod3.png";
-import modpod4 from "./images/modpod/modpod4.png";
-import modpod5 from "./images/modpod/modpod5.png";
-import modpod6 from "./images/modpod/modpod6.png";
-import modpod7 from "./images/modpod/modpod7.png";
-import modpod8 from "./images/modpod/modpod8.png";
-import modpod9 from "./images/modpod/modpod9.png";
-import modpod10 from "./images/modpod/modpod10.png";
+import modpod1 from './images/modpod/modpod1.png';
+import modpod2 from './images/modpod/modpod2.jpg';
+import modpod3 from './images/modpod/modpod3.png';
+import modpod4 from './images/modpod/modpod4.png';
+import modpod5 from './images/modpod/modpod5.png';
+import modpod6 from './images/modpod/modpod6.png';
+import modpod7 from './images/modpod/modpod7.png';
+import modpod8 from './images/modpod/modpod8.png';
+import modpod9 from './images/modpod/modpod9.png';
+import modpod10 from './images/modpod/modpod10.png';
 
 const Modpod = () => {
   return (
-    <div className="caseStudyContainer section">
+    <div className='caseStudyContainer section'>
       <div>
-        <Navbar sticky="top">
+        <Navbar sticky='top'>
           <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="justify-content-end"
+            aria-controls='responsive-navbar-nav'
+            className='justify-content-end'
           />
-          <Nav className="flex-column justify-content-end">
-            <Nav.Link href="./" className="navLink">
-              <i class="fas fa-arrow-left"></i>
+          <Nav className='flex-column justify-content-end'>
+            <Nav.Link href='./' className='navLink'>
+              <i class='fas fa-arrow-left'></i>
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-      <div className="caseStudyTitle">
-        <h1 className="bold important animated fadeInDown">
+      <div className='caseStudyTitle'>
+        <h1 className='bold important animated fadeInDown'>
           Modpod Immersive Environment
         </h1>
-        <div className="subtitle">
-          <h2 className="serif animated fadeInUp">
-            <span className="bold">Role: </span>UX designer; developer
+        <div className='subtitle'>
+          <h2 className='serif animated fadeInUp'>
+            <span className='bold'>Role: </span>UX designer; developer
           </h2>
-          <div className="tools">
-            <h2 className="serif animated fadeInUp">
-              <span className="bold">Tools: </span>Unreal, Maya
+          <div className='tools'>
+            <h2 className='serif animated fadeInUp'>
+              <span className='bold'>Tools: </span>Unreal, Maya
             </h2>
           </div>
         </div>
       </div>
 
-      <div className="caseStudyBody">
-        <div className="sectionText">
+      <div className='caseStudyBody'>
+        <div className='sectionText'>
           <ScrollAnimation
             // delay="1000"
-            animateIn="fadeInLeft"
-            animateOnce="true"
+            animateIn='fadeInLeft'
+            animateOnce='true'
           >
             <h4>Overview</h4>
             <p>
@@ -68,11 +68,11 @@ const Modpod = () => {
           </ScrollAnimation>
         </div>
 
-        <div className="sectionText">
+        <div className='sectionText'>
           <ScrollAnimation
             // delay="1000"
-            animateIn="fadeInRight"
-            animateOnce="true"
+            animateIn='fadeInRight'
+            animateOnce='true'
           >
             <h4>The Project</h4>
             <p>
@@ -87,9 +87,9 @@ const Modpod = () => {
           </ScrollAnimation>
         </div>
 
-        <div className="mainText modpodCase">
+        <div className='mainText modpodCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Research</h5>
               <p>
                 The early stages of the project focused on learning more about
@@ -102,24 +102,24 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod1} target="_blank">
-                <img src={modpod1} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod1} target='_blank'>
+                <img src={modpod1} alt='modpod'></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="mainText modpodCase">
+        <div className='mainText modpodCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod2} target="_blank">
-                <img src={modpod2} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod2} target='_blank'>
+                <img src={modpod2} alt='modpod'></img>
               </a>
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <p>
                 We knew we wanted to do something related to nomadic living, but
                 what we need to know was what problem with autonomous living
@@ -134,17 +134,17 @@ const Modpod = () => {
                 permanent residence is not economically viable?
               </p>
               <p>
-                From this question we began development on the concept of{" "}
-                <span className="bold">ModPod</span> — a modular, affordable and
+                From this question we began development on the concept of{' '}
+                <span className='bold'>ModPod</span> — a modular, affordable and
                 portable home system for digital nomads.
               </p>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="mainText modpodCase">
+        <div className='mainText modpodCase'>
           {/* <div> */}
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+          <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
             <h5>Development</h5>
             <p>
               The design of the home went through a number of iterations, from a
@@ -188,32 +188,32 @@ const Modpod = () => {
           </ScrollAnimation>
           {/* </div>
           <div> */}
-          <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-            <a href={modpod3} target="_blank">
-              <img src={modpod3} alt="modpod"></img>
+          <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+            <a href={modpod3} target='_blank'>
+              <img src={modpod3} alt='modpod'></img>
             </a>
             {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod4} target="_blank">
-              <img src={modpod4} alt="modpod"></img>
+            <a href={modpod4} target='_blank'>
+              <img src={modpod4} alt='modpod'></img>
             </a>
             {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod5} target="_blank">
-              <img src={modpod5} alt="modpod"></img>
+            <a href={modpod5} target='_blank'>
+              <img src={modpod5} alt='modpod'></img>
             </a>
             {/* </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" animateOnce="true"> */}
-            <a href={modpod6} target="_blank">
-              <img src={modpod6} alt="modpod"></img>
+            <a href={modpod6} target='_blank'>
+              <img src={modpod6} alt='modpod'></img>
             </a>
           </ScrollAnimation>
         </div>
         {/* </div> */}
 
-        <div className="mainText modpodCase">
+        <div className='mainText modpodCase'>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
               <h5>Presentation</h5>
               <p>
                 The VR experience consisted of guiding the user through the
@@ -228,31 +228,31 @@ const Modpod = () => {
             </ScrollAnimation>
           </div>
           <div>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod7} target="_blank">
-                <img src={modpod7} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod7} target='_blank'>
+                <img src={modpod7} alt='modpod'></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod8} target="_blank">
-                <img src={modpod8} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod8} target='_blank'>
+                <img src={modpod8} alt='modpod'></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod9} target="_blank">
-                <img src={modpod9} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod9} target='_blank'>
+                <img src={modpod9} alt='modpod'></img>
               </a>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true">
-              <a href={modpod10} target="_blank">
-                <img src={modpod10} alt="modpod"></img>
+            <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+              <a href={modpod10} target='_blank'>
+                <img src={modpod10} alt='modpod'></img>
               </a>
             </ScrollAnimation>
           </div>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInLeft' animateOnce='true'>
             <h4>Challenges</h4>
             <p>
               One of the main problems we had when creating this environment was
@@ -271,8 +271,8 @@ const Modpod = () => {
           </ScrollAnimation>
         </div>
 
-        <div className="sectionText">
-          <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
+        <div className='sectionText'>
+          <ScrollAnimation animateIn='fadeInRight' animateOnce='true'>
             <h4>Outcomes</h4>
             <p>
               The project was well-received at the year-end show. We set up the
@@ -291,15 +291,15 @@ const Modpod = () => {
         </div>
       </div>
 
-      <div className="bottomNav">
+      <div className='bottomNav'>
         <div>
-          <a href="./#/blade">
+          <a href='./blade'>
             <h6>Previous</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>
         </div>
         <div>
-          <a href="./#/blade">
+          <a href='./blade'>
             <h6>Next</h6>
             <p>Blade Branding; Interactive Map</p>
           </a>

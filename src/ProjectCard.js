@@ -1,10 +1,10 @@
-import React from "react";
-import "./ProjectCard.css";
+import React from 'react';
+import './ProjectCard.css';
 
 const ProjectCard = ({ title, img }) => {
   return (
-    <a target="_top" href={`/#/${title}`}>
-      <div className="cardContainer">
+    <a target='_top' href={`/${title}`}>
+      <div className='cardContainer'>
         <div>
           <img src={img} alt={title}></img>
         </div>
