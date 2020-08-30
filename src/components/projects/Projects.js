@@ -8,6 +8,7 @@ class Projects extends Component {
         <p>Click on one to learn more</p>
         <div>
           <Link to={'/projects/modpod'}>Modpod</Link>
+          <Link to={'/projects/echo'}>ECHO</Link>
         </div>
       </div>
     );

@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from 'react';
-import './ProjectItem.css';
 import Rellax from 'rellax';
 
-export default function ProjectItem() {
+export default function Home() {
   // So Rellax works... but I'm not sure why. I found this solution on stack overflow, and the poster said it is achieved using Hooks, which I don't know much about
   // looks like useRef isn't used at all, I'll try removing it and seeing if theres much effect.
   // Also just not really sure what refs are. useEffect() seems to be how it works.
