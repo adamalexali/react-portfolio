@@ -12,7 +12,7 @@ export default function ProjectItem() {
   // So what I can do is set ~3 Rellax animations, maybe for foreground, midground, and background. Set the speeds and z-index. Shouldn't be too crazy.
   // And then its just as easy as setting the class name. Hopefully.
   useEffect(() => {
-    new Rellax('.animate', {
+    new Rellax('.animateSlow', {
       speed: -2,
       center: false,
       wrapper: null,
@@ -21,7 +21,7 @@ export default function ProjectItem() {
       horizontal: false,
     });
 
-    new Rellax('.animate2', {
+    new Rellax('.animateMed', {
       speed: 2,
       center: false,
       wrapper: null,
@@ -30,7 +30,7 @@ export default function ProjectItem() {
       horizontal: false,
     });
 
-    new Rellax('.animate3', {
+    new Rellax('.animateFast', {
       speed: 20,
       center: false,
       wrapper: null,
@@ -51,11 +51,9 @@ export default function ProjectItem() {
 
   return (
     <div className='container'>
-      <div className='animate2 mediumText'>I’m slow and smooth</div>
-
-      <div className='animate3 smallText'>I’m super fast!!</div>
-
-      <div className='animate bigText'>I’m extra slow and smooth</div>
+      <div className='animateFast smallText'>I’m super fast!!</div>
+      <div className='animateMed mediumText'>I’m slow and smooth</div>
+      <div className='animateSlow bigText'>I’m extra slow and smooth</div>
     </div>
   );
 }

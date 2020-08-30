@@ -16,8 +16,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.pageDiv {
+  padding: 5%;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

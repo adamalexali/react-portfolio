@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import ProjectItem from './components/projects/ProjectItem';
 import Projects from './components/projects/Projects';
-import Modpod from './components/projects/portfolioPieces/Modpod';
+import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
 import './App.css';
 
 class App extends Component {
