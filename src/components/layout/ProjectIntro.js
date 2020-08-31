@@ -8,7 +8,7 @@ const ProjectIntro = (props) => {
         src={props.mainImg}
         alt={`${props.title} Banner`}
         id='mainImg'
-        className='animateSlow'
+        className=''
       ></img>
       <h1>{props.subtitle}</h1>
     </div>

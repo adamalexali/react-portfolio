@@ -5,6 +5,9 @@ import researchBerber from '../../../../../src/images/modpod/research-berber.png
 import researchMongolian from '../../../../../src/images/modpod/research-mongolian.png';
 import researchSubarctic from '../../../../../src/images/modpod/research-subarctic.png';
 import researchYoruk from '../../../../../src/images/modpod/research-yoruk.png';
+import hundredQs from '../../../../../src/images/modpod/100-questions.png';
+import domeImg from '../../../../../src/images/modpod/geodesicdome.jpg';
+import yurtImg from '../../../../../src/images/modpod/yurt.jpg';
 import '../../../layout/CSS/ProjectPage.css';
 import ProjectIntro from '../../../layout/ProjectIntro';
 
@@ -70,14 +73,29 @@ export default function Modpod() {
       </div>
       <div className='section container'>
         <div>
-          <h2>Research</h2>
+          <h2>Research &amp; Ideation</h2>
         </div>
         <div className='imageDiv'>
-          <img src={researchBerber} alt='' />
-          <img src={researchMongolian} alt='' />
-          <img src={researchSubarctic} alt='' />
-          <img src={researchYoruk} alt='' />
+          <img src={researchBerber} alt='' loading='lazy' />
+          <img src={researchMongolian} alt='' loading='lazy' />
+          <img src={researchSubarctic} alt='' loading='lazy' />
+          <img src={researchYoruk} alt='' loading='lazy' />
+          <img src={hundredQs} alt='' loading='lazy' />
+          <img src={domeImg} alt='' loading='lazy' />
+          <img src={yurtImg} alt='' loading='lazy' />
         </div>
+      </div>
+      <div className='section container'>
+        <div>
+          <h2>Design</h2>
+        </div>
+        <div className='imageDiv'></div>
+      </div>
+      <div className='section container'>
+        <div>
+          <h2>Development</h2>
+        </div>
+        <div className='imageDiv'></div>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Rellax from 'rellax';
 
 export default function Home() {
   // So Rellax works... but I'm not sure why. I found this solution on stack overflow, and the poster said it is achieved using Hooks, which I don't know much about
   // looks like useRef isn't used at all, I'll try removing it and seeing if theres much effect.
-  // Also just not really sure what refs are. useEffect() seems to be how it works.
+  // Also just not really sure what refs are. useEffect() seems to be how it works. If you use 'useRef()', make sure to import it above
   // const rellaxRef = useRef();
 
   // so I guess, creating a new Rellax animation, set a class name and parameters. Speed is the one probably most used. Z-index I guess set in css file.
