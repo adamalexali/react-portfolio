@@ -1,7 +1,15 @@
 import React, { useEffect } from 'react';
 import Rellax from 'rellax';
-import modpodBanner from '../../../../../src/images/modpod/modpodBanner.png';
-import './Modpod.css';
+import {
+  modpodBanner,
+  researchBerber,
+  researchMongolian,
+  researchSubarctic,
+  researchYoruk,
+  hundredQs,
+  domeImg,
+  yurtImg,
+} from '../../../../images';
 import ProjectIntro from '../../../layout/ProjectIntro';
 
 export default function Echo() {

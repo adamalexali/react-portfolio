@@ -6,6 +6,8 @@
 html {
   overflow-x: hidden;
   height: 100%;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
 body {
@@ -16,14 +18,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pageDiv {
+/* .pageDiv {
   padding: 5%;
-}
+} */
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 1rem;
+  margin-bottom: 2em;
+  padding: 0 5%;
 }
 
 img {
