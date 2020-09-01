@@ -23,8 +23,10 @@ h2 {
   color: lightcoral;
 }
 
-.pageDiv {
-  padding: 5%;
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {
@@ -32,8 +34,14 @@ h2 {
   margin: 4em 0;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
+.foregroundEl {
+  z-index: 10000;
+}
+
+.midgroundEl {
+  z-index: 1000;
+}
+
+.backgroundEl {
+  z-index: 1;
 }

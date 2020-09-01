@@ -1,14 +1,5 @@
-import React, { useEffect } from 'react';
-import {
-  modpodBanner,
-  researchBerber,
-  researchMongolian,
-  researchSubarctic,
-  researchYoruk,
-  hundredQs,
-  domeImg,
-  yurtImg,
-} from '../../../../images';
+import React from 'react';
+import { modpodBanner } from '../../../../images';
 import ProjectIntro from '../../../layout/ProjectIntro';
 
 export default function Echo() {

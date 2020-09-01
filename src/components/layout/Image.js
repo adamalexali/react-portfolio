@@ -9,7 +9,12 @@ class Image extends Component {
 
   render() {
     return (
-      <img src={this.props.src} alt={this.props.alt} onLoad={this.handleLoad} />
+      <img
+        src={this.props.src}
+        alt={this.props.alt}
+        loading='lazy'
+        onLoad={this.handleLoad}
+      />
     );
   }
 }
