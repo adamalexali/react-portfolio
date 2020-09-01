@@ -1,12 +1,15 @@
 import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 import '../layout/CSS/ProjectPage.css';
 
 const ProjectIntro = (props) => {
   return (
     <div className='container'>
-      <h1 id='title' className='animateSlow'>
-        {props.title}
-      </h1>
+      <Parallax className='custom-class' y={[-100, 100]} tagOuter='figure'>
+        <h1 id='title' className='animateSlow'>
+          {props.title}
+        </h1>
+      </Parallax>
       <img
         src={props.mainImg}
         className='full'

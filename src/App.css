@@ -18,6 +18,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  font-size: 3rem;
+  color: lightcoral;
+}
+
 .pageDiv {
   padding: 5%;
 }
