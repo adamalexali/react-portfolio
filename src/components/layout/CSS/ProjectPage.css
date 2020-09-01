@@ -19,39 +19,3 @@
   overflow-x: scroll;
   scroll-snap-type: x proximity;
 }
-
-.imageDiv {
-  display: grid;
-}
-
-.sectionHeading,
-.sectionBody {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 4rem;
-}
-
-.sectionHeading h2 {
-  grid-column: 2 / -2;
-}
-
-/* .sectionHeading h2 {
-  padding-bottom: 20px;
-} */
-
-.sectionHeading h3 {
-  text-align: center;
-}
-
-#headingTag1 {
-  grid-column: 1 / span 3;
-}
-
-#headingTag2 {
-  grid-column: span 3 / -1;
-}
-
-.sectionBody p {
-  grid-column: 1 / -1;
-  padding: 0 2rem;
-}

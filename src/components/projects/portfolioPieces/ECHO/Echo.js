@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Rellax from 'rellax';
 import {
   modpodBanner,
   researchBerber,
@@ -13,43 +12,6 @@ import {
 import ProjectIntro from '../../../layout/ProjectIntro';
 
 export default function Echo() {
-  useEffect(() => {
-    new Rellax('.animateSlow', {
-      speed: -2,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax('.animateMed', {
-      speed: 2,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax('.animateFast', {
-      speed: 20,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    // new Rellax(rellaxRef.current, {
-    //   speed: -10,
-    //   center: false,
-    //   wrapper: null,
-    //   round: true,
-    //   vertical: true,
-    //   horizontal: false,
-    // });
-  }, []);
   return (
     <div className='pageDiv'>
       <ProjectIntro
