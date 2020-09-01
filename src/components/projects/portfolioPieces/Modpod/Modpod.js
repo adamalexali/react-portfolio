@@ -45,9 +45,18 @@ export default function Modpod() {
     });
 
     new Rellax('.animateFast', {
-      speed: 20,
+      speed: 5,
       center: false,
       wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false,
+    });
+
+    new Rellax('.animateFast2', {
+      speed: 5,
+      center: false,
+      wrapper: '.section',
       round: true,
       vertical: true,
       horizontal: false,
@@ -62,6 +71,7 @@ export default function Modpod() {
     //   horizontal: false,
     // });
   }, []);
+
   return (
     <div className='pageDiv'>
       <ProjectIntro
@@ -71,11 +81,12 @@ export default function Modpod() {
       />
       <div className='section container'>
         <div className='sectionHeading'>
-          <h2>Overview</h2>
-          <h3>What does it mean to live autonomously </h3>
+          {/* <h2 className='animateFast'>Overview</h2> */}
+          <h3 id='headingTag1'>What does it mean </h3>
+          <h3 id='headingTag2'>to live autonomously?</h3>
         </div>
-        <div>
-          <p>
+        <div className='sectionBody'>
+          <p className='overviewMainText'>
             We were asked to design an immersive environment around the idea of
             living autonomously in a digital world. We came up with MODPOD, a
             modular home in which young professionals can customize their living
@@ -85,10 +96,7 @@ export default function Modpod() {
         </div>
       </div>
       <div className='section container'>
-        <div>
-          <h2>Research &amp; Ideation</h2>
-        </div>
-        <div className='imageDiv'>
+        <div className='imageDiv full'>
           <div className='hs'>
             <img src={researchBerber} alt='' loading='lazy' />
             <img src={researchMongolian} alt='' loading='lazy' />
@@ -96,27 +104,31 @@ export default function Modpod() {
             <img src={researchYoruk} alt='' loading='lazy' />
           </div>
           <img src={modpodHundredQs} alt='' loading='lazy' />
-          <img src={domeImg} alt='' loading='lazy' />
-          <img src={yurtImg} alt='' loading='lazy' />
+          <div>
+            <img src={domeImg} alt='' loading='lazy' />
+            <img src={yurtImg} alt='' loading='lazy' />
+          </div>
+        </div>
+        <div className='sectionHeading animateFast'>
+          <h2>Research &amp; Ideation</h2>
         </div>
       </div>
-      <div className='section container'>
-        <div>
-          <h2>Design</h2>
-        </div>
+      <div id='designSection' className='section container'>
         <div className='imageDiv'>
           <img src={modpodSketches} alt='' loading='lazy' />
-          <img src={modpodModel1} alt='' loading='lazy' />
-          <img src={modpodModel2} alt='' loading='lazy' />
-          <img src={modpodModel3} alt='' loading='lazy' />
+          <div>
+            <img src={modpodModel1} alt='' loading='lazy' />
+            <img src={modpodModel2} alt='' loading='lazy' />
+            <img src={modpodModel3} alt='' loading='lazy' />
+          </div>
           <img src={panels} alt='' loading='lazy' />
           <img src={modpodFlow} alt='' loading='lazy' />
         </div>
+        <div id='designHeader' className='sectionHeading animateFast'>
+          <h2>Design</h2>
+        </div>
       </div>
       <div className='section container'>
-        <div>
-          <h2>Development</h2>
-        </div>
         <div className='imageDiv'>
           <img src={modpod3DModel1} alt='' loading='lazy' />
           <div className='hs'>
@@ -125,6 +137,9 @@ export default function Modpod() {
             <img src={modpod3DModel5} alt='' loading='lazy' />
             <img src={modpod3DModel6} alt='' loading='lazy' />
           </div>
+        </div>
+        <div className='sectionHeading animateFast'>
+          <h2>Development</h2>
         </div>
       </div>
     </div>

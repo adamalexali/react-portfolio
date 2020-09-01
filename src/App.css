@@ -18,17 +18,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .pageDiv {
+.pageDiv {
   padding: 5%;
-} */
+}
 
 .container {
   display: grid;
-  margin-bottom: 2em;
-  padding: 0 5%;
+  margin: 4em 0;
 }
 
 img {
   width: 100%;
   height: auto;
+  display: block;
 }
