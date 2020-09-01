@@ -19,3 +19,7 @@
   overflow-x: scroll;
   scroll-snap-type: x proximity;
 }
+
+.section {
+  padding: 0 20px;
+}

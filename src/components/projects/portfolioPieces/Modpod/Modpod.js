@@ -51,7 +51,7 @@ export default function Modpod() {
       </div>
       <div className='section container'>
         <div id='sectionTitle'>
-          <Parallax y={['200px', '0px']}>
+          <Parallax y={['400px', '0px']}>
             <h2>Research &amp; Ideation</h2>
           </Parallax>
         </div>
@@ -68,6 +68,11 @@ export default function Modpod() {
         </div>
       </div>
       <div id='designSection' className='section container'>
+        <div id='sectionTitle'>
+          <Parallax y={['400px', '0px']}>
+            <h2>Design &amp; development</h2>
+          </Parallax>
+        </div>
         <div className='imageDiv'>
           <Image src={modpodSketches} alt='' loading='lazy' />
           <div>
@@ -77,13 +82,6 @@ export default function Modpod() {
           </div>
           <Image src={panels} alt='' loading='lazy' />
           <Image src={modpodFlow} alt='' loading='lazy' />
-        </div>
-      </div>
-      <div className='section container'>
-        <div id='sectionTitle'>
-          <Parallax y={['200px', '0px']}>
-            <h2>Design &amp; development</h2>
-          </Parallax>
         </div>
         <div className='imageDiv'>
           <Image src={modpod3DModel1} alt='' loading='lazy' />
