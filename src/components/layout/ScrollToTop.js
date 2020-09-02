@@ -17,7 +17,7 @@ export class ScrollToTop extends Component {
   }
 
   toggleVisibility() {
-    if (window.pageYOffset > 100) {
+    if (window.pageYOffset > 10) {
       this.setState({
         is_visible: true,
       });
@@ -41,7 +41,7 @@ export class ScrollToTop extends Component {
       <div id='scrollToTop' className='scrolltoTop'>
         {is_visible && (
           <div onClick={() => this.scrollToTop()}>
-            <button>Back to top</button>
+            <p>&larr; to top</p>
           </div>
         )}
       </div>

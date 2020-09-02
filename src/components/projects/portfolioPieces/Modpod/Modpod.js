@@ -27,6 +27,10 @@ import ProjectIntro from '../../../layout/ProjectIntro';
 import Image from '../../../layout/Image';
 
 export default function Modpod() {
+  const foregroundOffset = ['400px', '0px'];
+  const midgroundOffset = ['50px', '0px'];
+  const backgroundOffset = ['0px', '25px'];
+
   return (
     <div className='pageDiv'>
       <ProjectIntro
@@ -43,56 +47,62 @@ export default function Modpod() {
         <div className='sectionBody'>
           <p className='overviewMainText'>
             We were asked to design an immersive environment around the idea of
-            living autonomously in a digital world. We came up with MODPOD, a
-            modular home in which young professionals can customize their living
-            space using various panels with different functions. The prototype
-            was showcased at the GBC 2019 Year End Show using virtual reality.
+            living autonomously in a digital world.
+          </p>
+          <p className='overviewMainText'>
+            We came up with <strong>MODPOD</strong>, a modular home in which
+            young professionals can customize their living space using various
+            panels with different functions.
+          </p>
+          <p className='overviewMainText'>
+            The prototype was showcased at the GBC 2019 Year End Show using
+            virtual reality.
           </p>
         </div>
       </div>
       <div className='section container'>
         <div className='foregroundEl' id='sectionTitle'>
-          <Parallax className='parallaxText' y={['400px', '0px']}>
+          <Parallax className='parallaxText' y={foregroundOffset}>
             <h2>Research &amp; Ideation</h2>
           </Parallax>
         </div>
         <div className='div1'>
           <div className='backgroundEl'>
-            <Parallax y={['0px', '25px']}>
+            <Parallax y={backgroundOffset}>
               <Image src={researchBerber} alt='' />
             </Parallax>
           </div>
           <div className='midgroundEl'>
-            <Parallax y={['50px', '0px']}>
+            <Parallax y={midgroundOffset}>
               <Image src={researchMongolian} alt='' />
             </Parallax>
           </div>
           <div className='backgroundEl'>
-            <Parallax y={['0px', '25px']}>
+            <Parallax y={backgroundOffset}>
               <Image src={researchSubarctic} alt='' />
             </Parallax>
           </div>
           <div className='midgroundEl'>
-            <Parallax y={['50px', '0px']}>
+            <Parallax y={midgroundOffset}>
               <Image src={researchYoruk} alt='' />
             </Parallax>
           </div>
         </div>
         <div className='div1'>
           <div id='hundredQs' className='backgroundEl'>
-            <Parallax y={['0px', '25px']}>
+            <Parallax y={backgroundOffset}>
               <Image src={modpodHundredQs} alt='' />
             </Parallax>
           </div>
         </div>
         <div className='div1'>
           <div id='geodesicDome' className='midgroundEl'>
-            <Parallax y={['50px', '0px']}>
+            <Parallax y={midgroundOffset}>
               <Image src={domeImg} alt='' />
             </Parallax>
           </div>
-          <div id='yurtImg' className='forgroundEl'>
-            <Parallax y={['0px', '25px']}>
+          <div id='yurtImg' className='backgroundEl'>
+            <Parallax y={backgroundOffset}>
               <Image src={yurtImg} alt='' />
             </Parallax>
           </div>

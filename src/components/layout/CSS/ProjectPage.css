@@ -21,6 +21,29 @@
   border: 1px solid red;
 } */
 
-.section {
-  padding: 0 20px;
+.sectionHeading {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 4rem;
+}
+
+.sectionHeading h3:first-child {
+  grid-column: 3 / span 7;
+  text-align: left;
+  background-color: var(--accent-color);
+}
+.sectionHeading h3:nth-child(2) {
+  grid-column: span 8 / -3;
+  text-align: right;
+  background-color: var(--accent-color);
+}
+
+.sectionBody {
+  padding: 0 3rem;
+  /* text-align: justify; */
+}
+
+.overviewMainText {
+  margin-bottom: 1rem;
 }
