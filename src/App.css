@@ -10,6 +10,18 @@ html {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
+#mainNav {
+  position: sticky;
+  top: 0;
+  z-index: 1000000;
+}
+
+#scrollToTop {
+  position: sticky;
+  bottom: 0;
+  z-index: 1000000;
+}
+
 body {
   margin: 0;
   font-family: 'Helvetica', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',

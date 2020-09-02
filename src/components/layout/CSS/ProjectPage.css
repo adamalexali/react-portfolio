@@ -17,26 +17,9 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.div1 > * {
+/* .div1 > * {
   border: 1px solid red;
-}
-
-.div1 > div:nth-child(1) {
-  grid-column: 1 / span 7;
-}
-.div1 > div:nth-child(2) {
-  grid-column: span 9 / -1;
-}
-.div1 > div:nth-child(3) {
-  grid-column: 2 / span 7;
-}
-.div1 > div:nth-child(4) {
-  grid-column: span 9 / -2;
-}
-
-#hundredQs {
-  grid-column: 2 / -2;
-}
+} */
 
 .section {
   padding: 0 20px;

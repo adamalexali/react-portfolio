@@ -22,6 +22,7 @@ import {
   modpod3DModel6,
 } from '../../../../images';
 import '../../../layout/CSS/ProjectPage.css';
+import '../Modpod/Modpod.css';
 import ProjectIntro from '../../../layout/ProjectIntro';
 import Image from '../../../layout/Image';
 
@@ -84,9 +85,17 @@ export default function Modpod() {
             </Parallax>
           </div>
         </div>
-        <div>
-          <Image src={domeImg} alt='' />
-          <Image src={yurtImg} alt='' />
+        <div className='div1'>
+          <div id='geodesicDome' className='midgroundEl'>
+            <Parallax y={['50px', '0px']}>
+              <Image src={domeImg} alt='' />
+            </Parallax>
+          </div>
+          <div id='yurtImg' className='forgroundEl'>
+            <Parallax y={['0px', '25px']}>
+              <Image src={yurtImg} alt='' />
+            </Parallax>
+          </div>
         </div>
       </div>
       <div id='designSection' className='section container'>
