@@ -13,13 +13,10 @@ import {
   modpodModel1,
   modpodModel2,
   modpodModel3,
-  panels,
-  modpodFlow,
   modpod3DModel1,
+  modpod3DModel2,
   modpod3DModel3,
   modpod3DModel4,
-  modpod3DModel5,
-  modpod3DModel6,
 } from '../../../../images';
 import '../../../layout/CSS/ProjectPage.css';
 import '../Modpod/Modpod.css';
@@ -40,7 +37,6 @@ export default function Modpod() {
       />
       <div className='section container'>
         <div className='sectionHeading'>
-          {/* <h2 className='animateFast'>Overview</h2> */}
           <h3 id='headingTag1'>What does it mean </h3>
           <h3 id='headingTag2'>to live autonomously?</h3>
         </div>
@@ -67,22 +63,22 @@ export default function Modpod() {
           </Parallax>
         </div>
         <div className='div1'>
-          <div className='backgroundEl'>
+          <div id='researchBerberImg' className='backgroundEl'>
             <Parallax y={backgroundOffset}>
               <Image src={researchBerber} alt='' />
             </Parallax>
           </div>
-          <div className='midgroundEl'>
+          <div id='researchMongolianImg' className='midgroundEl'>
             <Parallax y={midgroundOffset}>
               <Image src={researchMongolian} alt='' />
             </Parallax>
           </div>
-          <div className='backgroundEl'>
+          <div id='researchSubarcticImg' className='backgroundEl'>
             <Parallax y={backgroundOffset}>
               <Image src={researchSubarctic} alt='' />
             </Parallax>
           </div>
-          <div className='midgroundEl'>
+          <div id='researchYorukImg' className='midgroundEl'>
             <Parallax y={midgroundOffset}>
               <Image src={researchYoruk} alt='' />
             </Parallax>
@@ -109,31 +105,54 @@ export default function Modpod() {
         </div>
       </div>
       <div id='designSection' className='section container'>
-        <div id='sectionTitle'>
-          <Parallax y={['400px', '0px']}>
+        <div className='foregroundEl' id='sectionTitle'>
+          <Parallax y={foregroundOffset}>
             <h2>Design &amp; development</h2>
           </Parallax>
         </div>
-        <div className='imageDiv'>
-          <Image src={modpodSketches} alt='' />
-          <div>
-            <Image src={modpodModel1} alt='' />
-            <Image src={modpodModel2} alt='' />
-            <Image src={modpodModel3} alt='' />
+        <div className='div1'>
+          <div id='sketchesImg' className='backgroundEl'>
+            {/* <Parallax y={backgroundOffset}> */}
+            <Image src={modpodSketches} alt='' />
+            {/* </Parallax> */}
           </div>
-          <Image src={panels} alt='' />
-          <Image src={modpodFlow} alt='' />
         </div>
-        <div className='imageDiv'>
-          <Image src={modpod3DModel1} alt='' />
-          <div className='hs'>
-            <Image src={modpod3DModel3} alt='' />
-            <Image src={modpod3DModel4} alt='' />
-            <Image src={modpod3DModel5} alt='' />
-            <Image src={modpod3DModel6} alt='' />
+        <div className='div1'>
+          <div id='modpodModel1' className='midgroundEl'>
+            <Parallax y={midgroundOffset}>
+              <Image src={modpodModel1} alt='' />
+            </Parallax>
+          </div>
+          <div id='modpodModel3' className='backgroundEl'>
+            <Parallax y={backgroundOffset}>
+              <Image src={modpodModel3} alt='' />
+            </Parallax>
+          </div>
+          <div id='modpodModel2' className='midgroundEl'>
+            <Parallax y={midgroundOffset}>
+              <Image src={modpodModel2} alt='' />
+            </Parallax>
+          </div>
+        </div>
+        <div className='div1'>
+          <div id='modpod3DModel1' className='backgroundEl'>
+            {/* <Parallax y={backgroundOffset}> */}
+            <Image src={modpod3DModel1} alt='' />
+            {/* </Parallax> */}
+          </div>
+          <div id='modpod3DModel2' className='backgroundEl'>
+            <Parallax y={backgroundOffset}>
+              <Image src={modpod3DModel2} alt='' />
+            </Parallax>
+          </div>
+          <div id='modpod3DModel4' className='midgroundEl'>
+            <Parallax y={midgroundOffset}>
+              <Image src={modpod3DModel4} alt='' />
+            </Parallax>
           </div>
         </div>
       </div>
+      <div className='section container'></div>
     </div>
   );
 }

@@ -13,8 +13,9 @@
 
 .div1 {
   display: grid;
-  grid-row-gap: 10px;
+  /* grid-row-gap: 10px; */
   grid-template-columns: repeat(12, 1fr);
+  margin: 1rem 0;
 }
 
 /* .div1 > * {

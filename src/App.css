@@ -27,7 +27,7 @@ html {
 
 #scrollToTop {
   position: sticky;
-  bottom: 30px;
+  bottom: 15px;
   z-index: 1000000;
   justify-self: right;
   margin-right: 1.5rem;
