@@ -7,6 +7,16 @@
   --accent-color: #f7cd1e;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #303030;
+}
+
 .App {
   display: grid;
   padding: 20px;

@@ -32,7 +32,7 @@
 }
 
 #modpodModel2 {
-  grid-column: span 9 / -2;
+  grid-column: 2 / span 9;
 }
 
 #modpodModel3 {
@@ -45,6 +45,21 @@
 #modpod3DModel2 {
   grid-column: span 7 / -2;
 }
-#modpod3DModel4 {
+#modpod3DModel1 {
   grid-column: 1 / -1;
+}
+
+#vrView1 {
+  grid-column: 1 / span 9;
+}
+
+#vrView2 {
+  grid-column: span 9 / -1;
+  grid-row: 3 / 4;
+  align-self: end;
+}
+
+#vrDemo {
+  grid-column: 2 / span 9;
+  grid-row: 3 / 4;
 }

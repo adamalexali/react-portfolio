@@ -11,13 +11,13 @@ export const domeImg = require('./modpod/compressed/geodesicdome.jpg');
 export const yurtImg = require('./modpod/compressed/yurt.jpg');
 
 //design
-export const modpodSketches = require('./modpod/fullImages/sketches.png');
-export const modpodModel1 = require('./modpod/fullImages/model1.jpg');
-export const modpodModel2 = require('./modpod/fullImages/model2.png');
-export const modpodModel3 = require('./modpod/fullImages/model3.jpg');
+export const modpodSketches = require('./modpod/compressed/sketches.jpg');
+export const modpodModel1 = require('./modpod/compressed/model1.jpg');
+export const modpodModel2 = require('./modpod/compressed/model2.jpg');
+export const modpodModel3 = require('./modpod/compressed/model3.jpg');
 
 //development
-export const modpod3DModel1 = require('./modpod/fullImages/modpod3dmodel3.png');
-export const modpod3DModel2 = require('./modpod/fullImages/modpod3dmodel4.png');
-export const modpod3DModel3 = require('./modpod/fullImages/modpod3dmodel5.png');
-export const modpod3DModel4 = require('./modpod/fullImages/modpod3dmodel6.png');
+export const modpod3DModel1 = require('./modpod/compressed/modpod3dModel1.jpg');
+export const vrView1 = require('./modpod/compressed/vrView1.jpg');
+export const vrView2 = require('./modpod/compressed/vrView2.jpg');
+export const vrDemo = require('./modpod/compressed/vrDemo.jpg');

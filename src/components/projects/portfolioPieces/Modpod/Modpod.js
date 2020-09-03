@@ -14,9 +14,9 @@ import {
   modpodModel2,
   modpodModel3,
   modpod3DModel1,
-  modpod3DModel2,
-  modpod3DModel3,
-  modpod3DModel4,
+  vrView1,
+  vrView2,
+  vrDemo,
 } from '../../../../images';
 import '../../../layout/CSS/ProjectPage.css';
 import '../Modpod/Modpod.css';
@@ -136,18 +136,23 @@ export default function Modpod() {
         </div>
         <div className='div1'>
           <div id='modpod3DModel1' className='backgroundEl'>
-            {/* <Parallax y={backgroundOffset}> */}
-            <Image src={modpod3DModel1} alt='' />
-            {/* </Parallax> */}
-          </div>
-          <div id='modpod3DModel2' className='backgroundEl'>
             <Parallax y={backgroundOffset}>
-              <Image src={modpod3DModel2} alt='' />
+              <Image src={modpod3DModel1} alt='' />
             </Parallax>
           </div>
-          <div id='modpod3DModel4' className='midgroundEl'>
+          <div id='vrView1' className='midgroundEl'>
             <Parallax y={midgroundOffset}>
-              <Image src={modpod3DModel4} alt='' />
+              <Image src={vrView1} alt='' />
+            </Parallax>
+          </div>
+          <div id='vrDemo' className='backgroundEl'>
+            <Parallax y={backgroundOffset}>
+              <Image src={vrDemo} alt='' />
+            </Parallax>
+          </div>
+          <div id='vrView2' className='midgroundEl'>
+            <Parallax y={midgroundOffset}>
+              <Image src={vrView2} alt='' />
             </Parallax>
           </div>
         </div>
