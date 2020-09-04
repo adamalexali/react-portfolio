@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import MainNav from './components/layout/MainNav';
 import ScrollToTop from './components/layout/ScrollToTop';
+import ScrollSocials from './components/layout/ScrollSocials';
 import Home from './components/projects/Home';
 import Projects from './components/projects/Projects';
 import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
@@ -16,6 +17,7 @@ class App extends Component {
         <Router>
           <div className='App'>
             <MainNav title="Adam's Portfolio" />
+            <ScrollSocials />
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/projects' component={Projects} />

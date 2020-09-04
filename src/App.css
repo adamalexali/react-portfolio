@@ -52,6 +52,36 @@ html {
   transform: rotate(90deg);
 }
 
+#scrollSocials {
+  position: sticky;
+  top: 50%;
+  z-index: 1000000;
+  height: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+#scrollSocials li:last-child {
+  margin-bottom: 0;
+}
+
+#scrollSocials li {
+  margin-bottom: 1rem;
+}
+
+.sm-link {
+  transition: 0.5s;
+  color: #e3e3e3;
+}
+
+.sm-link:hover {
+  font-size: 1.25rem;
+  transition: 0.5s;
+  color: var(--accent-color);
+}
+
 body {
   margin: 0;
   font-family: 'Helvetica', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
