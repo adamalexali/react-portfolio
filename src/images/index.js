@@ -21,3 +21,6 @@ export const modpod3DModel1 = require('./modpod/compressed/modpod3dModel1.jpg');
 export const vrView1 = require('./modpod/compressed/vrView1.jpg');
 export const vrView2 = require('./modpod/compressed/vrView2.jpg');
 export const vrDemo = require('./modpod/compressed/vrDemo.jpg');
+
+// conclusion
+export const modpodTeam = require('./modpod/compressed/modpodTeam.jpg');

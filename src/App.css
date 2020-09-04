@@ -4,7 +4,7 @@
 }
 
 :root {
-  --accent-color: #f7cd1e;
+  --accent-color: #4eff98;
 }
 
 h1,
@@ -71,9 +71,18 @@ img {
   display: block;
 }
 
+iframe {
+  width: 100%;
+  height: 200px;
+}
+
 .container {
   display: grid;
-  margin: 1rem 0 4rem 0;
+  margin: 2rem 0 2rem 0;
+}
+
+strong {
+  color: var(--accent-color);
 }
 
 .foregroundEl {
