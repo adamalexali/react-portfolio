@@ -36,8 +36,8 @@ export default function Modpod() {
         subtitle='Immersive environment'
         mainImg={modpodBanner}
       />
-      <div className='container'>
-        <div className='section'>
+      <div id='introDiv' className='container'>
+        <div id='headingDiv' className='section'>
           <h3 className='headingTag' id='headingTag1'>
             What does it mean{' '}
           </h3>
@@ -51,9 +51,9 @@ export default function Modpod() {
             living autonomously in a digital world.
           </p>
           <p className='bodyText'>
-            We came up with <strong>MODPOD</strong>, a modular home in which
-            young professionals can customize their living space using various
-            panels with different functions.
+            We came up with <strong className='gradientText'>MODPOD</strong> - a
+            modular home in which young professionals can customize their living
+            space using various panels with different functions.
           </p>
           <p className='bodyText'>
             The prototype was showcased at the GBC 2019 Year End Show using
@@ -114,7 +114,9 @@ export default function Modpod() {
       <div id='designSection' className='container'>
         <div className='foregroundEl' id='sectionTitle'>
           <Parallax y={foregroundOffset}>
-            <h2 className='gradientText'>Design &amp; development</h2>
+            <h2 className='gradientText'>
+              Design &amp; <br /> development
+            </h2>
           </Parallax>
         </div>
         <div className='section'>

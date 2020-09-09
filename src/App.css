@@ -11,6 +11,7 @@
     rgba(255, 111, 105, 1) 0%,
     rgba(255, 105, 132, 1) 100%
   ); */
+  --secondary-color: #ff7c69;
 }
 
 ::selection {
@@ -46,13 +47,13 @@ html {
 
 #mainNav {
   position: sticky;
-  top: 20px;
+  top: 2rem;
   z-index: 1000000;
 }
 
 #scrollToTop {
   position: sticky;
-  bottom: 15px;
+  bottom: 2rem;
   z-index: 1000000;
   justify-self: right;
   margin-right: 1.5rem;
@@ -88,13 +89,13 @@ html {
 }
 
 .sm-link {
-  transition: 0.5s;
+  transition: 0.25s;
   color: #e3e3e3;
 }
 
 .sm-link:hover {
   font-size: 1.25rem;
-  transition: 0.5s;
+  transition: 0.25s;
   color: var(--accent-color);
 }
 
@@ -107,8 +108,9 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--accent-color);
+  word-break: break-all;
 }
 
 img {
@@ -136,7 +138,7 @@ strong {
   background-image: linear-gradient(
     90deg,
     var(--accent-color) 0%,
-    rgba(255, 105, 132, 1) 100%
+    var(--secondary-color) 100%
   );
   background-size: 100%;
   -webkit-background-clip: text;
@@ -161,4 +163,26 @@ strong {
   font-size: 0.75rem;
   color: #e3e3e3;
   text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .App {
+    padding: 2rem 4rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  #scrollToTop p {
+    /* font-size: 1.2rem; */
+    /* padding: 0.5rem; */
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .App {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }

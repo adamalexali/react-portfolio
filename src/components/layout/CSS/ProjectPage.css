@@ -1,8 +1,7 @@
-/* #projectIntroDiv {
-  grid-template-columns: 1fr 2fr;
-} */
 .pageDiv {
   /* padding: 2rem; */
+  max-width: 450px;
+  justify-self: center;
 }
 
 #titleDiv {
@@ -15,6 +14,7 @@
   font-size: 3rem;
   color: var(--accent-color);
   margin-top: -1.5rem;
+  word-break: break-all;
 }
 
 #subtitleDiv {
@@ -26,10 +26,8 @@
 }
 
 #subtitleDiv h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: right;
-  /* -webkit-text-stroke: 1px var(--accent-color); */
-  /* color: transparent; */
   color: var(--accent-color);
   margin-top: 1rem;
   /* word-break: break-all; */
@@ -40,16 +38,16 @@
   grid-column: 1 / -1;
 }
 
+#introDiv {
+  margin-top: 5rem;
+}
+
 .section {
   display: grid;
   grid-row-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
   margin: 2rem 0;
 }
-
-/* .div1 > * {
-  border: 1px solid red;
-} */
 
 .sectionHeading {
   display: grid;
@@ -58,28 +56,34 @@
   margin: 2rem 0;
 }
 
+#headingDiv {
+  max-width: 300px;
+  justify-self: center;
+  /* font-size: 0.5rem; */
+}
+
 .headingTag {
   /* color: white; */
-  padding: 0.25rem;
+  padding: 0.1rem;
 }
 
 #headingTag1 {
-  grid-column: 3 / span 9;
+  grid-column: 1 / span 9;
   text-align: left;
   background-image: linear-gradient(
     90deg,
     var(--accent-color) 0%,
-    rgba(255, 105, 132, 1) 100%
+    var(--secondary-color) 100%
   );
   background-size: 100%;
 }
 #headingTag2 {
-  grid-column: span 9 / -3;
+  grid-column: span 11 / -1;
   text-align: right;
   background-image: linear-gradient(
     90deg,
     var(--accent-color) 0%,
-    rgba(255, 105, 132, 1) 100%
+    var(--secondary-color) 100%
   );
   background-size: 100%;
 }
@@ -87,9 +91,35 @@
 .sectionBody {
   padding: 0 2rem;
   margin: 2rem 0 0 0;
-  /* text-align: justify; */
 }
 
 .bodyText {
   margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .pageDiv {
+    padding: 2rem;
+    max-width: 600px;
+  }
+
+  #titleDiv h1 {
+    font-size: 5rem;
+    margin-top: -2.5rem;
+  }
+  #subtitleDiv h1 {
+    font-size: 3.5rem;
+    margin-top: 1.75rem;
+  }
+
+  #headingDiv {
+    max-width: 400px;
+    /* justify-self: center; */
+    font-size: 1.2rem;
+  }
+
+  .sectionBody {
+    max-width: 400px;
+    justify-self: center;
+  }
 }
