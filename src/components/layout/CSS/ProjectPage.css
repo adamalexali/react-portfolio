@@ -1,6 +1,10 @@
 /* #projectIntroDiv {
   grid-template-columns: 1fr 2fr;
 } */
+.pageDiv {
+  /* padding: 2rem; */
+}
+
 #titleDiv {
   z-index: 10;
   grid-row: 1 / 3;
@@ -8,9 +12,9 @@
 }
 
 #titleDiv h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--accent-color);
-  margin-top: -4rem;
+  margin-top: -1.5rem;
 }
 
 #subtitleDiv {
@@ -22,12 +26,12 @@
 }
 
 #subtitleDiv h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: right;
   /* -webkit-text-stroke: 1px var(--accent-color); */
   /* color: transparent; */
   color: var(--accent-color);
-  margin-top: 3rem;
+  margin-top: 1rem;
   /* word-break: break-all; */
 }
 
@@ -54,19 +58,34 @@
   margin: 2rem 0;
 }
 
+.headingTag {
+  /* color: white; */
+  padding: 0.25rem;
+}
+
 #headingTag1 {
-  grid-column: 3 / span 7;
+  grid-column: 3 / span 9;
   text-align: left;
-  background-color: var(--accent-color);
+  background-image: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    rgba(255, 105, 132, 1) 100%
+  );
+  background-size: 100%;
 }
 #headingTag2 {
-  grid-column: span 8 / -3;
+  grid-column: span 9 / -3;
   text-align: right;
-  background-color: var(--accent-color);
+  background-image: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    rgba(255, 105, 132, 1) 100%
+  );
+  background-size: 100%;
 }
 
 .sectionBody {
-  padding: 0 3rem;
+  padding: 0 2rem;
   margin: 2rem 0 0 0;
   /* text-align: justify; */
 }

@@ -4,7 +4,18 @@
 }
 
 :root {
-  --accent-color: #4eff98;
+  /* --accent-color: #4eff98; */
+  --accent-color: #ff6f69;
+  /* --accent-color: linear-gradient(
+    90deg,
+    rgba(255, 111, 105, 1) 0%,
+    rgba(255, 105, 132, 1) 100%
+  ); */
+}
+
+::selection {
+  background: var(--accent-color);
+  color: #303030;
 }
 
 h1,
@@ -17,9 +28,13 @@ p {
   color: #303030;
 }
 
+ul {
+  list-style: none;
+}
+
 .App {
   display: grid;
-  padding: 20px;
+  padding: 1rem;
 }
 
 html {
@@ -56,11 +71,12 @@ html {
   position: sticky;
   top: 50%;
   z-index: 1000000;
-  height: 1rem;
+  height: 0;
 }
 
-ul {
-  list-style: none;
+#scrollSocials ul {
+  margin-top: -4rem;
+  width: 0;
 }
 
 #scrollSocials li:last-child {
@@ -91,7 +107,7 @@ body {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--accent-color);
 }
 
@@ -108,11 +124,25 @@ iframe {
 
 .container {
   display: grid;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem;
 }
 
 strong {
   color: var(--accent-color);
+}
+
+.gradientText {
+  background-color: #ff6f69;
+  background-image: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    rgba(255, 105, 132, 1) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .foregroundEl {
@@ -125,4 +155,10 @@ strong {
 
 .backgroundEl {
   z-index: 1;
+}
+
+#footerDiv {
+  font-size: 0.75rem;
+  color: #e3e3e3;
+  text-align: center;
 }

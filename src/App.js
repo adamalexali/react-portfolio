@@ -8,6 +8,7 @@ import Home from './components/projects/Home';
 import Projects from './components/projects/Projects';
 import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
 import Echo from './components/projects/portfolioPieces/ECHO/Echo';
+import Footer from './components/layout/Footer';
 import './App.css';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
               <Route exact path='/projects/echo' component={Echo} />
             </Switch>
             <ScrollToTop />
+            <Footer />
           </div>
         </Router>
       </ParallaxProvider>

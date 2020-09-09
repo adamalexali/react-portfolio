@@ -3,7 +3,15 @@ import '../../App.css';
 
 export class Footer extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div id='footerDiv'>
+        Made with{' '}
+        <span role='img' aria-label='heart-emoji'>
+          ❤️
+        </span>{' '}
+        by Adam
+      </div>
+    );
   }
 }
 
