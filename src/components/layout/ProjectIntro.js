@@ -4,11 +4,16 @@ import '../layout/CSS/ProjectPage.css';
 
 const ProjectIntro = (props) => {
   return (
-    <div className='container'>
+    <div id='projectIntroDiv' className='container'>
       <div id='titleDiv'>
-        <Parallax y={['50px', '0px']}>
-          <h1 id='title'>{props.title}</h1>
-        </Parallax>
+        {/* <Parallax y={['50px', '0px']}> */}
+        <h1 id='title'>{props.title}</h1>
+        {/* </Parallax> */}
+      </div>
+      <div id='subtitleDiv'>
+        {/* <Parallax y={['0px', '50px']}> */}
+        <h2 id='subtitle'>{props.subtitle}</h2>
+        {/* </Parallax> */}
       </div>
       <img
         id='projectBanner'
@@ -16,11 +21,6 @@ const ProjectIntro = (props) => {
         className='full'
         alt={`${props.title} Banner`}
       ></img>
-      <div id='subtitleDiv'>
-        <Parallax y={['0px', '50px']}>
-          <h1 id='subtitle'>{props.subtitle}</h1>
-        </Parallax>
-      </div>
     </div>
   );
 };

@@ -32,19 +32,19 @@ export default function Modpod() {
   return (
     <div className='pageDiv'>
       <ProjectIntro
-        title='modpod'
-        subtitle='immersive environment'
+        title='Modpod'
+        subtitle='Immersive environment'
         mainImg={modpodBanner}
       />
-      <div id='introDiv' className='container'>
-        <div id='headingDiv' className='section'>
-          <h3 className='headingTag' id='headingTag1'>
+      <div className='container'>
+        {/* <div id='headingDiv' className='section'>
+          <p className='headingTag' id='headingTag1'>
             what does it mean{' '}
-          </h3>
-          <h3 className='headingTag' id='headingTag2'>
+          </p>
+          <p className='headingTag' id='headingTag2'>
             to live autonomously?
-          </h3>
-        </div>
+          </p>
+        </div> */}
         <div className='sectionBody'>
           <p className='bodyText'>
             We were asked to design an immersive environment around the idea of
