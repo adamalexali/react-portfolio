@@ -7,9 +7,7 @@ const ProjectIntro = (props) => {
     <div className='container'>
       <div id='titleDiv'>
         <Parallax y={['50px', '0px']}>
-          <h1 id='title' className='gradientText'>
-            {props.title}
-          </h1>
+          <h1 id='title'>{props.title}</h1>
         </Parallax>
       </div>
       <img
@@ -20,9 +18,7 @@ const ProjectIntro = (props) => {
       ></img>
       <div id='subtitleDiv'>
         <Parallax y={['0px', '50px']}>
-          <h1 id='subtitle' className='gradientText'>
-            {props.subtitle}
-          </h1>
+          <h1 id='subtitle'>{props.subtitle}</h1>
         </Parallax>
       </div>
     </div>

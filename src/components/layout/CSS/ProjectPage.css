@@ -11,9 +11,9 @@
 }
 
 #titleDiv h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--accent-color);
-  margin-top: -1.5rem;
+  margin: -2rem -1.5rem 0 -1.5rem;
   word-break: break-all;
 }
 
@@ -26,10 +26,10 @@
 }
 
 #subtitleDiv h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: right;
   color: var(--accent-color);
-  margin-top: 1rem;
+  margin: 1.5rem -1.5rem 0 -1.5rem;
   /* word-break: break-all; */
 }
 
@@ -59,7 +59,7 @@
 #headingDiv {
   max-width: 300px;
   justify-self: center;
-  /* font-size: 0.5rem; */
+  font-size: 0.8rem;
 }
 
 .headingTag {
@@ -89,7 +89,7 @@
 }
 
 .sectionBody {
-  padding: 0 2rem;
+  padding: 0 3rem;
   margin: 2rem 0 0 0;
 }
 

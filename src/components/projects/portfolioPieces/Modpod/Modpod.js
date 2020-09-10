@@ -32,14 +32,14 @@ export default function Modpod() {
   return (
     <div className='pageDiv'>
       <ProjectIntro
-        title='MODPOD'
-        subtitle='Immersive environment'
+        title='modpod'
+        subtitle='immersive environment'
         mainImg={modpodBanner}
       />
       <div id='introDiv' className='container'>
         <div id='headingDiv' className='section'>
           <h3 className='headingTag' id='headingTag1'>
-            What does it mean{' '}
+            what does it mean{' '}
           </h3>
           <h3 className='headingTag' id='headingTag2'>
             to live autonomously?
@@ -64,8 +64,8 @@ export default function Modpod() {
       <div className='container'>
         <div className='foregroundEl' id='sectionTitle'>
           <Parallax className='parallaxText' y={foregroundOffset}>
-            <h2 className='gradientText'>
-              Research &amp; <br /> Ideation
+            <h2>
+              research &amp; <br /> ideation
             </h2>
           </Parallax>
         </div>
@@ -114,8 +114,8 @@ export default function Modpod() {
       <div id='designSection' className='container'>
         <div className='foregroundEl' id='sectionTitle'>
           <Parallax y={foregroundOffset}>
-            <h2 className='gradientText'>
-              Design &amp; <br /> development
+            <h2>
+              design &amp; <br /> development
             </h2>
           </Parallax>
         </div>

@@ -29,6 +29,12 @@ p {
   color: #303030;
 }
 
+p {
+  font-size: 0.8rem;
+  text-align: justify;
+  /* line-height: 1px; */
+}
+
 ul {
   list-style: none;
 }
@@ -89,6 +95,7 @@ html {
 }
 
 .sm-link {
+  /* font-size: 0.8rem; */
   transition: 0.25s;
   color: #e3e3e3;
 }
@@ -108,9 +115,10 @@ body {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
   word-break: break-all;
+  text-align: center;
 }
 
 img {
@@ -159,8 +167,7 @@ strong {
   z-index: 1;
 }
 
-#footerDiv {
-  font-size: 0.75rem;
+#footerDiv p {
   color: #e3e3e3;
   text-align: center;
 }
