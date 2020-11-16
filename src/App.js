@@ -11,12 +11,25 @@ import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
 import Echo from './components/projects/portfolioPieces/ECHO/Echo';
 import Footer from './components/layout/Footer';
 import './App.css';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 class App extends Component {
   render() {
     return (
       <ParallaxProvider>
-        <Router>
+        <Router onUpdate={() => window.scrollTo(0, 0)} basename='/'>
+          <ScrollTop />
           <div className='App'>
             <MainNav />
             <ScrollSocials />
