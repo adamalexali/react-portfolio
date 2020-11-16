@@ -5,13 +5,7 @@ export class Footer extends Component {
   render() {
     return (
       <div id='footerDiv'>
-        <p>
-          made with{' '}
-          <span role='img' aria-label='heart-emoji'>
-            ❤
-          </span>{' '}
-          by Adam
-        </p>
+        <p>made with ❤️ by Adam</p>
       </div>
     );
   }

@@ -45,6 +45,16 @@ export default function Modpod() {
             to live autonomously?
           </p>
         </div> */}
+        <div className='container'>
+          <div className='section projectIcons'>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div className='section projectInfo'></div>
+        </div>
         <div className='sectionBody'>
           <p className='bodyText'>
             We were asked to design an immersive environment around the idea of

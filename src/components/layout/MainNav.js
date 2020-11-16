@@ -1,21 +1,29 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css';
+import logo from '../../images/logos&icons/logo.png';
 
 class MainNav extends Component {
   render() {
     return (
       <div id='mainNav'>
         <nav>
-          <h1>{this.props.title}</h1>
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/projects'>Projects</Link>
-            </li>
-          </ul>
+          <div id='siteLogo'>
+            <img src={logo} alt='' />
+          </div>
+          <div id='navigationLinks'>
+            <ul>
+              <li>
+                <Link to='/'>🏠 home</Link>
+              </li>
+              <li>
+                <Link to='/projects'>🛠 projects</Link>
+              </li>
+              <li>
+                <Link to='/explorations'>🌎 explorations</Link>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     );
