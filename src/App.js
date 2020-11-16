@@ -33,13 +33,15 @@ class App extends Component {
           <div className='App'>
             <MainNav />
             <ScrollSocials />
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/projects' component={Projects} />
-              <Route exact path='/projects/modpod' component={Modpod} />
-              <Route exact path='/projects/echo' component={Echo} />
-              <Route exact path='/explorations' component={Explorations} />
-            </Switch>
+            <div id='mainContentDiv'>
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/projects/modpod' component={Modpod} />
+                <Route exact path='/projects/echo' component={Echo} />
+                <Route exact path='/explorations' component={Explorations} />
+              </Switch>
+            </div>
             <ScrollToTop />
             <Footer />
           </div>

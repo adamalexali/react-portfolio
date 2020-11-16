@@ -19,7 +19,7 @@ import {
   vrDemo,
   modpodTeam,
 } from '../../../../images';
-import '../../../layout/CSS/ProjectPage.css';
+import '../../../CSS/ProjectPage.css';
 import '../Modpod/Modpod.css';
 import ProjectIntro from '../../../layout/ProjectIntro';
 import Image from '../../../layout/Image';

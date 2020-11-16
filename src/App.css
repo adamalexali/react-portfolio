@@ -59,6 +59,11 @@ ul {
 .App {
   display: grid;
   padding: 1rem;
+  grid-template-rows: auto 0 1fr 2rem auto;
+}
+
+#mainContentDiv {
+  margin: 2rem auto;
 }
 
 html {
@@ -170,8 +175,8 @@ html {
 
 #homeBioText .h2Highlight > h2 {
   position: relative;
-  padding: 0 0.5rem 0 0.5rem;
-  top: -1rem;
+  padding: 0 0.25rem 0 0.25rem;
+  top: -0.9rem;
 }
 
 #homeBioText p {
@@ -191,10 +196,8 @@ html {
   font-weight: 700;
 }
 
-#allProjects div {
-  padding: 10px;
-  /* background-color: #303030; */
-  border-radius: 2px;
+#allProjects > div {
+  max-width: 200px;
 }
 
 body {
@@ -264,8 +267,7 @@ strong {
 }
 
 #footerDiv {
-  /* align-self: end; */
-  /* padding: 1rem; */
+  padding: 1rem 0;
 }
 
 #footerDiv p {
@@ -277,11 +279,6 @@ strong {
 @media only screen and (min-width: 700px) {
   .App {
     padding: 1rem 3rem;
-  }
-
-  #scrollToTop p {
-    /* font-size: 1.2rem; */
-    /* padding: 0.5rem; */
   }
 }
 
