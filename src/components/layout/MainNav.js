@@ -20,7 +20,7 @@ class MainNav extends Component {
                 <Link to='/projects'>🛠 projects</Link>
               </li>
               <li>
-                <Link to='/explorations'>🌎 explorations</Link>
+                <Link to='/notready'>🌎 explorations</Link>
               </li>
             </ul>
           </div>

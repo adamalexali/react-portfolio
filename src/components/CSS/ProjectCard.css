@@ -3,17 +3,12 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
+  grid-row-gap: 1rem;
 }
 
-.cardContainer:hover {
+.card .cardContainer:hover {
   transition: 0.5s;
   box-shadow: 5px 5px 15px #c4c4c4;
-}
-
-.cardContainer div {
-  grid-column: 1;
-  grid-row: 1;
-  place-self: center;
 }
 
 .cardContainer img {
@@ -26,11 +21,13 @@
   grid-row: 2 / -1;
 }
 
-ul {
+#projectDetails ul {
   list-style: none;
 }
-li {
+#projectDetails li {
   display: inline;
   font-size: 1rem;
+}
+#projectDetails li:nth-child(2) {
   margin: 1rem;
 }

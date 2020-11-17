@@ -4,18 +4,19 @@ import '../CSS/ProjectCard.css';
 
 const ProjectCard = ({ title, img }) => {
   return (
-    <Link to={`/projects/${title}`}>
+    // <Link to={`/projects/${title}`}>
+    <Link to={`/notready`}>
       <div className='cardContainer'>
         <div>
           <img src={img} alt={title}></img>
         </div>
         <div id='projectDetails'>
-          <h1>{title}</h1>
-          <ul>
+          <h2>{title}</h2>
+          {/* <ul>
             <li>🥽</li>
             <li>🏫</li>
             <li>👨🏾‍💻</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </Link>

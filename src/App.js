@@ -5,6 +5,7 @@ import MainNav from './components/layout/MainNav';
 import ScrollToTop from './components/layout/ScrollToTop';
 import ScrollSocials from './components/layout/ScrollSocials';
 import Home from './components/projects/Home';
+import NotReady from './components/layout/NotReady';
 import Projects from './components/projects/Projects';
 import Explorations from './components/projects/Explorations';
 import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
@@ -40,6 +41,7 @@ class App extends Component {
                 <Route exact path='/projects/modpod' component={Modpod} />
                 <Route exact path='/projects/echo' component={Echo} />
                 <Route exact path='/explorations' component={Explorations} />
+                <Route exact path='/notready' component={NotReady} />
               </Switch>
             </div>
             <ScrollToTop />

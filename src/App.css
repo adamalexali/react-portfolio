@@ -59,7 +59,18 @@ ul {
 .App {
   display: grid;
   padding: 1rem;
-  grid-template-rows: auto 0 1fr 2rem auto;
+  /* grid-template-rows: auto 0 auto 0 1rem; */
+  height: 100%;
+}
+
+#notReadyRoute {
+  padding: 8rem 4rem;
+  color: var(--subtle-color);
+}
+
+#notReadyRoute h3,
+p {
+  color: var(--subtle-color);
 }
 
 #mainContentDiv {
@@ -94,7 +105,7 @@ html {
 
 #scrollToTop {
   position: sticky;
-  bottom: 2rem;
+  bottom: 1rem;
   z-index: 1000000;
   justify-self: right;
   margin-right: 1.5rem;
@@ -267,7 +278,7 @@ strong {
 }
 
 #footerDiv {
-  padding: 1rem 0;
+  /* bottom: 16px; */
 }
 
 #footerDiv p {
