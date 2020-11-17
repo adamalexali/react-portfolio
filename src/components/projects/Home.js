@@ -14,8 +14,11 @@ class Home extends Component {
             <h2>Hello!</h2>
           </div>
           <p>
-            Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            <span role='img' aria-label='wave-emoji'>
+              👋
+            </span>
+            &nbsp;Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <p>
             Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris

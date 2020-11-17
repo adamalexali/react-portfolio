@@ -2,21 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-const ProjectCard = ({ title, img }) => {
+const ProjectCard = ({ title, img, desc }) => {
   return (
     // <Link to={`/projects/${title}`}>
     <Link to={`/notready`}>
       <div className='cardContainer'>
-        <div>
+        <div id='projectCardHeader'>
+          <h2>×</h2>
+          <div className='h2Highlight'>
+            <h2>{title}</h2>
+          </div>
+        </div>
+        <div id='projectCardImg'>
           <img src={img} alt={title}></img>
         </div>
         <div id='projectDetails'>
-          <h2>{title}</h2>
-          {/* <ul>
-            <li>🥽</li>
-            <li>🏫</li>
-            <li>👨🏾‍💻</li>
-          </ul> */}
+          <p>{desc}</p>
         </div>
       </div>
     </Link>
