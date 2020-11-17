@@ -65,12 +65,15 @@ ul {
 
 #notReadyRoute {
   padding: 8rem 4rem;
-  color: var(--subtle-color);
+  /* color: var(--subtle-color); */
 }
 
-#notReadyRoute h3,
-p {
-  color: var(--subtle-color);
+/* #notReadyRoute>h3 */
+
+#notReadyRoute > p,
+#notReadyRoute > h3 {
+  /* color: var(--subtle-color); */
+  color: red;
 }
 
 #mainContentDiv {
