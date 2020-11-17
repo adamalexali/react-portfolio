@@ -1,0 +1,33 @@
+.cardContainer {
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 1rem;
+}
+
+.card .cardContainer:hover {
+  transition: 0.5s;
+  box-shadow: 5px 5px 15px #c4c4c4;
+}
+
+.cardContainer img {
+  transition: 0.5s;
+  width: 100%;
+  height: auto;
+}
+
+.cardContainer > div:nth-child(2) {
+  grid-row: 2 / -1;
+}
+
+#projectDetails ul {
+  list-style: none;
+}
+#projectDetails li {
+  display: inline;
+  font-size: 1rem;
+}
+#projectDetails li:nth-child(2) {
+  margin: 1rem;
+}

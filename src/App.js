@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import Modpod from './Modpod';
-import Blade from './Blade';
-import Branding from './Branding';
-import Portfolio from './Portfolio';
-import Home from './Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css/animate.min.css';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import MainNav from './components/layout/MainNav';
+import ScrollToTop from './components/layout/ScrollToTop';
+import ScrollSocials from './components/layout/ScrollSocials';
+import Home from './components/projects/Home';
+import NotReady from './components/layout/NotReady';
+import Projects from './components/projects/Projects';
+import Explorations from './components/projects/Explorations';
+import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
+import Echo from './components/projects/portfolioPieces/ECHO/Echo';
+import Footer from './components/layout/Footer';
 import './App.css';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-function ScrollToTop() {
+function ScrollTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -24,22 +28,27 @@ function ScrollToTop() {
 class App extends Component {
   render() {
     return (
-      <Router onUpdate={() => window.scrollTo(0, 0)} basename='/'>
-        <ScrollToTop />
-        <div>
-          <Switch>
-            <Route exact={true} path='/' render={() => <Home />} />
-            <Route exact={true} path='/modpod' render={() => <Modpod />} />
-            <Route exact={true} path='/blade' render={() => <Blade />} />
-            <Route exact={true} path='/arc' render={() => <Branding />} />
-            <Route
-              exact={true}
-              path='/portfolio'
-              render={() => <Portfolio />}
-            />
-          </Switch>
-        </div>
-      </Router>
+      <ParallaxProvider>
+        <Router onUpdate={() => window.scrollTo(0, 0)} basename='/'>
+          <ScrollTop />
+          <div className='App'>
+            <MainNav />
+            <ScrollSocials />
+            <div id='mainContentDiv'>
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/projects/modpod' component={Modpod} />
+                <Route exact path='/projects/echo' component={Echo} />
+                <Route exact path='/explorations' component={Explorations} />
+                <Route exact path='/notready' component={NotReady} />
+              </Switch>
+            </div>
+            <ScrollToTop />
+            <Footer />
+          </div>
+        </Router>
+      </ParallaxProvider>
     );
   }
 }
