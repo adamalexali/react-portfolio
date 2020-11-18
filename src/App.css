@@ -59,7 +59,7 @@ ul {
 .App {
   display: grid;
   padding: 1rem;
-  /* grid-template-rows: auto 0 auto 0 1rem; */
+  grid-template-rows: auto 0 auto 1rem 1rem;
   height: 100%;
 }
 
@@ -115,7 +115,7 @@ html {
 }
 
 #scrollToTop p {
-  padding: 0.5rem;
+  padding: 0 0.5rem 0.5rem 0;
   color: var(--subtle-color);
   cursor: pointer;
   transform-origin: bottom right;
@@ -166,19 +166,6 @@ html {
   grid-row-gap: 2rem;
 }
 
-#homePicture {
-  margin: 32px 64px 16px 48px;
-  background-image: linear-gradient(
-    180deg,
-    var(--gradientOne-color),
-    var(--gradientTwo-color)
-  );
-}
-
-#homePicture img {
-  margin: -1rem 0 1rem 1rem;
-}
-
 .h2Highlight {
   margin: 1rem 0 0 0;
   /* position: relative; */
@@ -191,27 +178,6 @@ html {
   position: relative;
   padding: 0 0.25rem 0 0.25rem;
   top: -1.25rem;
-}
-
-#homeBioText > p {
-  margin-bottom: 1rem;
-}
-
-#homeBioText > p:first-of-type {
-  margin-top: 1rem;
-}
-
-#homeBioText > p:last-child {
-  margin-bottom: 0;
-}
-
-#homeBioLinkToProjects {
-  text-align: center;
-}
-
-#homeBioProjectsLink {
-  font-size: 0.8rem;
-  font-weight: 700;
 }
 
 #allProjects {
@@ -288,7 +254,7 @@ strong {
 }
 
 #footerDiv {
-  /* bottom: 16px; */
+  padding-bottom: 2rem;
 }
 
 #footerDiv p {
@@ -299,7 +265,15 @@ strong {
 
 @media only screen and (min-width: 700px) {
   .App {
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem 0 3rem; */
+  }
+
+  #scrollToTop p {
+    padding: 0 2rem 0 0;
+  }
+
+  .sectionContainer {
+    max-width: 700px;
   }
 }
 

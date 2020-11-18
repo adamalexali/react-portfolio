@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import pfp from '../../images/pfp-optimized.jpg';
+import '../CSS/Home.css';
 
 class Home extends Component {
   render() {
