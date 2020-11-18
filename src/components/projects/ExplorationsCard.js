@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-const ProjectCard = ({ title, img, desc }) => {
+const ExplorationsCard = ({ title, img, desc }) => {
   return (
     // <Link to={`/projects/${title}`}>
     <Link to={`/notready`}>
@@ -21,4 +21,4 @@ const ProjectCard = ({ title, img, desc }) => {
   );
 };
 
-export default ProjectCard;
+export default ExplorationsCard;

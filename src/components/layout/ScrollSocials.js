@@ -12,7 +12,7 @@ export class ScrollSocials extends Component {
               target='_blank'
               href='https://www.linkedin.com/in/adamalexali/'
             >
-              <i class='fab fa-linkedin'></i>
+              <i className='fab fa-linkedin'></i>
             </a>
           </li>
           <li>
@@ -21,7 +21,7 @@ export class ScrollSocials extends Component {
               target='_blank'
               href='https://github.com/adamalexali'
             >
-              <i class='fab fa-github'></i>
+              <i className='fab fa-github'></i>
             </a>
           </li>
           <li>

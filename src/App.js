@@ -34,16 +34,16 @@ class App extends Component {
           <div className='App'>
             <MainNav />
             <ScrollSocials />
-            <div id='mainContentDiv'>
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/projects' component={Projects} />
-                <Route exact path='/projects/modpod' component={Modpod} />
-                <Route exact path='/projects/echo' component={Echo} />
-                <Route exact path='/explorations' component={Explorations} />
-                <Route exact path='/notready' component={NotReady} />
-              </Switch>
-            </div>
+            {/* <div id='mainContentDiv'> */}
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/projects' component={Projects} />
+              <Route exact path='/projects/modpod' component={Modpod} />
+              <Route exact path='/projects/echo' component={Echo} />
+              <Route exact path='/explorations' component={Explorations} />
+              <Route exact path='/notready' component={NotReady} />
+            </Switch>
+            {/* </div> */}
             <ScrollToTop />
             <Footer />
           </div>

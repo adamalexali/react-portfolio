@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css';
-import logo from '../../images/logos&icons/logo-optimized.png';
+import logo from '../../images/logos&icons/logo2-optimized.png';
 
 class MainNav extends Component {
   render() {
@@ -13,14 +13,29 @@ class MainNav extends Component {
           </div>
           <div id='navigationLinks'>
             <ul>
-              <li>
-                <Link to='/'>🏠 home</Link>
+              <li id='homeNavLink'>
+                <Link to='/'>
+                  <span role='img' aria-label='house'>
+                    🏠
+                  </span>{' '}
+                  home
+                </Link>
               </li>
-              <li>
-                <Link to='/projects'>🛠 projects</Link>
+              <li id='projectsNavLink'>
+                <Link to='/projects'>
+                  <span role='img' aria-label='wrench'>
+                    🛠
+                  </span>{' '}
+                  projects
+                </Link>
               </li>
-              <li>
-                <Link to='/notready'>🌎 explorations</Link>
+              <li id='explorationsNavLink'>
+                <Link to='/explorations'>
+                  <span role='img' aria-label='earth'>
+                    🌎
+                  </span>{' '}
+                  explorations
+                </Link>
               </li>
             </ul>
           </div>

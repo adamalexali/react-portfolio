@@ -31,7 +31,7 @@ class Home extends Component {
           </p>
         </div>
         <div id='homeBioLinkToProjects'>
-          <Link to='/projects#allProjects' id='homeBioProjectsLink'>
+          <Link to='/projects' id='homeBioProjectsLink'>
             🛠 projects &rarr;
           </Link>
         </div>
