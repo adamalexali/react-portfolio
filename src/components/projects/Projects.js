@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
-import modpodImg from '../../images/projectCards/modpodImg.png';
+import placeholder from '../../images/projectCards/placeholder.png';
 
 const projectDesc = {
   modpod: {
@@ -34,46 +34,44 @@ class Projects extends Component {
       <div>
         <div id='projectsPageSection' className='sectionContainer'>
           <div id='projectsPageHeadline'>
-            <div>
-              <h2>×</h2>
-              <div className='h2Highlight'>
-                <h2>projects</h2>
-              </div>
+            <div className='h2Highlight'>
+              <h2>projects</h2>
             </div>
             <div>
               <p>
-                Projects! Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Tempora, alias. Quia ratione at iusto eos? Consequatur
-                impedit corrupti quod unde, voluptates repellat expedita?
-                Consequatur accusantium facere, commodi fuga est error!
+                Here you'll find a collection of portfolio pieces. These
+                projects go in depth of my design process and solutions for
+                creating digital experiences on a variety of platforms. Many of
+                these projects involved working with a team on projects than
+                spanned several months. Click on each card to learn more!
               </p>
             </div>
           </div>
           <div>
             <ProjectCard
               title='modpod'
-              img={modpodImg}
+              img={placeholder}
               desc={projectDesc.modpod.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='anamorphic&nbsp;ar'
-              img={modpodImg}
+              img={placeholder}
               desc={projectDesc.echo.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='ar&nbsp;measuring'
-              img={modpodImg}
+              img={placeholder}
               desc={projectDesc.measure.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='linkmentalhealth'
-              img={modpodImg}
+              img={placeholder}
               desc={projectDesc.linkmentalhealth.desc}
             />
           </div>
