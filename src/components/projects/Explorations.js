@@ -16,7 +16,7 @@ class Explorations extends Component {
         <div id='projectsPageSection' className='sectionContainer'>
           <div id='projectsPageHeadline'>
             <div className='h2Highlight'>
-              <h2>explorations</h2>
+              <h2>Explorations</h2>
             </div>
             <div>
               <p>

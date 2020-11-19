@@ -9,7 +9,9 @@ class MainNav extends Component {
       <div id='mainNav'>
         <nav>
           <div id='siteLogo'>
-            <img src={logo} alt='' />
+            <Link to='/'>
+              <img src={logo} alt='' />
+            </Link>
           </div>
           <div id='navigationLinks'>
             <ul>

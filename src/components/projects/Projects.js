@@ -35,7 +35,7 @@ class Projects extends Component {
         <div id='projectsPageSection' className='sectionContainer'>
           <div id='projectsPageHeadline'>
             <div className='h2Highlight'>
-              <h2>projects</h2>
+              <h2>Projects</h2>
             </div>
             <div>
               <p>
