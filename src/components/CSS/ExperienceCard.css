@@ -1,0 +1,33 @@
+.experienceBlock {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.experienceBlock > h4,
+h5 {
+  color: var(--subtle-color);
+}
+
+@media only screen and (min-width: 700px) {
+  .experienceBlock {
+    grid-template-columns: auto 1fr;
+  }
+
+  .experienceBlock > h3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .experienceBlock > h5 {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+  }
+
+  .experienceBlock > h4,
+  p {
+    grid-column: 1 / -1;
+  }
+}

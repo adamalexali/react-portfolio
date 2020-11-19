@@ -33,7 +33,7 @@ a {
 
 p,
 li {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-align: justify;
   /* line-height: 1px; */
 }
@@ -167,7 +167,7 @@ html {
   display: grid;
   max-width: 400px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 2rem 3rem 3rem 3rem;
   grid-row-gap: 2rem;
 }
 
@@ -288,11 +288,6 @@ strong {
     padding: 1rem;
     grid-template-rows: 150px 0 auto 1rem 1rem;
     height: 100%;
-  }
-
-  p,
-  li {
-    font-size: 0.8rem;
   }
 
   #scrollToTop p {
