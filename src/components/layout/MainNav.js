@@ -9,31 +9,33 @@ class MainNav extends Component {
       <div id='mainNav'>
         <nav>
           <div id='siteLogo'>
-            <img src={logo} alt='' />
+            <Link to='/'>
+              <img src={logo} alt='' />
+            </Link>
           </div>
           <div id='navigationLinks'>
             <ul>
               <li id='homeNavLink'>
                 <Link to='/'>
-                  <span role='img' aria-label='house'>
+                  {/* <span role='img' aria-label='house'>
                     🏠
-                  </span>{' '}
+                  </span>{' '} */}
                   home
                 </Link>
               </li>
               <li id='projectsNavLink'>
                 <Link to='/projects'>
-                  <span role='img' aria-label='wrench'>
+                  {/* <span role='img' aria-label='wrench'>
                     🛠
-                  </span>{' '}
+                  </span>{' '} */}
                   projects
                 </Link>
               </li>
               <li id='explorationsNavLink'>
                 <Link to='/explorations'>
-                  <span role='img' aria-label='earth'>
+                  {/* <span role='img' aria-label='earth'>
                     🌎
-                  </span>{' '}
+                  </span>{' '} */}
                   explorations
                 </Link>
               </li>

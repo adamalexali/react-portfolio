@@ -30,7 +30,7 @@ export class ScrollSocials extends Component {
               target='_blank'
               href='mailto:adamalexali@gmail.com'
             >
-              <i className='fab fa-google'></i>
+              <i className='fas fa-envelope'></i>
             </a>
           </li>
           <li>

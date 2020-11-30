@@ -50,21 +50,29 @@ class Home extends Component {
             <span role='img' aria-label='wave-emoji'>
               👋
             </span>
-            &nbsp;Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            &nbsp;I'm a Toronto-based digital experience designer. I have a keen
+            interest in creating meaningful user experiences for the web,
+            mobile, &amp; beyond!
           </p>
           <p>
-            Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            Within the past few years, I've had the opportunity to work on the
+            conceptualization, research, design, and development of a number of
+            digital projects, during which I've drawn from and honed my skills
+            in various disciplines — including graphic design, web development,
+            motion graphics, 3D modeling, immersive XR, &amp; data
+            visualization.
           </p>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore.
+            I am constantly learning, as I find having a foundation in a diverse
+            set of fields allows me to apply knowledge and understand problems
+            in unique ways. I use what I've learned to explore the relationships
+            between people &amp; technology and in doing so, design better
+            products/systems/services.
           </p>
         </div>
         <div id='homeBioLinkToProjects'>
           <Link to='/projects' id='homeBioProjectsLink'>
-            🛠 projects &rarr;
+            projects &rarr;
           </Link>
         </div>
         <div className='textBlock' id='homeBioExperience'>
