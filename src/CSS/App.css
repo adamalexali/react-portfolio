@@ -15,7 +15,7 @@
 
 .App {
   display: grid;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   /* grid-template-rows: 100px 0 1fr 1rem auto; */
   height: 100%;
 }
@@ -44,18 +44,6 @@
 
 #mainContentDiv {
   margin: 0 auto;
-}
-
-#mainNav {
-  height: min-content;
-  position: sticky;
-  top: 1rem;
-  z-index: 1000000;
-}
-
-#navigationLinks ul > li {
-  display: inline;
-  margin: 0 1rem;
 }
 
 #scrollToTop {
@@ -116,7 +104,7 @@
   display: grid;
   max-width: 400px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 2rem;
   grid-row-gap: 2rem;
 }
 
@@ -219,12 +207,6 @@ strong {
   z-index: 1;
 }
 
-#siteLogo img {
-  width: 2rem;
-  height: auto;
-  margin: 0 auto;
-}
-
 #footerDiv p {
   /* font-size: 0.5rem; */
   color: var(--subtle-color);
@@ -234,8 +216,7 @@ strong {
 @media only screen and (min-width: 700px) {
   .App {
     display: grid;
-    padding: 1rem;
-    grid-template-rows: 150px 0 auto 1rem 1rem;
+    grid-template-rows: auto 0 1fr 1rem 1rem;
     height: 100%;
   }
 
@@ -245,7 +226,7 @@ strong {
 
   .sectionContainer {
     max-width: 700px;
-    padding: 0 2rem;
+    padding: 2rem;
   }
 
   #allProjects > div {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import '../../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../CSS/MainNav.css';
 import logo from '../images/branding/logo-optimized.png';
 
 class MainNav extends Component {
@@ -27,10 +28,7 @@ class MainNav extends Component {
             </ul>
           </div>
         </nav> */}
-        <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-          <a className='navbar-brand' href='#'>
-            Navbar
-          </a>
+        <nav className='navbar navbar-expand-md'>
           <button
             className='navbar-toggler'
             type='button'
@@ -40,51 +38,24 @@ class MainNav extends Component {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span className='navbar-toggler-icon'></span>
+            <img src={logo} alt='Logo' id='siteLogo' />
           </button>
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
             <ul className='navbar-nav'>
-              <li className='nav-item active'>
-                <a className='nav-link' href='#'>
-                  Home <span class='sr-only'>(current)</span>
-                </a>
+              <li className='nav-item' data-toggle='collapse'>
+                <Link to='/' className='nav-link'>
+                  home
+                </Link>
               </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  Features
-                </a>
+              <li className='nav-item' data-toggle='collapse'>
+                <Link to='/projects' className='nav-link'>
+                  projects
+                </Link>
               </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  Pricing
-                </a>
-              </li>
-              <li className='nav-item dropdown'>
-                <a
-                  className='nav-link dropdown-toggle'
-                  href='#'
-                  id='navbarDropdownMenuLink'
-                  role='button'
-                  data-toggle='dropdown'
-                  aria-haspopup='true'
-                  aria-expanded='false'
-                >
-                  Dropdown link
-                </a>
-                <div
-                  className='dropdown-menu'
-                  aria-labelledby='navbarDropdownMenuLink'
-                >
-                  <a className='dropdown-item' href='#'>
-                    Action
-                  </a>
-                  <a className='dropdown-item' href='#'>
-                    Another action
-                  </a>
-                  <a className='dropdown-item' href='#'>
-                    Something else here
-                  </a>
-                </div>
+              <li className='nav-item' data-toggle='collapse'>
+                <Link to='/explorations' className='nav-link'>
+                  explorations
+                </Link>
               </li>
             </ul>
           </div>
