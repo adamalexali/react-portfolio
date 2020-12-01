@@ -47,14 +47,15 @@ h4,
 h5,
 h6,
 p,
-li,
-a {
+li {
   font-family: 'Roboto Mono', monospace;
 }
 
 h1,
-h2 {
+h2,
+a {
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -63,21 +64,22 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  font-weight: 700;
 }
 
-.h3,
 h3 {
-  font-size: 1.17rem;
-  color: red;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 h5 {
-  font-size: 0.83rem;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--subtle-color);
 }
 
 h6 {

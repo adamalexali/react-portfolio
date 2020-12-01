@@ -8,7 +8,7 @@ export class Footer extends Component {
         <p>
           made with&nbsp;
           <span role='img' aria-label='heart'>
-            ❤️
+            ❤
           </span>
           &nbsp;by Adam
         </p>
