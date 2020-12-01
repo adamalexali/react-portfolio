@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import ExperienceCard from './ExperienceCard';
-import pfp from '../../images/pfp-optimized.png';
+import pfp from '../images/branding/pfp-optimized.png';
 import '../CSS/Home.css';
 
 const experiences = [

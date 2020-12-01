@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import MainNav from './components/layout/MainNav';
-import ScrollToTop from './components/layout/ScrollToTop';
-import ScrollSocials from './components/layout/ScrollSocials';
-import Home from './components/projects/Home';
-import NotReady from './components/layout/NotReady';
-import Projects from './components/projects/Projects';
-import Explorations from './components/projects/Explorations';
-import Modpod from './components/projects/portfolioPieces/Modpod/Modpod';
-import Echo from './components/projects/portfolioPieces/ECHO/Echo';
-import Footer from './components/layout/Footer';
-import './App.css';
+import MainNav from './MainNav';
+import ScrollToTop from './ScrollToTop';
+import ScrollSocials from './ScrollSocials';
+import Home from './Home';
+import NotReady from './NotReady';
+import Projects from './Projects';
+import Explorations from './Explorations';
+import Modpod from './projects/Modpod';
+import Footer from './Footer';
+import '../CSS/App.css';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -39,7 +38,7 @@ class App extends Component {
               <Route exact path='/' component={Home} />
               <Route exact path='/projects' component={Projects} />
               <Route exact path='/projects/modpod' component={Modpod} />
-              <Route exact path='/projects/echo' component={Echo} />
+              <Route exact path='/projects/echo' component={NotReady} />
               <Route exact path='/explorations' component={Explorations} />
               <Route exact path='/notready' component={NotReady} />
             </Switch>

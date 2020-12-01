@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 import '../CSS/ProjectPage.css';
 
 const ProjectIntro = (props) => {

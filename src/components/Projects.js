@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
-import placeholder from '../../images/projectCards/placeholder.png';
+import placeholder from '../images/projectCards/placeholder.png';
 
 const projectDesc = {
   modpod: {

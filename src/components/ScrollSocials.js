@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../App.css';
+// import '../../App.css';
 
 export class ScrollSocials extends Component {
   render() {
@@ -10,6 +10,7 @@ export class ScrollSocials extends Component {
             <a
               className='sm-link'
               target='_blank'
+              rel='noopener noreferrer'
               href='https://www.linkedin.com/in/adamalexali/'
             >
               <i className='fab fa-linkedin'></i>
@@ -19,6 +20,7 @@ export class ScrollSocials extends Component {
             <a
               className='sm-link'
               target='_blank'
+              rel='noopener noreferrer'
               href='https://github.com/adamalexali'
             >
               <i className='fab fa-github'></i>
@@ -28,6 +30,7 @@ export class ScrollSocials extends Component {
             <a
               className='sm-link'
               target='_blank'
+              rel='noopener noreferrer'
               href='mailto:adamalexali@gmail.com'
             >
               <i className='fas fa-envelope'></i>
@@ -37,6 +40,7 @@ export class ScrollSocials extends Component {
             <a
               className='sm-link'
               target='_blank'
+              rel='noopener noreferrer'
               href='https://www.behance.net/adamalexali'
             >
               <i className='fab fa-behance'></i>
@@ -46,6 +50,7 @@ export class ScrollSocials extends Component {
             <a
               className='sm-link'
               target='_blank'
+              rel='noopener noreferrer'
               href='https://www.instagram.com/adamalexali/'
             >
               <i className='fab fa-instagram'></i>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import ExplorationsCard from './ExplorationsCard';
-import placeholder from '../../images/projectCards/placeholder.png';
+import placeholder from '../images/projectCards/placeholder.png';
 
 class Explorations extends Component {
   scrollToTop() {
