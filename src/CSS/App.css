@@ -123,13 +123,13 @@
   /* position: relative; */
   width: min-content;
   background: var(--accent-color);
-  height: 0.67rem;
+  height: 0.75rem;
 }
 
 .h2Highlight > h2 {
   position: relative;
   padding: 0 0.25rem;
-  top: -1.25rem;
+  top: -1rem;
 }
 
 #projectsPageHeadline {

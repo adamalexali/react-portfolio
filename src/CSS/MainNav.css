@@ -26,13 +26,9 @@
 .nav-item {
   margin: 1rem auto;
   text-align: center;
-  /* background-color: var(--accent-color); */
-  width: min-content;
-  /* margin: auto; */
-  /* position: relative; */
-  /* width: min-content; */
+  position: relative;
   background: var(--invisible-color);
-  height: 0.4rem;
+  height: 0.45rem;
 }
 
 .nav-item:hover {
@@ -40,8 +36,9 @@
 }
 
 .nav-link {
+  width: min-content;
   position: relative;
-  padding: 0;
+  padding: 0 0.05rem;
   top: -0.75rem;
 }
 

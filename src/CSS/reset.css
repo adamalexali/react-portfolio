@@ -77,18 +77,18 @@ h4 {
 }
 
 h5 {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-style: italic;
   color: var(--subtle-color);
 }
 
 h6 {
-  font-size: 0.67rem;
+  font-size: 0.75rem;
 }
 
 p,
 li {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   /* text-align: justify; */
   /* line-height: 1px; */
 }
