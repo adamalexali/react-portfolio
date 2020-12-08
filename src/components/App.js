@@ -43,6 +43,7 @@ class App extends Component {
               <Route exact path='/projects/measure' component={Measure} />
               <Route exact path='/explorations' component={Explorations} />
               <Route exact path='/projectPage' component={ProjectPage} />
+              <Route exact path='/unavailable' component={NotReady} />
             </Switch>
             {/* </div> */}
             <ScrollToTop />

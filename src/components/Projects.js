@@ -58,7 +58,7 @@ class Projects extends Component {
           <div>
             <ProjectCard
               title='anamorphic&nbsp;ar'
-              url='anamorphicAR'
+              url='unavailable'
               img={placeholder}
               // desc={projectDesc.echo.desc}
             />
@@ -74,7 +74,7 @@ class Projects extends Component {
           <div>
             <ProjectCard
               title='linkmentalhealth'
-              url='linkmentalhealth'
+              url='unavailable'
               img={placeholder}
               // desc={projectDesc.linkmentalhealth.desc}
             />

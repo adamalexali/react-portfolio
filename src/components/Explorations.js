@@ -28,22 +28,42 @@ class Explorations extends Component {
             </div>
           </div>
           <div>
-            <ExplorationsCard title='interaction' img={placeholder} />
+            <ExplorationsCard
+              title='interaction'
+              url='unavailable'
+              img={placeholder}
+            />
           </div>
           <div>
-            <ExplorationsCard title='development' img={placeholder} />
+            <ExplorationsCard
+              title='development'
+              url='unavailable'
+              img={placeholder}
+            />
           </div>
           <div>
-            <ExplorationsCard title='3d' img={placeholder} />
+            <ExplorationsCard title='3d' url='unavailable' img={placeholder} />
           </div>
           <div>
-            <ExplorationsCard title='motion graphics' img={placeholder} />
+            <ExplorationsCard
+              title='motion graphics'
+              url='unavailable'
+              img={placeholder}
+            />
           </div>
           <div>
-            <ExplorationsCard title='extended reality' img={placeholder} />
+            <ExplorationsCard
+              title='extended reality'
+              url='unavailable'
+              img={placeholder}
+            />
           </div>
           <div>
-            <ExplorationsCard title='data &amp; iot' img={placeholder} />
+            <ExplorationsCard
+              title='data &amp; iot'
+              url='unavailable'
+              img={placeholder}
+            />
           </div>
         </div>
       </div>
