@@ -6,9 +6,11 @@ import ScrollToTop from './ScrollToTop';
 import ScrollSocials from './ScrollSocials';
 import Home from './Home';
 import NotReady from './NotReady';
+import ProjectPage from './ProjectPage';
 import Projects from './Projects';
 import Explorations from './Explorations';
-import Modpod from './projects/Modpod';
+import Modpod2 from './projects/Modpod2';
+import Measure from './projects/Measure';
 import Footer from './Footer';
 import '../CSS/App.css';
 import { useEffect } from 'react';
@@ -37,10 +39,10 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/projects' component={Projects} />
-              <Route exact path='/projects/modpod' component={Modpod} />
-              <Route exact path='/projects/echo' component={NotReady} />
+              <Route exact path='/projects/modpod' component={Modpod2} />
+              <Route exact path='/projects/measure' component={Measure} />
               <Route exact path='/explorations' component={Explorations} />
-              <Route exact path='/notready' component={NotReady} />
+              <Route exact path='/projectPage' component={ProjectPage} />
             </Switch>
             {/* </div> */}
             <ScrollToTop />

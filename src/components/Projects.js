@@ -3,24 +3,24 @@ import React, { Component } from 'react';
 import ProjectCard from './ProjectCard';
 import placeholder from '../images/projectCards/placeholder.png';
 
-const projectDesc = {
-  modpod: {
-    desc:
-      'MODPOD. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-  },
-  echo: {
-    desc:
-      'ECHO. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-  },
-  measure: {
-    desc:
-      'AR MEASURE APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-  },
-  linkmentalhealth: {
-    desc:
-      'LinkMentalHealth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-  },
-};
+// const projectDesc = {
+//   modpod: {
+//     desc:
+//       'MODPOD. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
+//   },
+//   echo: {
+//     desc:
+//       'ECHO. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
+//   },
+//   measure: {
+//     desc:
+//       'AR MEASURE APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
+//   },
+//   linkmentalhealth: {
+//     desc:
+//       'LinkMentalHealth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
+//   },
+// };
 
 class Projects extends Component {
   scrollToTop() {
@@ -33,7 +33,7 @@ class Projects extends Component {
     return (
       <div>
         <div id='projectsPageSection' className='sectionContainer'>
-          <div id='projectsPageHeadline'>
+          <div className='textBlock'>
             <div className='h2Highlight'>
               <h2>Projects</h2>
             </div>
@@ -50,29 +50,33 @@ class Projects extends Component {
           <div>
             <ProjectCard
               title='modpod'
+              url='modpod'
               img={placeholder}
-              desc={projectDesc.modpod.desc}
+              // desc={projectDesc.modpod.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='anamorphic&nbsp;ar'
+              url='anamorphicAR'
               img={placeholder}
-              desc={projectDesc.echo.desc}
+              // desc={projectDesc.echo.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='ar&nbsp;measuring'
+              url='measure'
               img={placeholder}
-              desc={projectDesc.measure.desc}
+              // desc={projectDesc.measure.desc}
             />
           </div>
           <div>
             <ProjectCard
               title='linkmentalhealth'
+              url='linkmentalhealth'
               img={placeholder}
-              desc={projectDesc.linkmentalhealth.desc}
+              // desc={projectDesc.linkmentalhealth.desc}
             />
           </div>
         </div>

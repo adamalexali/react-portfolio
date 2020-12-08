@@ -2,10 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-const ProjectCard = ({ title, img, desc }) => {
+const ProjectCard = ({ title, url, img, desc }) => {
   return (
-    // <Link to={`/projects/${title}`}>
-    <Link to={`/notready`}>
+    <Link
+      to={{
+        pathname: `/projects/${url}`,
+        // projectProps: { title, img, desc },
+      }}
+    >
       <div className='cardContainer'>
         <div id='projectCardImg'>
           <img src={img} alt={title}></img>
@@ -13,9 +17,6 @@ const ProjectCard = ({ title, img, desc }) => {
         <div id='projectCardHeader'>
           <h4>{title}</h4>
         </div>
-        {/* <div id='projectDetails'>
-          <p>{desc}</p>
-        </div> */}
       </div>
     </Link>
   );
