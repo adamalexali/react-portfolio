@@ -48,19 +48,13 @@ class Projects extends Component {
             </div>
           </div>
           <div>
-            <ProjectCard
-              title='modpod'
-              url='modpod'
-              img={placeholder}
-              // desc={projectDesc.modpod.desc}
-            />
+            <ProjectCard title='modpod' url='modpod' img={placeholder} />
           </div>
           <div>
             <ProjectCard
               title='anamorphic&nbsp;ar'
               url='unavailable'
               img={placeholder}
-              // desc={projectDesc.echo.desc}
             />
           </div>
           <div>
@@ -68,7 +62,6 @@ class Projects extends Component {
               title='ar&nbsp;measuring'
               url='measure'
               img={placeholder}
-              // desc={projectDesc.measure.desc}
             />
           </div>
           <div>
@@ -76,7 +69,6 @@ class Projects extends Component {
               title='linkmentalhealth'
               url='unavailable'
               img={placeholder}
-              // desc={projectDesc.linkmentalhealth.desc}
             />
           </div>
         </div>

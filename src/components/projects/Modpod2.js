@@ -11,13 +11,13 @@ export class Modpod extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
-        <div id='projectIntro'>
+        <div>
           <div className='h2Highlight'>
             <h2>Modpod</h2>
           </div>
           <h3>Sep 2018 - Apr 2019</h3>
         </div>
-        <div id='projectDetails'></div>
+        <div></div>
         <div>
           <p>
             MODPOD. Lorem ipsum dolor sit amet consectetur adipisicing elit.
