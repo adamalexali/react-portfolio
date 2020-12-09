@@ -9,8 +9,9 @@ import NotReady from './NotReady';
 import ProjectPage from './ProjectPage';
 import Projects from './Projects';
 import Explorations from './Explorations';
-import Modpod2 from './projects/Modpod2';
+import Anamorphic from './projects/Anamorphic';
 import Measure from './projects/Measure';
+import Modpod from './projects/Modpod2';
 import Footer from './Footer';
 import '../CSS/App.css';
 import { useEffect } from 'react';
@@ -39,8 +40,9 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/projects' component={Projects} />
-              <Route exact path='/projects/modpod' component={Modpod2} />
+              <Route exact path='/projects/anamorphic' component={Anamorphic} />
               <Route exact path='/projects/measure' component={Measure} />
+              <Route exact path='/projects/modpod' component={Modpod} />
               <Route exact path='/explorations' component={Explorations} />
               <Route exact path='/projectPage' component={ProjectPage} />
               <Route exact path='/unavailable' component={NotReady} />

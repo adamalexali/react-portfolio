@@ -15,7 +15,7 @@ const ProjectCard = ({ title, url, img, desc }) => {
           <img src={img} alt={title}></img>
         </div>
         <div id='projectCardHeader'>
-          <h4>{title}</h4>
+          <h3>{title}</h3>
         </div>
       </div>
     </Link>

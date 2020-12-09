@@ -10,6 +10,7 @@ class Image extends Component {
   render() {
     return (
       <img
+        className='projectImg'
         src={this.props.src}
         alt={this.props.alt}
         loading='lazy'

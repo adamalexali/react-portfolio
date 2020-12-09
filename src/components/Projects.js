@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
-import placeholder from '../images/projectCards/placeholder.png';
+import anamorphicImg from '../images/projectCards/anamorphicImg';
+import measureImg from '../images/projectCards/measureImg';
+import modpodImg from '../images/projectCards/modpodImg.png';
 
 // const projectDesc = {
 //   modpod: {
@@ -49,35 +51,20 @@ class Projects extends Component {
           </div>
           <div>
             <ProjectCard
-              title='modpod'
-              url='modpod'
-              img={placeholder}
-              // desc={projectDesc.modpod.desc}
-            />
-          </div>
-          <div>
-            <ProjectCard
               title='anamorphic&nbsp;ar'
-              url='unavailable'
-              img={placeholder}
-              // desc={projectDesc.echo.desc}
+              url='anamorphic'
+              img={anamorphicImg}
             />
           </div>
           <div>
             <ProjectCard
               title='ar&nbsp;measuring'
               url='measure'
-              img={placeholder}
-              // desc={projectDesc.measure.desc}
+              img={measureImg}
             />
           </div>
           <div>
-            <ProjectCard
-              title='linkmentalhealth'
-              url='unavailable'
-              img={placeholder}
-              // desc={projectDesc.linkmentalhealth.desc}
-            />
+            <ProjectCard title='modpod' url='modpod' img={modpodImg} />
           </div>
         </div>
       </div>
