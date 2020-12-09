@@ -32,6 +32,10 @@ export class Modpod extends Component {
   render() {
     return (
       <div className='pageDiv sectionContainer textBlock'>
+<<<<<<< HEAD
+=======
+        {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
         <div>
           <div className='h2Highlight'>
             <h2>Modpod</h2>
@@ -40,6 +44,7 @@ export class Modpod extends Component {
           <h5>(Sep 2018 - Apr 2019)</h5>
           <h6>Tools: Photoshop, XD, Sketch Up, Blender, Unreal</h6>
         </div>
+<<<<<<< HEAD
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
@@ -52,6 +57,10 @@ export class Modpod extends Component {
             Throughout the schoolyear we worked from research, to conception, to
             design, to development of our immersive environment.
           </p>
+=======
+        <div></div>
+        <div>
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
           <p>
             We pitched MODPOD -- a modular home system to solve the problem of
             autonomous living in the digital age where factors such as climate

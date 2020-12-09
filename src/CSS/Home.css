@@ -21,6 +21,14 @@
 }
 .experienceBlock:last-of-type {
   margin-bottom: 0rem;
+<<<<<<< HEAD
+=======
+}
+
+.experienceBlock > h4,
+h5 {
+  color: var(--subtle-color);
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
 }
 
 @media only screen and (min-width: 700px) {

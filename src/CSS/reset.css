@@ -96,7 +96,11 @@ h6 {
 p,
 li,
 a {
+<<<<<<< HEAD
   font-size: 0.85rem;
+=======
+  font-size: 0.9rem;
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
   /* text-align: justify; */
   /* line-height: 1px; */
 }

@@ -50,21 +50,43 @@ class Projects extends Component {
             </div>
           </div>
           <div>
+<<<<<<< HEAD
             <ProjectCard
               title='anamorphic&nbsp;ar'
               url='anamorphic'
               img={anamorphicImg}
+=======
+            <ProjectCard title='modpod' url='modpod' img={placeholder} />
+          </div>
+          <div>
+            <ProjectCard
+              title='anamorphic&nbsp;ar'
+              url='unavailable'
+              img={placeholder}
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
             />
           </div>
           <div>
             <ProjectCard
               title='ar&nbsp;measuring'
               url='measure'
+<<<<<<< HEAD
               img={measureImg}
             />
           </div>
           <div>
             <ProjectCard title='modpod' url='modpod' img={modpodImg} />
+=======
+              img={placeholder}
+            />
+          </div>
+          <div>
+            <ProjectCard
+              title='linkmentalhealth'
+              url='unavailable'
+              img={placeholder}
+            />
+>>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
           </div>
         </div>
       </div>
