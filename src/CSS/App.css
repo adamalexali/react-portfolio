@@ -204,11 +204,7 @@ strong {
 }
 
 .textBlock p:first-of-type,
-<<<<<<< HEAD
 .textBlock h3:first-of-type {
-=======
-h3:first-of-type {
->>>>>>> 088c5c7ed7052cfee96d101ccf0b75d0442ebeac
   margin-top: 1rem;
 }
 
