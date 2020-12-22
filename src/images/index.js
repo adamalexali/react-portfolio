@@ -16,19 +16,19 @@ export const unityDemo = require('./anamorphic/unityDemo.gif');
 export const unityPrototype = require('./anamorphic/unityprototype.gif');
 
 // measure images
-export const BrainstormNotes = require('./homedepot/BrainstormNotes.png');
-export const demo = require('./homedepot/demo.gif');
-export const figmaPrototype = require('./homedepot/figmaPrototype1.gif');
-export const flow1 = require('./homedepot/flow1.png');
-export const journeyMap = require('./homedepot/journeymap.png');
-export const triVis = require('./homedepot/tri-vis.png');
-export const tutorial1 = require('./homedepot/tutorial1.gif');
-export const tutorial2 = require('./homedepot/tutorial2.gif');
-export const tutorial3 = require('./homedepot/tutorial3.gif');
-export const unityUI = require('./homedepot/unityUI.gif');
-export const userFlow = require('./homedepot/user-flow.png');
-export const workshop1 = require('./homedepot/workshop1.png');
-export const workshop2 = require('./homedepot/workshop2.png');
+export const BrainstormNotes = require('./ARmeasure/BrainstormNotes.png');
+export const demo = require('./ARmeasure/demo.gif');
+export const figmaPrototype = require('./ARmeasure/figmaPrototype1.gif');
+export const flow1 = require('./ARmeasure/flow1.png');
+export const journeyMap = require('./ARmeasure/journeymap.png');
+export const triVis = require('./ARmeasure/tri-vis.png');
+export const tutorial1 = require('./ARmeasure/tutorial1.gif');
+export const tutorial2 = require('./ARmeasure/tutorial2.gif');
+export const tutorial3 = require('./ARmeasure/tutorial3.gif');
+export const unityUI = require('./ARmeasure/unityUI.gif');
+export const userFlow = require('./ARmeasure/user-flow.png');
+export const workshop1 = require('./ARmeasure/workshop1.png');
+export const workshop2 = require('./ARmeasure/workshop2.png');
 
 // modpod images
 export const modpodBanner = require('./modpod/compressed/modpodBanner.jpg');
