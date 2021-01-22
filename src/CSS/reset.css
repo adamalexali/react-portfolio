@@ -49,12 +49,13 @@ h6,
 p,
 li,
 a {
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
 h1,
 h2 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: Sans-Serif;
   font-weight: 700;
 }
 
@@ -96,7 +97,7 @@ h6 {
 p,
 li,
 a {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   /* text-align: justify; */
   /* line-height: 1px; */
 }

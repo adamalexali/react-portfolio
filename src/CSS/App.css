@@ -5,7 +5,7 @@
   --subtle-color: #c4c4c4;
   --invisible-color: #eeeeee;
   /* --subtle-color: #bfbfbf; */
-  --black: #303030;
+  --black: #333333;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -74,7 +74,7 @@
 
 #scrollSocials {
   position: sticky;
-  top: 50%;
+  top: 40%;
   z-index: 1000000;
   height: 0;
 }
@@ -139,8 +139,7 @@
 
 body {
   margin: 0;
-  font-family: 'Helvetica', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: Sans-Serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

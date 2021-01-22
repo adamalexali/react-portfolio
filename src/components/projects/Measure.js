@@ -32,7 +32,7 @@ export class Measure extends Component {
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            A small team of designers and myself worked with GBC Research &
+            A small team of designers and myself worked with GBC Research &amp;
             Innovation to develop a proof of concept for an AR measuring app.
             This project took us from conception, to research, to design, to
             development, and finally to presenting our solutions to

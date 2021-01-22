@@ -52,11 +52,11 @@ class MainNav extends Component {
                   projects
                 </Link>
               </li>
-              <li className='nav-item' data-toggle='collapse'>
+              {/* <li className='nav-item' data-toggle='collapse'>
                 <Link to='/explorations' className='nav-link'>
                   explorations
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
