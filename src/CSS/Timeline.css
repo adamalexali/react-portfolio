@@ -1,0 +1,110 @@
+/* ######################################################################## */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 4rem;
+
+  margin: 0 auto;
+}
+
+.timeline > p {
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  grid-column: 1 / 2;
+  grid-row: 1 /5;
+  content: '';
+  /* position: absolute; */
+  width: 1px;
+  background-color: var(--black);
+  /* top: 0;
+  bottom: 0;
+  left: 50%; */
+  margin: 0 2rem 0 0;
+}
+
+.timeline > div.leftSide {
+  grid-column: 2 / 3;
+  /* text-align: right; */
+}
+.timeline > div.rightSide {
+  grid-column: 2 / 3;
+  /* grid-row: 2 / 3; */
+}
+
+.timeline #timelineOne {
+  grid-row: 1 / 2;
+}
+.timeline #timelineTwo {
+  grid-row: 2 / 3;
+}
+.timeline #timelineThree {
+  grid-row: 3 / 4;
+}
+.timeline #timelineFour {
+  grid-row: 4 / 5;
+}
+
+.timeline .content p,
+.timeline .content p:first-of-type {
+  margin: 0 0 1.5rem 0;
+}
+
+.timeline .content p:last-of-type {
+  margin: 0 0 1rem 0;
+}
+
+@media only screen and (min-width: 700px) {
+  /* ######################################################################## */
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap: 2rem;
+    /* position: relative; */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    grid-column: 2 / 3;
+    grid-row: 1 /5;
+    content: '';
+    /* position: absolute; */
+    width: 1px;
+    background-color: var(--black);
+    /* top: 0;
+  bottom: 0;
+  left: 50%; */
+    margin: 0 2rem;
+  }
+
+  .timeline > div.content {
+    width: 250px;
+  }
+
+  .timeline > div.leftSide {
+    grid-column: 1 / 2;
+    text-align: right;
+  }
+  .timeline > div.rightSide {
+    grid-column: 3 / 4;
+    /* grid-row: 2 / 3; */
+  }
+
+  .timeline #timelineOne {
+  }
+  .timeline #timelineTwo {
+    grid-row: 2 / 3;
+  }
+  .timeline #timelineThree {
+    grid-row: 3 / 4;
+  }
+  .timeline #timelineFour {
+    grid-row: 4 / 5;
+  }
+  /* ######################################################################## */
+}
