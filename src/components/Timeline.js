@@ -79,12 +79,12 @@ export class Timeline extends Component {
           <h4>Ontario Black History Society</h4>
           <p>graphic designer</p>
           <h4>Canamax Ltd.</h4>
-          <p>front-end developer</p>
+          <p>front-end developer; ux copywriter</p>
         </div>
         <div className='content rightSide' id='timelineTwo'>
           <h3>2020</h3>
           <h4>GBC AR + Data project</h4>
-          <p>experience designer</p>
+          <p>experience designer; developer</p>
           <h4>LinkMentalHealth</h4>
           <p>front-end developer; ux designer</p>
         </div>
@@ -92,7 +92,7 @@ export class Timeline extends Component {
         <div className='content leftSide' id='timelineThree'>
           <h3>2019</h3>
           <h4>GBC Research &amp; Innovation</h4>
-          <p>product designer</p>
+          <p>ux researcher; product designer</p>
           <h4>Blade Creative Branding Inc.</h4>
           <p>front-end developer</p>
         </div>

@@ -4,21 +4,22 @@ import '../CSS/ProjectCard.css';
 
 const ProjectCard = ({ title, url, img, desc }) => {
   return (
-    <Link
-      to={{
-        pathname: `/projects/${url}`,
-        // projectProps: { title, img, desc },
-      }}
-    >
-      <div className='cardContainer'>
+    <div className='cardContainer'>
+      <Link
+        to={{
+          pathname: `/projects/${url}`,
+          // projectProps: { title, img, desc },
+        }}
+      >
         <div id='projectCardImg'>
           <img src={img} alt={title}></img>
         </div>
-        <div id='projectCardHeader'>
-          <h3>{title}</h3>
-        </div>
+      </Link>
+      <div id='projectCardHeader'>
+        <h3>{title}</h3>
+        <p>{desc}</p>
       </div>
-    </Link>
+    </div>
   );
 };
 

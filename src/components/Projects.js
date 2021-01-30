@@ -54,6 +54,14 @@ class Projects extends Component {
               title='anamorphic&nbsp;ar'
               url='anamorphic'
               img={anamorphicImg}
+              desc='Myself along with other students of the interaction design
+              program participated in the annual year-end show for the School of
+              Design. We aimed to answer the question, “What does it mean to
+              live autonomously?”. Our solution was a virtual reality immersive
+              experience that demonstrates a concept for a modular home. My role
+              involved defining the user experience, designing the interface,
+              presenting the design solutions to stakeholders, and facilitating
+              the experience for visitors.'
             />
           </div>
           <div>
@@ -64,7 +72,19 @@ class Projects extends Component {
             />
           </div>
           <div>
-            <ProjectCard title='modpod' url='modpod' img={modpodImg} />
+            <ProjectCard
+              title='modpod'
+              url='modpod'
+              img={modpodImg}
+              desc='Myself along with other students of the interaction design
+              program participated in the annual year-end show for the School of
+              Design. We aimed to answer the question, “What does it mean to
+              live autonomously?”. Our solution was a virtual reality immersive
+              experience that demonstrates a concept for a modular home. My role
+              involved defining the user experience, designing the interface,
+              presenting the design solutions to stakeholders, and facilitating
+              the experience for visitors.'
+            />
           </div>
         </div>
       </div>
