@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-const ProjectCard = ({ title, url, img, desc }) => {
+const ProjectCard = ({ alignment, title, url, img, desc }) => {
   return (
-    <div className='cardContainer'>
+    <div className={`cardContainer ${alignment}`}>
       <Link
         to={{
           pathname: `/projects/${url}`,
