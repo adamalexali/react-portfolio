@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 import anamorphicImg from '../images/projectCards/anamorphicImg';
 import measureImg from '../images/projectCards/measureImg';
