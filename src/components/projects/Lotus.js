@@ -38,40 +38,23 @@ export class Lotus extends Component {
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            For my first year in the Digital Experience Design program I bridged
-            into a GBC, one of our classes was augmented reality. I wanted to
-            create an immersive experience that combined many of the different
-            areas of study I'm currently exploring; namely, 3D modeling, game
-            development, and data visualization. Because of COVID-19, I, like
-            most everyone, have been working from home. I knew this year was so
-            impactful to people, so I wanted to tie that into the project.
+            Lotus was one of the first projects I created during my time in the
+            Interaction Design program at George Brown. This project was for
+            learning visual design for interfaces.
           </p>
           <p>
-            My fascination with AR comes from its abilities to greatly enchance
-            the experiences of the real world. Because of the digital layer,
-            there are opportunities to visualize much more interesting things,
-            and allow for unique interactions between users and the world.
+            Lotus is essentially a meditation app, where users can create a
+            profile and use the app's guided meditation modules to practice
+            mindfulness. Users can also monitor biometrics such as heart rate,
+            stress, & quality of sleep, as well as keep track of their
+            mindfulness practice with a journal feature within the app.
           </p>
           <p>
-            One thing I really wanted to explore was the idea of perspective.
-            Looking at a single object, it may not look like much. But seens
-            from a different lens, a different frame of reference, it can become
-            clear its interconnectedness with its environment and with the
-            surrounding world. I wanted to explore this idea, and AR provided a
-            unqiue and challenging opportunity to do just that.
-          </p>
-          <p>
-            This projects aims to visualize the year 2020 through various
-            artifacts. These artifacts can be models, images, Tweets, videos --
-            anything digital -- that act as representations for people, things,
-            and events that were viral throughout the year. The idea was to show
-            how together they combine to make up the year 2020. Essentially,
-            it's 'gestalt'.
-          </p>
-          <p>
-            Beyond this, I thought it would be interesting to include real-world
-            data and stats as well. This feature is currently being implemented.
-            More to come very soon, check back!
+            This project focused mostly on the visual, aesthetic aspects of user
+            interfaces — allowing me to sharpen my skills in design fundamentals
+            such as color theory, typography, visual hierarchy, consistency, as
+            well as more narrow skills such as communication through design and
+            usability of interfaces.
           </p>
         </div>
         <div className='projectImgs'>

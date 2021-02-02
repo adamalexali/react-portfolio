@@ -37,41 +37,56 @@ export class Echo extends Component {
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            For my first year in the Digital Experience Design program I bridged
-            into a GBC, one of our classes was augmented reality. I wanted to
-            create an immersive experience that combined many of the different
-            areas of study I'm currently exploring; namely, 3D modeling, game
-            development, and data visualization. Because of COVID-19, I, like
-            most everyone, have been working from home. I knew this year was so
-            impactful to people, so I wanted to tie that into the project.
+            Spinning out from the work of the Institute Without Boundaries and
+            Department of Unusual Certainties, the final year of my time in the
+            interaction design program at George Brown focused on design related
+            to the idea of a city of experiences. We were expanding on concepts
+            of a 'smart city' discussed in previous years to look at it broadly
+            — to look at the experiences that define a city in the digital age,
+            and how we can design for shifts in urban planning and digital
+            infrastructure.
           </p>
           <p>
-            My fascination with AR comes from its abilities to greatly enchance
-            the experiences of the real world. Because of the digital layer,
-            there are opportunities to visualize much more interesting things,
-            and allow for unique interactions between users and the world.
+            This project spanned two semesters, the first of which focused on
+            research, conceptualization, and general exploration of the theme of
+            a city of experiences. In this phase, we looked at the real and
+            imagined histories of cities, mapping events 100 years in the past
+            and in the future in order to identify common themes and ideas
+            across time.
           </p>
           <p>
-            One thing I really wanted to explore was the idea of perspective.
-            Looking at a single object, it may not look like much. But seens
-            from a different lens, a different frame of reference, it can become
-            clear its interconnectedness with its environment and with the
-            surrounding world. I wanted to explore this idea, and AR provided a
-            unqiue and challenging opportunity to do just that.
+            One thing we gravitated towards was the idea of conflict within
+            cities, specifically riots. Riots have shaped cities by giving the
+            masses a voice for social and political change. This idea also arose
+            from my previous interest in community/mesh networks and
+            decentralized communication methods.
           </p>
           <p>
-            This projects aims to visualize the year 2020 through various
-            artifacts. These artifacts can be models, images, Tweets, videos --
-            anything digital -- that act as representations for people, things,
-            and events that were viral throughout the year. The idea was to show
-            how together they combine to make up the year 2020. Essentially,
-            it's 'gestalt'.
+            Communication among citizens played a huge role in the success or
+            failure of riots and uprisings, and during this digital age, there
+            are benefits of increased pathways for communication at the cost of
+            personal privacy/anonymity. We aimed to answer the question: how
+            might we create a space where users can express themselves freely?
+            Some themes this question posed include freedom of speech and
+            self-expression, anonymity, and access to information.
           </p>
           <p>
-            Beyond this, I thought it would be interesting to include real-world
-            data and stats as well. This feature is currently being implemented.
-            More to come very soon, check back!
+            E.C.H.O was our solution. E.C.H.O. stands for e-communications hub;
+            offline. It is a social network apart from the internet, built using
+            only a Raspberry Pi where users can chat and exchange information
+            completely anonymously. The interface was built off of PirateBox,
+            "DIY anonymous offline file-sharing and communications system". You
+            can find more of our development work with PirateBox & the Raspberry
+            Pi <a href='https://github.com/JohnAydin/piratebox'>here</a>.
           </p>
+          {/* <p>
+            With regards to the recent insurrection at the U.S. Capitol, it is
+            important to highlight the balancing act between privacy and
+            security a service like E.C.H.O. must juggle. In my opinion, privacy
+            with regards to communication should be preserved, however,
+            platforms with a large audience must be held accountable for
+            moderating those platforms.
+          </p> */}
         </div>
         <div className='projectImgs'>
           <div>

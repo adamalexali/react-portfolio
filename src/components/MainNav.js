@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/MainNav.css';
-import logo from '../images/branding/logo-optimized.png';
+import logo from '../images/branding/logo2-optimized.png';
 
 class MainNav extends Component {
   render() {

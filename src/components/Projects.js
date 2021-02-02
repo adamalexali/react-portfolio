@@ -3,6 +3,9 @@ import ProjectCard from './ProjectCard';
 import anamorphicImg from '../images/projectCards/anamorphicImg';
 import measureImg from '../images/projectCards/measureImg';
 import modpodImg from '../images/projectCards/modpodImg.png';
+import lotusLogo from '../images/projectCards/lotus_logo.png';
+import lmhLogo from '../images/projectCards/lmh_logo.png';
+import echoLogo from '../images/projectCards/echo_logo.png';
 
 class Projects extends Component {
   scrollToTop() {
@@ -35,84 +38,42 @@ class Projects extends Component {
               title='anamorphic&nbsp;ar'
               url='anamorphic'
               img={anamorphicImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              desc='An augmented reality art piece looking back on the year from a different perspective.'
             />
             <ProjectCard
               alignment='right'
               title='linkmentalhealth'
               url='linkmentalhealth'
-              img={measureImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              img={lmhLogo}
+              desc='A platform aimed at connected employers, workers, and students with personalized mental health services.'
             />
             <ProjectCard
               alignment='left'
               title='echo'
               url='echo'
-              img={measureImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              img={echoLogo}
+              desc='A offline, decentralized communications and file-sharing network for the imagined dystopian cyberpunk future.'
             />
             <ProjectCard
               alignment='right'
               title='ar&nbsp;measuring'
               url='measure'
               img={measureImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              desc='Exploring a proof-of-concept of the future of e-commerce and augmented reality integration for interior design.'
             />
             <ProjectCard
               alignment='left'
               title='modpod'
               url='modpod'
               img={modpodImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              desc='Looking at solutions for "what it means to live autonomously in the digital age" through a virtual reality demo.'
             />
             <ProjectCard
               alignment='right'
               title='lotus'
               url='lotus'
-              img={modpodImg}
-              desc='Myself along with other students of the interaction design
-              program participated in the annual year-end show for the School of
-              Design. We aimed to answer the question, “What does it mean to
-              live autonomously?”. Our solution was a virtual reality immersive
-              experience that demonstrates a concept for a modular home. My role
-              involved defining the user experience, designing the interface,
-              presenting the design solutions to stakeholders, and facilitating
-              the experience for visitors.'
+              img={lotusLogo}
+              desc='A visual design exploration into mindfulness meditation interface design.'
             />
           </div>
         </div>
