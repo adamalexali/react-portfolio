@@ -29,25 +29,15 @@ class MainNav extends Component {
           </div>
         </nav> */}
         <nav className='navbar navbar-expand-md'>
-          <button
-            className='navbar-toggler'
-            type='button'
-            data-toggle='collapse'
-            data-target='#navbarNavDropdown'
-            aria-controls='navbarNavDropdown'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <img src={logo} alt='Logo' id='siteLogo' />
-          </button>
-          <div className='collapse navbar-collapse' id='navbarNavDropdown'>
+          <img src={logo} alt='Logo' id='siteLogo' />
+          <div className='' id='navbarNavDropdown'>
             <ul className='navbar-nav'>
-              <li className='nav-item' data-toggle='collapse'>
+              <li className='nav-item'>
                 <Link to='/' className='nav-link'>
                   home
                 </Link>
               </li>
-              <li className='nav-item' data-toggle='collapse'>
+              <li className='nav-item'>
                 <Link to='/projects' className='nav-link'>
                   projects
                 </Link>

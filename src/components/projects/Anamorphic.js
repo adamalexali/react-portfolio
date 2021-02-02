@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import {
   AReye,
   ARartifacts,
@@ -109,6 +109,24 @@ export class Anamorphic extends Component {
           <div>
             <Image src={unityDemo} alt='' />
           </div>
+        </div>
+        <div className='projectNavigation'>
+          <Link
+            to={{
+              pathname: `/projects/lotus`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>previous project</p>
+          </Link>
+          <Link
+            to={{
+              pathname: `/projects/linkmentalhealth`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>next project</p>
+          </Link>
         </div>
       </div>
     );

@@ -4,25 +4,6 @@ import anamorphicImg from '../images/projectCards/anamorphicImg';
 import measureImg from '../images/projectCards/measureImg';
 import modpodImg from '../images/projectCards/modpodImg.png';
 
-// const projectDesc = {
-//   modpod: {
-//     desc:
-//       'MODPOD. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-//   },
-//   echo: {
-//     desc:
-//       'ECHO. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-//   },
-//   measure: {
-//     desc:
-//       'AR MEASURE APP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-//   },
-//   linkmentalhealth: {
-//     desc:
-//       'LinkMentalHealth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, illum eum autem corrupti dolorem at provident qui atque officiis quasi quas nesciunt molestias? Quia provident odio placeat doloremque deleniti vel.',
-//   },
-// };
-
 class Projects extends Component {
   scrollToTop() {
     window.scrollTo({
@@ -65,6 +46,34 @@ class Projects extends Component {
             />
             <ProjectCard
               alignment='right'
+              title='linkmentalhealth'
+              url='linkmentalhealth'
+              img={measureImg}
+              desc='Myself along with other students of the interaction design
+              program participated in the annual year-end show for the School of
+              Design. We aimed to answer the question, “What does it mean to
+              live autonomously?”. Our solution was a virtual reality immersive
+              experience that demonstrates a concept for a modular home. My role
+              involved defining the user experience, designing the interface,
+              presenting the design solutions to stakeholders, and facilitating
+              the experience for visitors.'
+            />
+            <ProjectCard
+              alignment='left'
+              title='echo'
+              url='echo'
+              img={measureImg}
+              desc='Myself along with other students of the interaction design
+              program participated in the annual year-end show for the School of
+              Design. We aimed to answer the question, “What does it mean to
+              live autonomously?”. Our solution was a virtual reality immersive
+              experience that demonstrates a concept for a modular home. My role
+              involved defining the user experience, designing the interface,
+              presenting the design solutions to stakeholders, and facilitating
+              the experience for visitors.'
+            />
+            <ProjectCard
+              alignment='right'
               title='ar&nbsp;measuring'
               url='measure'
               img={measureImg}
@@ -81,6 +90,20 @@ class Projects extends Component {
               alignment='left'
               title='modpod'
               url='modpod'
+              img={modpodImg}
+              desc='Myself along with other students of the interaction design
+              program participated in the annual year-end show for the School of
+              Design. We aimed to answer the question, “What does it mean to
+              live autonomously?”. Our solution was a virtual reality immersive
+              experience that demonstrates a concept for a modular home. My role
+              involved defining the user experience, designing the interface,
+              presenting the design solutions to stakeholders, and facilitating
+              the experience for visitors.'
+            />
+            <ProjectCard
+              alignment='right'
+              title='lotus'
+              url='lotus'
               img={modpodImg}
               desc='Myself along with other students of the interaction design
               program participated in the annual year-end show for the School of

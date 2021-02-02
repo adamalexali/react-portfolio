@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   BrainstormNotes,
   demo,
@@ -109,6 +110,24 @@ export class Measure extends Component {
           <div>
             <Image src={demo} alt='' />
           </div>
+        </div>
+        <div className='projectNavigation'>
+          <Link
+            to={{
+              pathname: `/projects/echo`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>previous project</p>
+          </Link>
+          <Link
+            to={{
+              pathname: `/projects/modpod`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>next project</p>
+          </Link>
         </div>
       </div>
     );

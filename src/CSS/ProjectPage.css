@@ -9,6 +9,16 @@
   height: 100%;
 }
 
+.projectNavigation {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  place-items: center;
+}
+
+.projectNavigation > p:last-of-type {
+  margin-bottom: 1rem;
+}
+
 @media only screen and (min-width: 700px) {
   .projectDesc {
     position: sticky;
@@ -19,6 +29,14 @@
 
   .projectDesc > p {
     /* font-size: 0.75rem; */
+  }
+
+  .projectNavigation {
+    grid-row: 3 /4;
+    grid-column: 1 /3;
+    position: sticky;
+    top: 1rem;
+    height: min-content;
   }
 
   .pageDiv {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProjectPage from '../ProjectPage';
+import { Link } from 'react-router-dom';
 import {
   researchBerber,
   researchMongolian,
@@ -127,9 +128,24 @@ export class Modpod extends Component {
           <div>
             <Image src={vrView2} alt='' />
           </div>
-          <div>
-            <Image src={modpodTeam} alt='' />
-          </div>
+        </div>
+        <div className='projectNavigation'>
+          <Link
+            to={{
+              pathname: `/projects/measure`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>previous project</p>
+          </Link>
+          <Link
+            to={{
+              pathname: `/projects/lotus`,
+              // projectProps: { title, img, desc },
+            }}
+          >
+            <p>next project</p>
+          </Link>
         </div>
       </div>
     );
