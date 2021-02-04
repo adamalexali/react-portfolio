@@ -70,43 +70,43 @@ export class Anamorphic extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={ARfigma} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={taskFlow} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={eye1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={eye2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign4'>
             <Image src={AReye} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={unity1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={unityPrototype} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign4'>
             <Image src={coronavirus} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={hornet} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={guitar} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={riggingGIF} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign5'>
             <Image src={ARartifacts} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign2'>
             <Image src={unityDemo} alt='' />
           </div>
         </div>

@@ -37,14 +37,13 @@ export class Echo extends Component {
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            Spinning out from the work of the Institute Without Boundaries and
-            Department of Unusual Certainties, the final year of my time in the
-            interaction design program at George Brown focused on design related
-            to the idea of a city of experiences. We were expanding on concepts
-            of a 'smart city' discussed in previous years to look at it broadly
-            — to look at the experiences that define a city in the digital age,
-            and how we can design for shifts in urban planning and digital
-            infrastructure.
+            Spinning out from the work of the Institute Without Boundaries, the
+            final year of the interaction design program focused on design
+            related to the idea of a "city of experiences". We were expanding on
+            concepts of a 'smart city' discussed in previous years to look at it
+            broadly — what sorts of experiences define a city in the digital
+            age, and how we can design for shifts in urban planning and digital
+            infrastructure?
           </p>
           <p>
             This project spanned two semesters, the first of which focused on
@@ -52,14 +51,9 @@ export class Echo extends Component {
             a city of experiences. In this phase, we looked at the real and
             imagined histories of cities, mapping events 100 years in the past
             and in the future in order to identify common themes and ideas
-            across time.
-          </p>
-          <p>
-            One thing we gravitated towards was the idea of conflict within
-            cities, specifically riots. Riots have shaped cities by giving the
-            masses a voice for social and political change. This idea also arose
-            from my previous interest in community/mesh networks and
-            decentralized communication methods.
+            across time and space. One thing we gravitated towards was the idea
+            of conflict within cities. Riots have shaped cities by giving the
+            masses a voice for social and political change.
           </p>
           <p>
             Communication among citizens played a huge role in the success or
@@ -74,10 +68,10 @@ export class Echo extends Component {
             E.C.H.O was our solution. E.C.H.O. stands for e-communications hub;
             offline. It is a social network apart from the internet, built using
             only a Raspberry Pi where users can chat and exchange information
-            completely anonymously. The interface was built off of PirateBox,
-            "DIY anonymous offline file-sharing and communications system". You
-            can find more of our development work with PirateBox & the Raspberry
-            Pi <a href='https://github.com/JohnAydin/piratebox'>here</a>.
+            completely anonymously. The prototype interface was built off of
+            PirateBox. You can find more of our development work with PirateBox
+            & the Raspberry Pi{' '}
+            <a href='https://github.com/JohnAydin/piratebox'>here</a>.
           </p>
           {/* <p>
             With regards to the recent insurrection at the U.S. Capitol, it is
