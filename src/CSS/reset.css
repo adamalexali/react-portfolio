@@ -60,21 +60,21 @@ h2 {
 }
 
 h1 {
-  font-size: 2rem;
-}
-
-h2 {
   font-size: 1.5rem;
 }
 
-h3 {
+h2 {
   font-size: 1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
   font-weight: 700;
   margin-top: 0.5rem;
 }
 
 h4 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
@@ -90,14 +90,14 @@ h5 {
 }
 
 h6 {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   margin: 0.5rem 0 0.5rem 0;
 }
 
 p,
 li,
 a {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   /* text-align: justify; */
   /* line-height: 1px; */
 }

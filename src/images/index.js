@@ -14,6 +14,13 @@ export const unity1 = require('./anamorphic/unity1.png');
 export const unity2 = require('./anamorphic/unity2.png');
 export const unityDemo = require('./anamorphic/unityDemo.gif');
 export const unityPrototype = require('./anamorphic/unityprototype.gif');
+export const gestaltFull = require('./anamorphic/gestalt-full.png');
+export const gestalt1 = require('./anamorphic/gestalt1.png');
+export const gestalt2 = require('./anamorphic/gestalt2.png');
+export const gestalt3 = require('./anamorphic/gestalt3.png');
+export const gestalt4 = require('./anamorphic/gestalt4.png');
+export const gestalt5 = require('./anamorphic/gestalt5.png');
+export const arDemo = require('./anamorphic/ar_demo.gif');
 
 //linkmentalheath images
 export const lmh_employersPage = require('./linkmentalhealth/lmh_employersPage.png');

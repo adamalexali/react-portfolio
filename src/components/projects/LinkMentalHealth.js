@@ -56,40 +56,40 @@ export class LinkMentalHealth extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={people_search} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={undraw_Savings_dwkw} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={lmh_persona} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={lmh_userjourney} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={lmh_sketches} alt='' />
           </div>
-          <div>
-            <Image src={lmh_sketches2} alt='' />
-          </div>
-          <div>
-            <Image src={lmh_sketches3} alt='' />
-          </div>
-          <div>
-            <Image src={lmh_wireframes1} alt='' />
-          </div>
-          <div>
+          <div className='projectImgAlign6' id='lmhLongWireframes'>
             <Image src={lmh_wireframes2} alt='' />
           </div>
-          <div>
-            <Image src={lmh_employersPage} alt='' />
+          <div className='projectImgAlign1'>
+            <Image src={lmh_sketches2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
+            <Image src={lmh_sketches3} alt='' />
+          </div>
+          <div className='projectImgAlign1'>
+            <Image src={lmh_wireframes1} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
             <Image src={lmh_therapistProfile} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
+            <Image src={lmh_employersPage} alt='' />
+          </div>
+          <div className='projectImgAlign4'>
             <Image src={lmh_employersMobile} alt='' />
           </div>
         </div>

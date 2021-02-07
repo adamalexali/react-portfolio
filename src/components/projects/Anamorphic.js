@@ -14,6 +14,13 @@ import {
   unity1,
   unityDemo,
   unityPrototype,
+  gestaltFull,
+  gestalt1,
+  gestalt2,
+  gestalt3,
+  gestalt4,
+  gestalt5,
+  arDemo,
 } from '../../images/';
 import Image from '../../components/Image';
 import '../../CSS/ProjectPage.css';
@@ -70,44 +77,50 @@ export class Anamorphic extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div className='projectImgAlign1'>
+          {/* <div className='projectImgAlign1'>
             <Image src={ARfigma} alt='' />
           </div>
           <div className='projectImgAlign6'>
             <Image src={taskFlow} alt='' />
-          </div>
+          </div> */}
           <div className='projectImgAlign3'>
             <Image src={eye1} alt='' />
           </div>
           <div className='projectImgAlign3'>
             <Image src={eye2} alt='' />
           </div>
-          <div className='projectImgAlign4'>
+          <div className='projectImgAlign3'>
             <Image src={AReye} alt='' />
+          </div>
+          <div className='projectImgAlign6' id='anamorphicImg6'>
+            <Image src={unityDemo} alt='' />
           </div>
           <div className='projectImgAlign1'>
             <Image src={unity1} alt='' />
           </div>
-          <div className='projectImgAlign6'>
+          <div className='projectImgAlign1'>
             <Image src={unityPrototype} alt='' />
-          </div>
-          <div className='projectImgAlign4'>
-            <Image src={coronavirus} alt='' />
-          </div>
-          <div className='projectImgAlign3'>
-            <Image src={hornet} alt='' />
-          </div>
-          <div className='projectImgAlign3'>
-            <Image src={guitar} alt='' />
           </div>
           <div className='projectImgAlign3'>
             <Image src={riggingGIF} alt='' />
           </div>
-          <div className='projectImgAlign5'>
-            <Image src={ARartifacts} alt='' />
+          <div className='projectImgAlign1'>
+            <Image src={gestalt1} alt='' />
           </div>
-          <div className='projectImgAlign2'>
-            <Image src={unityDemo} alt='' />
+          <div className='projectImgAlign6'>
+            <Image src={gestalt2} alt='' />
+          </div>
+          <div className='projectImgAlign1'>
+            <Image src={gestalt3} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
+            <Image src={gestalt5} alt='' />
+          </div>
+          <div className='projectImgAlign3'>
+            <Image src={arDemo} alt='' />
+          </div>
+          <div className='projectImgAlign3'>
+            <Image src={gestaltFull} alt='' />
           </div>
         </div>
         <div className='projectNavigation'>

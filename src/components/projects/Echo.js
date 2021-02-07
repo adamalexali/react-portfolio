@@ -83,49 +83,55 @@ export class Echo extends Component {
           </p> */}
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={echo_cityoftotalawareness} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='echoImg2'>
             <Image src={echo_protest1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='echoImg3'>
             <Image src={echo_protest2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={riotConcept} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='echoImg5'>
             <Image src={bridgefy} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={torontomesh} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='echoImg7'>
             <Image src={pbx3} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={raspberryPiLogo} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='echoImg9'>
             <Image src={echo_raspberrypi} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
+            <Image src={echo_code} alt='' />
+          </div>
+          <div className='projectImgAlign3'>
             <Image src={echo_piratebox} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={echo_persona1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
+            <Image src={echo_sketches} alt='' />
+          </div>
+          <div className='projectImgAlign1' id='echoImg14'>
             <Image src={echo_mobile1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='echoImg15'>
             <Image src={echo_mobile2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={echo_desktop1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={echo_desktop2} alt='' />
           </div>
         </div>
