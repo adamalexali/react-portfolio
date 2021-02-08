@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+div.imgCaption > p {
+  margin: 0;
+}
+
 .projectDesc {
   position: relative;
   top: 0;
@@ -85,8 +89,12 @@
     grid-column: 3 / 5;
   }
 
-  #lmhLongWireframes {
+  #lmhImg6 {
     grid-row: 4 / 7;
+  }
+
+  #lmhImg9 {
+    grid-row: 7 / 9;
   }
 
   #echoImg2 {

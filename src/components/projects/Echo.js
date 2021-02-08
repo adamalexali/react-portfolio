@@ -85,6 +85,14 @@ export class Echo extends Component {
         <div className='projectImgs'>
           <div className='projectImgAlign3'>
             <Image src={echo_cityoftotalawareness} alt='' />
+            <div className='imgCaption'>
+              <p>
+                image retrieved from the{' '}
+                <a href='https://institutewithoutboundaries.ca/design-issues-lecture-c-pandolfi-s-rabinyuk/'>
+                  Institute Without Boundaries
+                </a>
+              </p>
+            </div>
           </div>
           <div className='projectImgAlign1' id='echoImg2'>
             <Image src={echo_protest1} alt='' />

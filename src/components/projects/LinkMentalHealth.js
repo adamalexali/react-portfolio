@@ -71,7 +71,7 @@ export class LinkMentalHealth extends Component {
           <div className='projectImgAlign1'>
             <Image src={lmh_sketches} alt='' />
           </div>
-          <div className='projectImgAlign6' id='lmhLongWireframes'>
+          <div className='projectImgAlign6' id='lmhImg6'>
             <Image src={lmh_wireframes2} alt='' />
           </div>
           <div className='projectImgAlign1'>
@@ -80,7 +80,10 @@ export class LinkMentalHealth extends Component {
           <div className='projectImgAlign1'>
             <Image src={lmh_sketches3} alt='' />
           </div>
-          <div className='projectImgAlign1'>
+          <div className='projectImgAlign1' id='lmhImg9'>
+            <Image src={lmh_employersMobile} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
             <Image src={lmh_wireframes1} alt='' />
           </div>
           <div className='projectImgAlign6'>
@@ -88,9 +91,6 @@ export class LinkMentalHealth extends Component {
           </div>
           <div className='projectImgAlign3'>
             <Image src={lmh_employersPage} alt='' />
-          </div>
-          <div className='projectImgAlign3'>
-            <Image src={lmh_employersMobile} alt='' />
           </div>
         </div>
         <div className='projectNavigation'>
