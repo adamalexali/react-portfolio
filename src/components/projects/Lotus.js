@@ -58,28 +58,28 @@ export class Lotus extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign6' id='lotusImg1'>
             <Image src={lotus_loading} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={lotus_sketches1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={lotus_wireframes} alt='' />
           </div>
-          <div>
-            <Image src={lotus_signup} alt='' />
-          </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={lotusDashboardGif} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
+            <Image src={lotus_signup} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
             <Image src={guided_meditation} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={guided_meditation3} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={gm_player} alt='' />
           </div>
         </div>

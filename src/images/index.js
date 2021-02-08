@@ -93,6 +93,8 @@ export const millenials = require('./modpod/compressed/millenials.png');
 export const panelsVR = require('./modpod/compressed/panelsVR');
 export const panelsVariety = require('./modpod/compressed/panelsVariety');
 export const modpodUI = require('./modpod/compressed/ui');
+export const modpod_yurt = require('./modpod/compressed/yurt.png');
+export const modpod_geodesic = require('./modpod/compressed/geodesicdome.png');
 
 //lotus
 export const gm_player = require('./lotus/gm_player.png');

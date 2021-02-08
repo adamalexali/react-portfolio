@@ -13,7 +13,7 @@ import Anamorphic from './projects/Anamorphic';
 import LinkMentalHealth from './projects/LinkMentalHealth';
 import Echo from './projects/Echo';
 import Measure from './projects/Measure';
-import Modpod from './projects/Modpod2';
+import Modpod from './projects/Modpod';
 import Lotus from './projects/Lotus';
 import Footer from './Footer';
 import '../CSS/App.css';

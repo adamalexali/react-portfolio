@@ -20,8 +20,10 @@ import {
   panelsVR,
   panelsVariety,
   modpodUI,
-} from '../../images/';
-import Image from '../../components/Image';
+  modpod_yurt,
+  modpod_geodesic,
+} from '../../images';
+import Image from '../Image';
 import '../../CSS/ProjectPage.css';
 
 // const modpod = {
@@ -77,55 +79,58 @@ export class Modpod extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={millenials} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={researchBerber} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={researchMongolian} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={researchSubarctic} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={researchYoruk} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='modpodImg6'>
             <Image src={modpodHundredQs} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='modpodImg7'>
+            <Image src={modpod_yurt} alt='' />
+          </div>
+          <div className='projectImgAlign1' id='modpodImg8'>
+            <Image src={modpod_geodesic} alt='' />
+          </div>
+          <div className='projectImgAlign3'>
             <Image src={modpodSketches} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={modpodModel1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='modpodImg11'>
             <Image src={modpodModel3} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={modpodModel2} alt='' />
           </div>
-          <div>
-            <Image src={modpod3DModel1} alt='' />
-          </div>
-          <div>
-            <Image src={panelsVariety} alt='' />
-          </div>
-          <div>
-            <Image src={modpodUI} alt='' />
-          </div>
-          <div>
-            <Image src={vrView1} alt='' />
-          </div>
-          <div>
-            <Image src={panelsVR} alt='' />
-          </div>
-          <div>
+          <div className='projectImgAlign1' id='modpodImg13'>
             <Image src={vrDemo} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
+            <Image src={modpod3DModel1} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
+            <Image src={panelsVariety} alt='' />
+          </div>
+          {/* <div className='projectImgAlign1'>
+            <Image src={vrView1} alt='' />
+          </div>
+          <div className='projectImgAlign6'>
+            <Image src={modpodUI} alt='' />
+          </div> */}
+          <div className='projectImgAlign3'>
             <Image src={vrView2} alt='' />
           </div>
         </div>

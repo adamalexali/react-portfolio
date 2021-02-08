@@ -89,7 +89,7 @@ export class LinkMentalHealth extends Component {
           <div className='projectImgAlign3'>
             <Image src={lmh_employersPage} alt='' />
           </div>
-          <div className='projectImgAlign4'>
+          <div className='projectImgAlign3'>
             <Image src={lmh_employersMobile} alt='' />
           </div>
         </div>

@@ -71,43 +71,43 @@ export class Measure extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div>
+          <div className='projectImgAlign1' id='measureImg1'>
             <Image src={workshop1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='measureImg2'>
             <Image src={workshop2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={BrainstormNotes} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={triVis} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={journeyMap} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={flow1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3'>
             <Image src={userFlow} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1'>
             <Image src={figmaPrototype} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6'>
             <Image src={unityUI} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='measureImg10'>
             <Image src={tutorial1} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign6' id='measureImg11'>
             <Image src={tutorial2} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign1' id='measureImg12'>
             <Image src={tutorial3} alt='' />
           </div>
-          <div>
+          <div className='projectImgAlign3' id='measureImg13'>
             <Image src={demo} alt='' />
           </div>
         </div>
