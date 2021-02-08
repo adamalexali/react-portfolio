@@ -74,12 +74,12 @@ h3 {
 }
 
 h4 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
 h5 {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-style: italic;
 }
 
@@ -90,14 +90,14 @@ h5 {
 }
 
 h6 {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   margin: 0.5rem 0 0.5rem 0;
 }
 
 p,
 li,
 a {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   /* text-align: justify; */
   /* line-height: 1px; */
 }
@@ -117,4 +117,37 @@ a:hover {
 
 ul {
   list-style: none;
+}
+
+@media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  h4,
+  h5 {
+    color: var(--subtle-color);
+  }
+
+  h6 {
+    font-size: 0.65rem;
+  }
+
+  p,
+  li,
+  a {
+    font-size: 0.65rem;
+  }
 }

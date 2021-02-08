@@ -73,14 +73,14 @@ export class Echo extends Component {
             & the Raspberry Pi{' '}
             <a href='https://github.com/JohnAydin/piratebox'>here</a>.
           </p>
-          {/* <p>
+          <p>
             With regards to the recent insurrection at the U.S. Capitol, it is
             important to highlight the balancing act between privacy and
             security a service like E.C.H.O. must juggle. In my opinion, privacy
             with regards to communication should be preserved, however,
             platforms with a large audience must be held accountable for
             moderating those platforms.
-          </p> */}
+          </p>
         </div>
         <div className='projectImgs'>
           <div className='projectImgAlign3'>
@@ -105,12 +105,28 @@ export class Echo extends Component {
           </div>
           <div className='projectImgAlign1' id='echoImg5'>
             <Image src={bridgefy} alt='' />
+            <div className='imgCaption'>
+              <p>
+                <a href='https://bridgefy.me/'>Bridgefy</a>
+              </p>
+            </div>
           </div>
           <div className='projectImgAlign6'>
             <Image src={torontomesh} alt='' />
+            <div className='imgCaption'>
+              <p>
+                <a href='https://tomesh.net/'>Toronto Mesh</a>
+              </p>
+            </div>
           </div>
           <div className='projectImgAlign1' id='echoImg7'>
             <Image src={pbx3} alt='' />
+            <div className='imgCaption'>
+              <p>
+                image retrieved from{' '}
+                <a href='https://piratebox.cc/photos'>PirateBox</a>
+              </p>
+            </div>
           </div>
           <div className='projectImgAlign6'>
             <Image src={raspberryPiLogo} alt='' />
@@ -150,7 +166,7 @@ export class Echo extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -158,7 +174,7 @@ export class Echo extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

@@ -52,8 +52,8 @@ export class Modpod extends Component {
             "what does it mean to live autonomously?"
           </p>
           <p>
-            Throughout the schoolyear we worked from research, to conception, to
-            design, to development of our immersive environment.
+            Throughout the school year, we worked from research, conception,
+            design, and finally to the development of our immersive environment.
           </p>
           <p>
             We pitched MODPOD -- a modular home system to solve the problem of
@@ -61,7 +61,7 @@ export class Modpod extends Component {
             change and cost of living are becoming more critical.
           </p>
           <p>
-            MODPOD would allow users to contruct their home using 'panels' --
+            MODPOD would allow users to contsruct their home using 'panels' --
             durable pieces that could be connected together to create a box-like
             structure. Each panel would have a different function; including
             heating, lighting, entertainment, etc.
@@ -73,9 +73,11 @@ export class Modpod extends Component {
             be more fantastical with our idea, while also challenging the team.
           </p>
           <p>
-            Our final virtual reality experience was showcased at the year end
-            show, where participants could partake in building their own MODPOD
-            by connecting panels in a virtual space.
+            Our final virtual reality experience was showcased at the Year-End
+            Show at the College, where participants could partake in building
+            their own MODPOD by connecting panels in a virtual space. I along
+            with some of my team members facilitated this showcase, guiding
+            people through the experience.
           </p>
         </div>
         <div className='projectImgs'>
@@ -141,7 +143,7 @@ export class Modpod extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -149,7 +151,7 @@ export class Modpod extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

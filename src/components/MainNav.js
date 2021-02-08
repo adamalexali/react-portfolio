@@ -29,7 +29,9 @@ class MainNav extends Component {
           </div>
         </nav> */}
         <nav className='navbar navbar-expand-md'>
-          <img src={logo} alt='Logo' id='siteLogo' />
+          <Link to='/' className='nav-link'>
+            <img src={logo} alt='Logo' id='siteLogo' />
+          </Link>
           <div className='' id='navbarNavDropdown'>
             <ul className='navbar-nav'>
               <li className='nav-item'>

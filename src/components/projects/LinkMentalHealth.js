@@ -46,10 +46,16 @@ export class LinkMentalHealth extends Component {
           <p>
             I was responsible for working with the visual designer & the
             back-end developers to build a responsive website using HTML, CSS
-            (built on the Bootstrap framework), and JavaScript.
+            (built on the Bootstrap framework), and JavaScript. My tasks often
+            involved communicating with the team to understand their
+            requirements, and working together with the visual designer to code
+            out their solutions. There was legacy code that I also took
+            responsibility for cleaning up, and implemented a system-wide
+            stylesheet and brand guideline that would make adding new elements a
+            lot easier.
           </p>
           <p>
-            While most of my worked focused on coding the website, I also had a
+            While most of my work focused on coding the website, I also had a
             hand in improving the overall user experience. I worked with the
             team's visual designer to refine the user flow, create wireframes,
             and also conduct & analyze A/B interface tests.
@@ -100,7 +106,7 @@ export class LinkMentalHealth extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -108,7 +114,7 @@ export class LinkMentalHealth extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

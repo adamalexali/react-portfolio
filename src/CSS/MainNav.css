@@ -4,6 +4,7 @@
   grid-template-rows: repeat(2, auto);
   grid-gap: 1.5rem;
   justify-content: center;
+  justify-items: center;
   padding: 0.5rem 0 0 0;
   margin: 0 auto;
 }
@@ -14,26 +15,24 @@
 }
 
 .navbar-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 0;
   margin: 0 auto;
+  list-style: none;
 }
 
 .nav-item {
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   text-align: center;
   position: relative;
-  background: var(--invisible-color);
-  height: 0.45rem;
-}
-
-.nav-item:hover {
-  background: var(--accent-color);
 }
 
 .nav-link {
   width: min-content;
   position: relative;
-  padding: 0 0.05rem;
-  top: -0.75rem;
+  /* padding: 0 0.05rem;
+  top: -0.75rem; */
 }
 
 .nav-link {
@@ -41,7 +40,7 @@
 }
 
 .nav-link:hover {
-  color: var(--black);
+  color: var(--accent-color);
 }
 
 .navbar-expand-md .navbar-nav .nav-link {

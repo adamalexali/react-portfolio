@@ -34,36 +34,37 @@ export class Anamorphic extends Component {
             <h2>Anamorphic AR</h2>
           </div>
           <h3>Experience designer</h3>
-          <h5>(Sep 2020 - current)</h5>
+          <h5>(Sep 2020 - Dec 2020)</h5>
           <h6>Tools: Figma, Lens Studio, Cinema 4D, Unity</h6>
         </div>
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            For my first year in the Digital Experience Design program I bridged
-            into a GBC, one of our classes was augmented reality. I wanted to
-            create an immersive experience that combined many of the different
-            areas of study I'm currently exploring; namely, 3D modeling, game
-            development, and data visualization. Because of COVID-19, I, like
-            most everyone, have been working from home. I knew this year was so
-            impactful to people, so I wanted to tie that into the project.
+            For my first year in the Digital Experience Design program, I
+            bridged into a GBC, one of our classes was augmented reality. I
+            wanted to create an immersive experience that combined many of the
+            different areas of study I'm currently exploring; namely, 3D
+            modeling, game development, and data visualization. Because of
+            COVID-19, I, like most everyone, have been working from home. I knew
+            this year was so impactful to people, so I wanted to tie that into
+            the project.
           </p>
           <p>
-            My fascination with AR comes from its abilities to greatly enchance
-            the experiences of the real world. Because of the digital layer,
-            there are opportunities to visualize much more interesting things,
-            and allow for unique interactions between users and the world.
+            My fascination with AR comes from its ability to greatly enhance the
+            experiences of the real world. Because of the digital layer, there
+            are opportunities to visualize much more interesting things and
+            allow for unique interactions between users and the world.
           </p>
           <p>
             One thing I really wanted to explore was the idea of perspective.
-            Looking at a single object, it may not look like much. But seens
-            from a different lens, a different frame of reference, it can become
+            Looking at a single object, it may not look like much. But seen from
+            a different lens, a different frame of reference, it can become
             clear its interconnectedness with its environment and with the
             surrounding world. I wanted to explore this idea, and AR provided a
-            unqiue and challenging opportunity to do just that.
+            unique and challenging opportunity to do just that.
           </p>
           <p>
-            This projects aims to visualize the year 2020 through various
+            This project aims to visualize the year 2020 through various
             artifacts. These artifacts can be models, images, Tweets, videos --
             anything digital -- that act as representations for people, things,
             and events that were viral throughout the year. The idea was to show
@@ -73,7 +74,8 @@ export class Anamorphic extends Component {
           <p>
             Beyond this, I thought it would be interesting to include real-world
             data and stats as well. This feature is currently being implemented.
-            More to come very soon, check back!
+            I aim to continue to make these types of visualizations in the
+            future. Check back soon!
           </p>
         </div>
         <div className='projectImgs'>
@@ -130,7 +132,7 @@ export class Anamorphic extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -138,7 +140,7 @@ export class Anamorphic extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

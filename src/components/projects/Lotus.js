@@ -90,7 +90,7 @@ export class Lotus extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -98,7 +98,7 @@ export class Lotus extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

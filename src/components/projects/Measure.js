@@ -33,28 +33,22 @@ export class Measure extends Component {
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
-            A small team of designers and myself worked with GBC Research &amp;
+            A small team of designers and myself worked with GBC Research &
             Innovation to develop a proof of concept for an AR measuring app.
-            This project took us from conception, to research, to design, to
-            development, and finally to presenting our solutions to
-            stakeholders.
+            This project took us from conception, research, design, development,
+            and finally to presenting our solutions to stakeholders.
           </p>
           <p>
-            This projects spanned two semesters. In the first semester, we
-            worked closely with the client's UX team to design an app that would
-            allow users to measure their space, and then visualize products such
-            as flooring through augmented reality. This phase was really all
-            about information gathering -- who were the users, what were their
-            needs, what functions are necessary in the app, and how to design it
-            to be aesthetically pleasing were all questions raised in this
-            phase. Through workshops and user research, we settled with three
-            'guiding principles' that would inform how we proceeded with the
-            app: it should be effortless, memorable, and experimental.
-          </p>
-          <p>
-            The second phase focused on translating our design solutions to a
-            functional prototype. We added a developer to the team and began
-            building the experience in Unity.
+            This project spanned two semesters. In the first semester, we worked
+            closely with the client's UX team to design an app that would allow
+            users to measure their space, and then visualize products such as
+            flooring through augmented reality. This phase was really all about
+            information gathering: who were the users, what were their needs,
+            what functions are necessary for the app, and how to design it to be
+            aesthetically pleasing? Through workshops and user research, we
+            settled with three 'guiding principles' that would inform how we
+            proceeded with the app: it should be effortless, memorable, and
+            experimental.
           </p>
           <p>
             The second phase focused on translating our design solutions to a
@@ -118,7 +112,7 @@ export class Measure extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>previous project</p>
+            <p>previous</p>
           </Link>
           <Link
             to={{
@@ -126,7 +120,7 @@ export class Measure extends Component {
               // projectProps: { title, img, desc },
             }}
           >
-            <p>next project</p>
+            <p>next</p>
           </Link>
         </div>
       </div>

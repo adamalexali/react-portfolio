@@ -1,14 +1,11 @@
 #homePicture {
-  margin: 8px 24px 0 16px;
-  background-image: linear-gradient(
-    180deg,
-    var(--gradientOne-color),
-    var(--gradientTwo-color)
-  );
+  grid-row: 1 / 3;
+  padding: 0 1rem;
+  align-self: center;
 }
 
-#homePicture img {
-  margin: -8px 0 8px 8px;
+#homeBioText {
+  text-align: justify;
 }
 
 #homeBioLinkToProjects {
@@ -28,16 +25,17 @@ h5 {
   color: var(--subtle-color);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
+  #homePicture {
+    grid-row: 1 / 3;
+    padding: 0;
+  }
+
   #homeBio {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto 1fr;
-    grid-column-gap: 4rem;
+    grid-column-gap: 2rem;
     /* align-items: center; */
-  }
-
-  #homePicture {
-    margin: 8px 8px auto auto;
   }
 
   #homeBioLinkToProjects {
