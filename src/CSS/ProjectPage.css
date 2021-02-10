@@ -17,6 +17,9 @@ div.imgCaption > p {
   text-align: justify;
 }
 
+/* .projectDesc > p {
+  font-size: 0.7rem;
+} */
 .projectDesc > p:first-of-type {
   margin-top: 0 !important;
 }

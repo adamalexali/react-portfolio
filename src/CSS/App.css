@@ -90,7 +90,7 @@
 }
 
 #scrollSocials i {
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
 }
 
 #scrollSocials li {
@@ -131,7 +131,7 @@
 .h2Highlight > h2 {
   position: relative;
   padding: 0 0.25rem;
-  top: -0.5rem;
+  top: -0.66rem;
 }
 
 #allProjects {
