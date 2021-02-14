@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProjectCard from './ProjectCard';
 import anamorphicImg from '../images/projectCards/anamorphicARimg.png';
-import measureImg from '../images/projectCards/measureImg';
+import measureImg from '../images/projectCards/measureImg.png';
 import modpodImg from '../images/projectCards/modpodImg.png';
 import lotusLogo from '../images/projectCards/lotus_logo.png';
 import lmhLogo from '../images/projectCards/lmh_logo.png';

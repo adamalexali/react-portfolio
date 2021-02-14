@@ -91,7 +91,7 @@ export class Anamorphic extends Component {
           <div className='projectImgAlign3'>
             <Image src={eye2} alt='' />
           </div>
-          <div className='projectImgAlign3'>
+          <div className='projectImgAlign4'>
             <Image src={AReye} alt='' />
           </div>
           <div className='projectImgAlign6' id='anamorphicImg6'>
