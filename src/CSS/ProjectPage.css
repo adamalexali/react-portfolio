@@ -17,6 +17,10 @@ div.imgCaption > p {
   text-align: justify;
 }
 
+.lotusLeavesImg {
+  display: none;
+}
+
 /* .projectDesc > p {
   font-size: 0.7rem;
 } */
@@ -34,7 +38,19 @@ div.imgCaption > p {
   margin-bottom: 1rem;
 }
 
+.projectImg {
+  box-shadow: 2.5px 2.5px 10px #f3f3f3;
+}
+
 @media only screen and (min-width: 700px) {
+  .lotusLeavesImg {
+    display: block;
+  }
+
+  .lotusLeavesImg img {
+    box-shadow: none;
+  }
+
   .projectDesc {
     position: sticky;
     top: 1rem;
@@ -91,6 +107,22 @@ div.imgCaption > p {
 
   .projectImgAlign6 {
     grid-column: 3 / 5;
+  }
+
+  .projectImgAlign7 {
+    grid-column: 1 / 2;
+  }
+
+  .projectImgAlign8 {
+    grid-column: 2 / 3;
+  }
+
+  .projectImgAlign9 {
+    grid-column: 3 / 4;
+  }
+
+  .projectImgAlign10 {
+    grid-column: 4 / 5;
   }
 
   #lmhImg6 {

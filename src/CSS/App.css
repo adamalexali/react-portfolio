@@ -219,10 +219,6 @@ strong {
   margin-bottom: 0;
 }
 
-.projectImg {
-  box-shadow: 2.5px 2.5px 10px #f3f3f3;
-}
-
 @media only screen and (min-width: 700px) {
   .App {
     display: grid;

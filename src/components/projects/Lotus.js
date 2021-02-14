@@ -6,6 +6,7 @@ import {
   guided_meditation3,
   guided_sleep,
   lotus_dashboard,
+  lotus_splash,
   lotusDashboardGif,
   lotus_signup,
   lotus_leaves1,
@@ -16,8 +17,23 @@ import {
   lotus_sketches1,
   lotus_sketches2,
   lotus_sleep,
-  lotus_wireframes,
-  lotus_soundPlayer,
+  lotus_sleepPlayer,
+  lotus_wireframes1,
+  lotus_wireframes2,
+  lotus_wireframes3,
+  lotus_wireframes4,
+  lotus_wireframes5,
+  lotus_wireframes6,
+  lotus_wireframes7,
+  lotus_wireframes8,
+  lotus_wireframes9,
+  lotus_wireframes10,
+  lotus_wireframes11,
+  lotus_wireframes12,
+  lotus_wireframes13,
+  lotus_wireframes14,
+  lotus_wireframes15,
+  lotus_wireframes16,
   lotusDashboardWireframe,
 } from '../../images/';
 import Image from '../../components/Image';
@@ -58,29 +74,63 @@ export class Lotus extends Component {
           </p>
         </div>
         <div className='projectImgs'>
-          <div className='projectImgAlign6' id='lotusImg1'>
-            <Image src={lotus_loading} alt='' />
-          </div>
-          <div className='projectImgAlign1'>
-            <Image src={lotus_sketches1} alt='' />
-          </div>
-          <div className='projectImgAlign1'>
-            <Image src={lotus_wireframes} alt='' />
+          <div className='projectImgAlign3' id='lotusImg1'>
+            <Image src={lotus_splash} alt='' />
           </div>
           <div className='projectImgAlign3'>
+            <Image src={lotus_sketches1} alt='' />
+          </div>
+          <div className='projectImgAlign7'>
+            <Image src={lotus_wireframes1} alt='' />
+          </div>
+          <div className='projectImgAlign8'>
+            <Image src={lotus_wireframes2} alt='' />
+          </div>
+          <div className='projectImgAlign9'>
+            <Image src={lotus_wireframes3} alt='' />
+          </div>
+          <div className='projectImgAlign10'>
+            <Image src={lotus_wireframes4} alt='' />
+          </div>
+          <div className='projectImgAlign7'>
+            <Image src={lotus_wireframes5} alt='' />
+          </div>
+          <div className='projectImgAlign8'>
+            <Image src={lotus_wireframes6} alt='' />
+          </div>
+          <div className='projectImgAlign9'>
+            <Image src={lotus_wireframes7} alt='' />
+          </div>
+          <div className='projectImgAlign10'>
+            <Image src={lotus_wireframes8} alt='' />
+          </div>
+          {/* <div className='projectImgAlign7 lotusLeavesImg'>
+            <Image src={lotus_leaves1} alt='' />
+          </div> */}
+          <div className='projectImgAlign4'>
             <Image src={lotusDashboardGif} alt='' />
           </div>
-          <div className='projectImgAlign1'>
+          {/* <div className='projectImgAlign10 lotusLeavesImg'>
+            <Image src={lotus_leaves3} alt='' />
+          </div> */}
+          <div className='projectImgAlign7'>
             <Image src={lotus_signup} alt='' />
           </div>
-          <div className='projectImgAlign6'>
+          <div className='projectImgAlign8'>
             <Image src={guided_meditation} alt='' />
           </div>
-          <div className='projectImgAlign1'>
+          <div className='projectImgAlign9'>
             <Image src={guided_meditation3} alt='' />
           </div>
-          <div className='projectImgAlign6'>
+          <div className='projectImgAlign10'>
             <Image src={gm_player} alt='' />
+          </div>
+
+          <div className='projectImgAlign8'>
+            <Image src={lotus_sleep} alt='' />
+          </div>
+          <div className='projectImgAlign9'>
+            <Image src={lotus_sleepPlayer} alt='' />
           </div>
         </div>
         <div className='projectNavigation'>
