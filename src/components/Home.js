@@ -40,9 +40,22 @@ class Home extends Component {
           </p>
         </div>
         <div id='homeBioLinkToProjects'>
-          <Link to='/projects'>projects &rarr;</Link>
+          <Link to='/projects'>
+            <button className='btn' name='projectsBtn'>
+              projects
+            </button>
+          </Link>
         </div>
         <Timeline />
+        <div id='resumeDiv'>
+          <a
+            href='https://drive.google.com/file/d/1Xn_QFFjWepjgMzi8GRgmHU3DioHFN8vP/view?usp=sharing'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button className='btn'>resume</button>
+          </a>
+        </div>
       </div>
     );
   }

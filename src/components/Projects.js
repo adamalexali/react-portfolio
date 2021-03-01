@@ -68,13 +68,13 @@ class Projects extends Component {
               img={modpodImg}
               desc='Looking at solutions for "what it means to live autonomously in the digital age" through a virtual reality demo.'
             />
-            <ProjectCard
+            {/* <ProjectCard
               alignment='right'
               title='lotus'
               url='lotus'
               img={lotusLogo}
               desc='A visual design exploration into mindfulness meditation interface design.'
-            />
+            /> */}
           </div>
         </div>
       </div>

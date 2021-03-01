@@ -21,9 +21,9 @@ export class ScrollSocials extends Component {
               className='sm-link'
               target='_blank'
               rel='noopener noreferrer'
-              href='https://github.com/adamalexali'
+              href='https://angel.co/u/adamalexali'
             >
-              <i className='fab fa-github'></i>
+              <i class='fab fa-angellist'></i>
             </a>
           </li>
           <li>
@@ -41,9 +41,9 @@ export class ScrollSocials extends Component {
               className='sm-link'
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.behance.net/adamalexali'
+              href='https://github.com/adamalexali'
             >
-              <i className='fab fa-behance'></i>
+              <i className='fab fa-github'></i>
             </a>
           </li>
           <li>
@@ -51,9 +51,9 @@ export class ScrollSocials extends Component {
               className='sm-link'
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.instagram.com/adamalexali/'
+              href='https://www.twitter.com/adamalexali'
             >
-              <i className='fab fa-instagram'></i>
+              <i class='fab fa-twitter'></i>
             </a>
           </li>
         </ul>

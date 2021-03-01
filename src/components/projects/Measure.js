@@ -101,8 +101,16 @@ export class Measure extends Component {
           <div className='projectImgAlign1' id='measureImg12'>
             <Image src={tutorial3} alt='' />
           </div>
-          <div className='projectImgAlign3' id='measureImg13'>
-            <Image src={demo} alt='' />
+          <div className='projectImgAlign3'>
+            {/* <Image src={demo} alt='' /> */}
+            <iframe
+              width='100%'
+              height='auto'
+              src='https://www.youtube.com/embed/XuvMfPW_vQ0'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div className='projectNavigation'>

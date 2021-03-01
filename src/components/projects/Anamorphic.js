@@ -91,11 +91,8 @@ export class Anamorphic extends Component {
           <div className='projectImgAlign3'>
             <Image src={eye2} alt='' />
           </div>
-          <div className='projectImgAlign4'>
+          <div className='projectImgAlign6' id='anamorphicImg3'>
             <Image src={AReye} alt='' />
-          </div>
-          <div className='projectImgAlign6' id='anamorphicImg6'>
-            <Image src={unityDemo} alt='' />
           </div>
           <div className='projectImgAlign1'>
             <Image src={unity1} alt='' />
@@ -119,7 +116,15 @@ export class Anamorphic extends Component {
             <Image src={gestalt5} alt='' />
           </div>
           <div className='projectImgAlign3'>
-            <Image src={arDemo} alt='' />
+            {/* <Image src={arDemo} alt='' /> */}
+            <iframe
+              width='100%'
+              height='auto'
+              src='https://www.youtube.com/embed/7RrqBIaA3-U'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen
+            ></iframe>
           </div>
           <div className='projectImgAlign3'>
             <Image src={gestaltFull} alt='' />
@@ -128,7 +133,7 @@ export class Anamorphic extends Component {
         <div className='projectNavigation'>
           <Link
             to={{
-              pathname: `/projects/lotus`,
+              pathname: `/projects/modpod`,
               // projectProps: { title, img, desc },
             }}
           >

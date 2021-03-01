@@ -147,7 +147,7 @@ export class Modpod extends Component {
           </Link>
           <Link
             to={{
-              pathname: `/projects/lotus`,
+              pathname: `/projects/anamorphic`,
               // projectProps: { title, img, desc },
             }}
           >

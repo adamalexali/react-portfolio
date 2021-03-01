@@ -52,7 +52,7 @@ class App extends Component {
               <Route exact path='/projects/echo' component={Echo} />
               <Route exact path='/projects/measure' component={Measure} />
               <Route exact path='/projects/modpod' component={Modpod} />
-              <Route exact path='/projects/lotus' component={Lotus} />
+              <Route exact path='/projects/lotus' component={NotReady} />
               <Route exact path='/explorations' component={Explorations} />
               <Route exact path='/projectPage' component={ProjectPage} />
               <Route exact path='/unavailable' component={NotReady} />
