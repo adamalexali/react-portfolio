@@ -42,16 +42,6 @@ a {
   margin-bottom: 0;
 }
 
-h3,
-h4,
-h5,
-h6,
-p,
-li,
-a {
-  /* font-family: 'Roboto Mono', monospace; */
-}
-
 h1,
 h2 {
   /* font-family: 'Roboto', sans-serif; */
@@ -65,6 +55,7 @@ h1 {
 
 h2 {
   font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 h3 {
@@ -123,15 +114,21 @@ ul {
   /* color: #339977;
   background-color: #ddfff3; */
   color: var(--black);
-  background-color: var(--accent-color);
+  background-color: var(--invisible-color);
   border: 0;
-  padding: 0.375rem 0.75rem;
+  padding: 0.25rem 0.5rem;
+  margin: 1rem;
   font-size: 0.8rem;
   font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
   text-transform: uppercase;
   line-height: 1.5;
   border-radius: 0;
-  transition: none;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  transition: 0.25s;
 }
 
 @media only screen and (min-width: 700px) {

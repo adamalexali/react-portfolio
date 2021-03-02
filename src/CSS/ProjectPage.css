@@ -13,17 +13,9 @@ div.imgCaption > p {
   position: relative;
   top: 0;
   height: 100%;
-  margin-bottom: 4rem;
   text-align: justify;
 }
 
-.lotusLeavesImg {
-  display: none;
-}
-
-/* .projectDesc > p {
-  font-size: 0.7rem;
-} */
 .projectDesc > p:first-of-type {
   margin-top: 0 !important;
 }
@@ -55,6 +47,8 @@ div.imgCaption > p {
     position: sticky;
     top: 1rem;
     height: min-content;
+    margin-bottom: 4rem;
+
     /* border: 1px solid red; */
   }
 

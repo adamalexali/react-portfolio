@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import {
   lmh_employersPage,
   lmh_persona,
-  lmh_profileAppts,
   lmh_sketches,
   lmh_sketches2,
   lmh_sketches3,
@@ -12,9 +11,7 @@ import {
   lmh_wireframes1,
   lmh_wireframes2,
   lmh_employersMobile,
-  logo1,
   people_search,
-  profileAppts,
   undraw_Savings_dwkw,
 } from '../../images/';
 import Image from '../../components/Image';
@@ -25,10 +22,10 @@ export class LinkMentalHealth extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         <div>
-          <div className='h2Highlight'>
-            <h2>LinkMentalHealth</h2>
+          <div className='highlight'>
+            <h1>LinkMentalHealth</h1>
           </div>
-          <h3>Front-end developer; UX designer</h3>
+          <h2>Front-end developer; UX designer</h2>
           <h5>(Jan 2020 - Apr 2020)</h5>
           <h6>Tools: HTML, Bootstrap, JS, NodeJS, MongoDB</h6>
         </div>
@@ -50,15 +47,17 @@ export class LinkMentalHealth extends Component {
             involved communicating with the team to understand their
             requirements, and working together with the visual designer to code
             out their solutions. There was legacy code that I also took
-            responsibility for cleaning up, and implemented a system-wide
-            stylesheet and brand guideline that would make adding new elements a
-            lot easier.
+            responsibility for cleaning up, and implemented a design system and
+            created brand guidelines that would make keeping the site consistent
+            much easier.
           </p>
           <p>
-            While most of my work focused on coding the website, I also had a
-            hand in improving the overall user experience. I worked with the
-            team's visual designer to refine the user flow, create wireframes,
-            and also conduct & analyze A/B interface tests.
+            While most of my work focused on coding the front-end of the
+            website, I also had a hand in improving the overall user experience
+            design. I worked with the team's visual designer to refine the user
+            flow, create wireframes, and also conduct & analyze A/B interface
+            tests using Google Optimize. The website can be found{' '}
+            <a href='https://www.linkmentalhealth.com/'>here</a>.
           </p>
         </div>
         <div className='projectImgs'>

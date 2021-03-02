@@ -1,7 +1,6 @@
 :root {
-  --gradientOne-color: #ff4a4a;
-  --gradientTwo-color: #ff558d;
   --accent-color: #55ffc7;
+  --accent-color-light: #ddfff3;
   --subtle-color: #c4c4c4;
   --invisible-color: #eeeeee;
   /* --subtle-color: #bfbfbf; */
@@ -68,8 +67,7 @@
 }
 
 #scrollToTop p:hover {
-  color: var(--gradientOne-color);
-  text-decoration: underline;
+  color: var(--black);
   transition: 0.25s;
 }
 
@@ -109,7 +107,7 @@
 .sm-link:hover {
   /* font-size: 1rem; */
   transition: 0.25s;
-  color: var(--accent-color);
+  color: var(--black);
 }
 
 .sectionContainer {
@@ -120,7 +118,7 @@
   grid-row-gap: 2rem;
 }
 
-.h2Highlight {
+.highlight {
   margin: 1rem 0 0 0;
   /* position: relative; */
   width: max-content;
@@ -128,10 +126,10 @@
   height: 0.5rem;
 }
 
-.h2Highlight > h2 {
+.highlight > h1 {
   position: relative;
   padding: 0 0.25rem;
-  top: -0.66rem;
+  top: -1rem;
 }
 
 #allProjects {
@@ -141,18 +139,9 @@
   max-width: 200px;
 }
 
-body {
-  margin: 0;
-  font-family: Sans-Serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#projectsPageSection > div:nth-child(2) > div:first-child {
+  margin-top: 4rem;
 }
-
-/* h2 {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  text-align: center;
-} */
 
 img {
   width: 100%;
@@ -184,7 +173,7 @@ strong {
   background-size: 100%;
 }
 
-.foregroundEl {
+/* .foregroundEl {
   z-index: 10000;
 }
 
@@ -194,7 +183,7 @@ strong {
 
 .backgroundEl {
   z-index: 1;
-}
+} */
 
 #footerDiv p {
   /* font-size: 0.5rem; */

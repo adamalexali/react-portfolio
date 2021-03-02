@@ -36,10 +36,10 @@ export class Modpod extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         <div>
-          <div className='h2Highlight'>
-            <h2>Modpod</h2>
+          <div className='highlight'>
+            <h1>Modpod</h1>
           </div>
-          <h3>Experience designer</h3>
+          <h2>Experience designer</h2>
           <h5>(Sep 2018 - Apr 2019)</h5>
           <h6>Tools: Photoshop, XD, Sketch Up, Blender, Unreal</h6>
         </div>

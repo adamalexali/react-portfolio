@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
   BrainstormNotes,
-  demo,
   figmaPrototype,
   flow1,
   journeyMap,
@@ -23,10 +22,10 @@ export class Measure extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         <div>
-          <div className='h2Highlight'>
-            <h2>AR Measure</h2>
+          <div className='highlight'>
+            <h1>AR Measure</h1>
           </div>
-          <h3>Product designer</h3>
+          <h2>Product designer</h2>
           <h5>(Sep 2019 - May 2020)</h5>
           <h6>Tools: Illustrator, Figma, Wiarframe, Unity</h6>
         </div>
@@ -54,9 +53,17 @@ export class Measure extends Component {
             The second phase focused on translating our design solutions to a
             functional prototype. We added a developer to the team and began
             building the experience in Unity. Some challenges we faced included
-            getting accurate measurements and overlaying materials. I worked
-            mostly with the other designers on the UX and UI of the prototype,
-            as well as communicating with the client.
+            getting accurate measurements and overlaying materials.
+          </p>
+          <p>
+            My role in this project was primarily research focused. I conducted
+            user research and competitive analyses to understand the context in
+            which this app might exist. I then communicated this research with
+            the design team to translate my findings into tangible user
+            experience. My role also consisted of communicating with the client;
+            presenting progress and solutions, and facilitating workshops with
+            them to co-design the app. In the second phase of this project, I
+            also assisted in building the prototype using Unity Engine.
           </p>
           <p>
             Towards the end, COVID-19 affected how much progress we could make,
@@ -104,6 +111,7 @@ export class Measure extends Component {
           <div className='projectImgAlign3'>
             {/* <Image src={demo} alt='' /> */}
             <iframe
+              title='AR Measure Demo'
               width='100%'
               height='auto'
               src='https://www.youtube.com/embed/XuvMfPW_vQ0'

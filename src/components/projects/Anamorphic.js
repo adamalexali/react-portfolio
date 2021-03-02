@@ -2,25 +2,16 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import {
   AReye,
-  ARartifacts,
   eye1,
   eye2,
-  ARfigma,
-  coronavirus,
-  guitar,
-  hornet,
   riggingGIF,
-  taskFlow,
   unity1,
-  unityDemo,
   unityPrototype,
   gestaltFull,
   gestalt1,
   gestalt2,
   gestalt3,
-  gestalt4,
   gestalt5,
-  arDemo,
 } from '../../images/';
 import Image from '../../components/Image';
 import '../../CSS/ProjectPage.css';
@@ -30,14 +21,13 @@ export class Anamorphic extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         <div>
-          <div className='h2Highlight'>
-            <h2>Anamorphic AR</h2>
+          <div className='highlight'>
+            <h1>Anamorphic AR</h1>
           </div>
           <h3>Experience designer</h3>
           <h5>(Sep 2020 - Dec 2020)</h5>
           <h6>Tools: Figma, Lens Studio, Cinema 4D, Unity</h6>
         </div>
-        {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>
           <p>
             For my first year in the Digital Experience Design program, I
@@ -118,6 +108,7 @@ export class Anamorphic extends Component {
           <div className='projectImgAlign3'>
             {/* <Image src={arDemo} alt='' /> */}
             <iframe
+              title='Anamorphic AR demo'
               width='100%'
               height='auto'
               src='https://www.youtube.com/embed/7RrqBIaA3-U'

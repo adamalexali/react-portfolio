@@ -36,11 +36,11 @@
 }
 
 .nav-link {
-  color: var(--black);
+  color: var(--subtle-color);
 }
 
 .nav-link:hover {
-  color: var(--accent-color);
+  color: var(--black);
 }
 
 .navbar-expand-md .navbar-nav .nav-link {

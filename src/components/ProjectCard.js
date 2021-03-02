@@ -2,7 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-const ProjectCard = ({ alignment, title, url, img, desc }) => {
+// let numbers = ['one', 'two', 'three'];
+// let listItems = numbers.map((number) => <li>{number}</li>);
+
+const ProjectCard = ({ alignment, title, url, img, desc, tags }) => {
+  // let projectTags = tags;
+  let listTags = tags.map((tag) => <li className='projectTags'>{tag}</li>);
+
   return (
     <div className={`cardContainer ${alignment}`}>
       <Link
@@ -16,8 +22,9 @@ const ProjectCard = ({ alignment, title, url, img, desc }) => {
         </div>
       </Link>
       <div id='projectCardHeader'>
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{desc}</p>
+        <ul>{listTags}</ul>
       </div>
     </div>
   );

@@ -27,10 +27,10 @@ export class Echo extends Component {
     return (
       <div className='pageDiv sectionContainer textBlock'>
         <div>
-          <div className='h2Highlight'>
-            <h2>E.C.H.O</h2>
+          <div className='highlight'>
+            <h1>E.C.H.O</h1>
           </div>
-          <h3>Front-end developer; UX designer</h3>
+          <h2>Front-end developer; UX designer</h2>
           <h5>(Jan 2020 - Apr 2020)</h5>
           <h6>Tools: Figma, Raspberry Pi, HTML, CSS, JS</h6>
         </div>

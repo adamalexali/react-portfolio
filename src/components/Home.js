@@ -12,10 +12,11 @@ class Home extends Component {
           <img src={pfp} alt='' />
         </div>
         <div className='textBlock' id='homeBioText'>
-          <div className='h2Highlight'>
-            <h2>Hello!</h2>
+          <div className='highlight'>
+            <h1>Hello!</h1>
           </div>
           <p>
+            I'm Adam&nbsp;
             <span role='img' aria-label='wave-emoji'>
               👋
             </span>
