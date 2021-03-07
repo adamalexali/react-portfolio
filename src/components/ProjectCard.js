@@ -2,9 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/ProjectCard.css';
 
-// let numbers = ['one', 'two', 'three'];
-// let listItems = numbers.map((number) => <li>{number}</li>);
-
 const ProjectCard = ({ alignment, title, url, img, desc, tags }) => {
   // let projectTags = tags;
   let listTags = tags.map((tag) => <li className='projectTags'>{tag}</li>);
