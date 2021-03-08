@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import pfp from '../images/branding/pfp-optimized.png';
 import Timeline from './Timeline';
 import '../CSS/Home.css';
 
@@ -27,12 +26,12 @@ class Home extends Component {
           </p>
           <p>
             Below you’ll find a collection of projects I’ve worked on. If you
-            want to learn more about me, you can{' '}
-            <a href='/somewhere'>click here</a>.
+            want to learn more about me, you can <a href='/about'>click here</a>
+            .
           </p>
         </div>
         <div>
-          <h1>Develop</h1>
+          <h1>Development</h1>
           <div className='divList'>
             <Link
               to={{
@@ -40,7 +39,12 @@ class Home extends Component {
               }}
             >
               <div>
-                <h4>LinkMentalHealth</h4>
+                <h4>
+                  LinkMentalHealth{' '}
+                  <span className='yearRange'>
+                    (co-op; JAN 2020 - APR 2020)
+                  </span>
+                </h4>
                 <p>
                   A platform aimed at connected employers, workers, and students
                   with personalized mental health services{' '}
@@ -59,7 +63,12 @@ class Home extends Component {
               }}
             >
               <div>
-                <h4>Anamorphic AR</h4>
+                <h4>
+                  Anamorphic AR{' '}
+                  <span className='yearRange'>
+                    (student; SEP 2020 - JAN 2021)
+                  </span>
+                </h4>
                 <p>
                   An augmented reality art piece looking back on the year from a
                   different perspective. <span className='accent'>&rarr;</span>
@@ -72,7 +81,12 @@ class Home extends Component {
               }}
             >
               <div>
-                <h4>E.C.H.O</h4>
+                <h4>
+                  E.C.H.O{' '}
+                  <span className='yearRange'>
+                    (student; SEP 2019 - APR 2020)
+                  </span>
+                </h4>
                 <p>
                   A offline, decentralized communications and file-sharing
                   network for the imagined dystopian cyberpunk future.{' '}
@@ -86,7 +100,12 @@ class Home extends Component {
               }}
             >
               <div>
-                <h4>AR Measure App</h4>
+                <h4>
+                  AR Measure App{' '}
+                  <span className='yearRange'>
+                    (contract; SEP 2019 - MAY 2020)
+                  </span>
+                </h4>
                 <p>
                   Exploring a proof-of-concept of the future of e-commerce and
                   augmented reality integration for interior design.{' '}
@@ -100,7 +119,12 @@ class Home extends Component {
               }}
             >
               <div>
-                <h4>ModPod</h4>
+                <h4>
+                  ModPod{' '}
+                  <span className='yearRange'>
+                    (student; SEP 2018 - APR 2019)
+                  </span>
+                </h4>
                 <p>
                   Looking at solutions for "what it means to live autonomously
                   in the digital age" through a virtual reality demo.{' '}

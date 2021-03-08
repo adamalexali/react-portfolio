@@ -3,18 +3,19 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import MainNav from './MainNav';
 import ScrollToTop from './ScrollToTop';
-import ScrollSocials from './ScrollSocials';
+// import ScrollSocials from './ScrollSocials';
 import Home from './Home';
+import About from './About';
 import NotReady from './NotReady';
 import ProjectPage from './ProjectPage';
-import Projects from './Projects';
+// import Projects from './Projects';
 import Explorations from './Explorations';
 import Anamorphic from './projects/Anamorphic';
 import LinkMentalHealth from './projects/LinkMentalHealth';
 import Echo from './projects/Echo';
 import Measure from './projects/Measure';
 import Modpod from './projects/Modpod';
-import Lotus from './projects/Lotus';
+// import Lotus from './projects/Lotus';
 import Footer from './Footer';
 import '../CSS/App.css';
 import { useEffect } from 'react';
@@ -40,6 +41,7 @@ class App extends Component {
             <MainNav />
             <Switch>
               <Route exact path='/' component={Home} />
+              <Route exact path='/about' component={About} />
               {/* <Route exact path='/projects' component={Projects} /> */}
               <Route exact path='/projects/anamorphic' component={Anamorphic} />
               <Route
