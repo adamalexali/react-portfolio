@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectPage from '../ProjectPage';
+// import ProjectPage from '../ProjectPage';
 import { Link } from 'react-router-dom';
 import {
   researchBerber,
@@ -12,14 +12,14 @@ import {
   modpodModel2,
   modpodModel3,
   modpod3DModel1,
-  vrView1,
+  // vrView1,
   vrView2,
   vrDemo,
-  modpodTeam,
+  // modpodTeam,
   millenials,
-  panelsVR,
+  // panelsVR,
   panelsVariety,
-  modpodUI,
+  // modpodUI,
   modpod_yurt,
   modpod_geodesic,
 } from '../../images';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import pfp from '../images/branding/pfp-optimized.png';
 import '../CSS/About.css';
 
@@ -91,8 +91,8 @@ export class About extends Component {
             </p>
             <p>
               When I’m not working or in school, I like to spend my time playing
-              video games, watching anime, reading, writing, running, or lifting
-              weights.
+              video games, watching anime, reading books, writing, running, or
+              lifting weights.
             </p>
             <p>
               I’m currently living and working in the GTA, looking forward to

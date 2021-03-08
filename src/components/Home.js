@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Timeline from './Timeline';
+// import Timeline from './Timeline';
 import '../CSS/Home.css';
 
 class Home extends Component {

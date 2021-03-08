@@ -8,9 +8,6 @@
   margin: 2rem auto;
 }
 
-.timeline > p {
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   grid-column: 1 / 2;
@@ -95,8 +92,6 @@
     /* grid-row: 2 / 3; */
   }
 
-  .timeline #timelineOne {
-  }
   .timeline #timelineTwo {
     grid-row: 2 / 3;
   }
