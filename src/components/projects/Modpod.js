@@ -36,12 +36,12 @@ export class Modpod extends Component {
     return (
       <div className='_container-lg pageDiv'>
         <div>
-          <div className='highlight'>
+          <div className='projectHeader divList'>
             <h1>Modpod</h1>
+            <h4>Experience designer</h4>
+            <h6>(Sep 2018 - Apr 2019)</h6>
+            <h6>Tools: Photoshop, XD, Sketch Up, Blender, Unreal</h6>
           </div>
-          <h2>Experience designer</h2>
-          <h5>(Sep 2018 - Apr 2019)</h5>
-          <h6>Tools: Photoshop, XD, Sketch Up, Blender, Unreal</h6>
         </div>
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>

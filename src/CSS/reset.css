@@ -55,14 +55,14 @@ h4 {
 
 h1 {
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
 h2,
 h3 {
   margin-top: 0.5rem;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 h4,
@@ -78,10 +78,17 @@ li {
 
 h6 {
   font-size: 0.75rem;
+  margin: 0.25rem 0;
+}
+
+h6:last-of-type {
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 p,
-a {
+a,
+h6 {
   font-family: 'Fira Code', monospace;
   font-weight: 400;
 }
@@ -120,6 +127,10 @@ span.accent {
   color: var(--accent-color);
 }
 
+.mono {
+  font-family: 'Fira Code', monospace;
+}
+
 .btn {
   /* color: #339977;
   background-color: #ddfff3; */
@@ -139,4 +150,34 @@ span.accent {
 .btn:hover {
   background-color: var(--accent-color);
   transition: 0.25s;
+}
+
+@media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4,
+  h5 {
+    font-size: 1rem;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 0.75rem;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+  }
+
+  h6:last-of-type {
+    font-size: 0.75rem;
+  }
 }

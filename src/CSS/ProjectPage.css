@@ -9,6 +9,14 @@ div.imgCaption > p {
   margin-top: 0 !important;
 }
 
+.projectHeader {
+  grid-column: 1/ -1;
+}
+
+.projectHeader h6:first-of-type {
+  color: var(--subtle-color);
+}
+
 .projectDesc {
   position: relative;
   /* top: 0; */

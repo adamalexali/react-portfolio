@@ -22,12 +22,12 @@ export class Measure extends Component {
     return (
       <div className='_container-lg pageDiv'>
         <div>
-          <div className='highlight'>
+          <div className='projectHeader divList'>
             <h1>AR Measure</h1>
+            <h4>Product designer</h4>
+            <h6>(Sep 2019 - May 2020)</h6>
+            <h6>Tools: Illustrator, Figma, Wiarframe, Unity</h6>
           </div>
-          <h2>Product designer</h2>
-          <h5>(Sep 2019 - May 2020)</h5>
-          <h6>Tools: Illustrator, Figma, Wiarframe, Unity</h6>
         </div>
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>

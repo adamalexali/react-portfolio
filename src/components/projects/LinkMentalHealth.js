@@ -22,12 +22,12 @@ export class LinkMentalHealth extends Component {
     return (
       <div className='_container-lg pageDiv'>
         <div>
-          <div className='highlight'>
+          <div className='projectHeader divList'>
             <h1>LinkMentalHealth</h1>
+            <h4>Front-end developer; UX designer</h4>
+            <h6>(Jan 2020 - Apr 2020)</h6>
+            <h6>Tools: HTML, Bootstrap, JS, NodeJS, MongoDB</h6>
           </div>
-          <h2>Front-end developer; UX designer</h2>
-          <h5>(Jan 2020 - Apr 2020)</h5>
-          <h6>Tools: HTML, Bootstrap, JS, NodeJS, MongoDB</h6>
         </div>
         {/* <ProjectPage title={modpod.title} date={modpod.date} /> */}
         <div className='projectDesc'>

@@ -20,12 +20,10 @@ export class Anamorphic extends Component {
   render() {
     return (
       <div className='_container-lg pageDiv'>
-        <div>
-          <div className='highlight'>
-            <h1>Anamorphic AR</h1>
-          </div>
-          <h3>Experience designer</h3>
-          <h5>(Sep 2020 - Dec 2020)</h5>
+        <div className='projectHeader divList'>
+          <h1>Anamorphic AR</h1>
+          <h4>Experience Designer</h4>
+          <h6>(Sep 2020 - Dec 2020)</h6>
           <h6>Tools: Figma, Lens Studio, Cinema 4D, Unity</h6>
         </div>
         <div className='projectDesc'>
