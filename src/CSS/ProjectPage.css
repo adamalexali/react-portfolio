@@ -11,14 +11,13 @@ div.imgCaption > p {
 
 .projectDesc {
   position: relative;
-  top: 0;
-  height: 100%;
-  text-align: justify;
+  /* top: 0; */
+  /* height: 100%; */
 }
 
-.projectDesc > p:first-of-type {
+/* .projectDesc > p:first-of-type {
   margin-top: 0 !important;
-}
+} */
 
 .projectNavigation {
   display: grid;
@@ -26,34 +25,16 @@ div.imgCaption > p {
   place-items: center;
 }
 
-.projectNavigation > p:last-of-type {
-  margin-bottom: 1rem;
-}
-
-.projectImg {
-  box-shadow: 2.5px 2.5px 10px #f3f3f3;
+.projectNavigation p {
+  color: var(--accent-color);
 }
 
 @media only screen and (min-width: 700px) {
-  .lotusLeavesImg {
-    display: block;
-  }
-
-  .lotusLeavesImg img {
-    box-shadow: none;
-  }
-
   .projectDesc {
-    position: sticky;
-    top: 1rem;
-    height: min-content;
-    margin-bottom: 4rem;
-
+    /* position: sticky; */
+    /* height: min-content; */
+    /* margin-bottom: 4rem; */
     /* border: 1px solid red; */
-  }
-
-  .projectDesc > p {
-    /* font-size: 0.75rem; */
   }
 
   .projectNavigation {
@@ -63,7 +44,7 @@ div.imgCaption > p {
   }
 
   .pageDiv {
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
   }
 
@@ -205,25 +186,22 @@ div.imgCaption > p {
 }
 
 @media only screen and (max-height: 800px) and (min-width: 700px) {
-  .pageDiv {
-    /* grid-template-columns: 1fr 3fr; */
-  }
 }
 
 @media only screen and (max-height: 500px) and (min-width: 700px) {
   .pageDiv {
     /* grid-template-columns: 1fr 3fr; */
-    grid-gap: 4rem;
+    /* grid-gap: 4rem; */
   }
 
-  .projectDesc {
+  /* .projectDesc {
     position: relative;
     top: 0;
   }
 
   .projectDesc > p {
     font-size: 0.75rem;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1000px) {

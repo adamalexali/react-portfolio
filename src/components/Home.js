@@ -7,55 +7,108 @@ import '../CSS/Home.css';
 class Home extends Component {
   render() {
     return (
-      <div id='homeBio' className='sectionContainer'>
-        <div id='homePicture'>
-          <img src={pfp} alt='' />
+      <div className='_container'>
+        <div>
+          <h1>Hello World</h1>
+          <p>
+            I'm Adam. I'm a Toronto-based digital experience designer &amp;
+            prototyper <span>&rarr;</span> I design and develop digital
+            products, systems, and services!
+          </p>
+          <p>
+            This is my digital space; where I showcase my previous projects, the
+            things I’m working on, and things that interest me.
+          </p>
+          <p>
+            I’m passionate and curious about digital design and how it can be
+            used to empower people for good. I am particularly interested in
+            open source, the virtual sphere, tech, smart cities, and digital
+            futures.
+          </p>
+          <p>
+            Below you’ll find a collection of projects I’ve worked on. If you
+            want to learn more about me, you can{' '}
+            <a href='/somewhere'>click here</a>.
+          </p>
         </div>
-        <div className='textBlock' id='homeBioText'>
-          <div className='highlight'>
-            <h1>Hello!</h1>
+        <div>
+          <h1>Develop</h1>
+          <div className='divList'>
+            <Link
+              to={{
+                pathname: `/projects/linkmentalhealth`,
+              }}
+            >
+              <div>
+                <h4>LinkMentalHealth</h4>
+                <p>
+                  A platform aimed at connected employers, workers, and students
+                  with personalized mental health services{' '}
+                  <span className='accent'>&rarr;</span>
+                </p>
+              </div>
+            </Link>
           </div>
-          <p>
-            I'm Adam&nbsp;
-            <span role='img' aria-label='wave-emoji'>
-              👋
-            </span>
-            &nbsp;I'm a Toronto-based digital experience designer. I have a keen
-            interest in creating meaningful user experiences for the web,
-            mobile, &amp; beyond!
-          </p>
-          <p>
-            Within the past few years, I've had the opportunity to work on the
-            conceptualization, research, design, and development of a number of
-            digital projects, during which I've drawn from and honed my skills
-            in various disciplines — including graphic design, web development,
-            motion graphics, 3D modeling, immersive XR, &amp; data
-            visualization.
-          </p>
-          <p>
-            I am constantly learning, as I find having a foundation in a diverse
-            set of fields allows me to apply knowledge and understand problems
-            in unique ways. I use what I've learned to explore the relationships
-            between people &amp; technology and in doing so, design better
-            products/systems/services.
-          </p>
         </div>
-        <div id='homeBioLinkToProjects'>
-          <Link to='/projects'>
-            <button className='btn' name='projectsBtn'>
-              projects
-            </button>
-          </Link>
-        </div>
-        <Timeline />
-        <div id='resumeDiv'>
-          <a
-            href='https://drive.google.com/file/d/1Xn_QFFjWepjgMzi8GRgmHU3DioHFN8vP/view?usp=sharing'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button className='btn'>resume</button>
-          </a>
+        <div>
+          <h1>Design</h1>
+          <div className='divList'>
+            <Link
+              to={{
+                pathname: `/projects/anamorphic`,
+              }}
+            >
+              <div>
+                <h4>Anamorphic AR</h4>
+                <p>
+                  An augmented reality art piece looking back on the year from a
+                  different perspective. <span className='accent'>&rarr;</span>
+                </p>
+              </div>
+            </Link>
+            <Link
+              to={{
+                pathname: `/projects/echo`,
+              }}
+            >
+              <div>
+                <h4>E.C.H.O</h4>
+                <p>
+                  A offline, decentralized communications and file-sharing
+                  network for the imagined dystopian cyberpunk future.{' '}
+                  <span className='accent'>&rarr;</span>
+                </p>
+              </div>
+            </Link>
+            <Link
+              to={{
+                pathname: `/projects/measure`,
+              }}
+            >
+              <div>
+                <h4>AR Measure App</h4>
+                <p>
+                  Exploring a proof-of-concept of the future of e-commerce and
+                  augmented reality integration for interior design.{' '}
+                  <span className='accent'>&rarr;</span>
+                </p>
+              </div>
+            </Link>
+            <Link
+              to={{
+                pathname: `/projects/modpod`,
+              }}
+            >
+              <div>
+                <h4>ModPod</h4>
+                <p>
+                  Looking at solutions for "what it means to live autonomously
+                  in the digital age" through a virtual reality demo.{' '}
+                  <span className='accent'>&rarr;</span>
+                </p>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     );

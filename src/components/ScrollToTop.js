@@ -41,7 +41,7 @@ export class ScrollToTop extends Component {
       <div id='scrollToTop' className='scrolltoTop'>
         {is_visible && (
           <div onClick={() => this.scrollToTop()}>
-            <p>&larr; to top</p>
+            <p>&uarr;</p>
           </div>
         )}
       </div>

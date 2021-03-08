@@ -20,7 +20,7 @@ import '../../CSS/ProjectPage.css';
 export class LinkMentalHealth extends Component {
   render() {
     return (
-      <div className='pageDiv sectionContainer textBlock'>
+      <div className='_container-lg pageDiv'>
         <div>
           <div className='highlight'>
             <h1>LinkMentalHealth</h1>

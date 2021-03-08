@@ -38,11 +38,9 @@ class App extends Component {
           <ScrollTop />
           <div className='App'>
             <MainNav />
-            <ScrollSocials />
-            {/* <div id='mainContentDiv'> */}
             <Switch>
               <Route exact path='/' component={Home} />
-              <Route exact path='/projects' component={Projects} />
+              {/* <Route exact path='/projects' component={Projects} /> */}
               <Route exact path='/projects/anamorphic' component={Anamorphic} />
               <Route
                 exact
@@ -57,7 +55,6 @@ class App extends Component {
               <Route exact path='/projectPage' component={ProjectPage} />
               <Route exact path='/unavailable' component={NotReady} />
             </Switch>
-            {/* </div> */}
             <ScrollToTop />
             <Footer />
           </div>
